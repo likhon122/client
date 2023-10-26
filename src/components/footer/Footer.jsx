@@ -33,7 +33,7 @@ function Footer() {
               </div>
               <span className="text-[14px] opacity-40 text-[#F6F6F6] leading-[21px] font-light text-center">
                 Copyright 2023
-                <br /> Vyvo Smart Chain Foundation
+                <br /> Nyoton Smart Chain Foundation
               </span>
             </div>
             <div className="col-span-12 md:col-span-6 lg:border-l-[1px] border-[#FCFCFC40]">
@@ -43,7 +43,7 @@ function Footer() {
                     <span className="text-[12px] text-[#979797]">EXPLORE</span>
                     <HashLink to="/get-started-vsc#what-is-vsc">
                       <button className="text-[20px] lg:text-[24px] text-[#FCFCFC] leading-[32px] font-light hover:faded-lilac">
-                        About VSC
+                        About NYT
                       </button>
                     </HashLink>
                     <a
@@ -134,7 +134,7 @@ function Footer() {
           <div className="flex items-center justify-center text-center mt-10 sm:hidden">
             <span className="text-[#F6F6F6] opacity-40 text-[14px] font-light">
               Copyright 2023
-              <br /> Vyvo Smart Chain Foundation
+              <br /> Nyoton Smart Chain Foundation
             </span>
           </div>
         </div>

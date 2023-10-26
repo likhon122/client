@@ -54,7 +54,7 @@ function Section1() {
                 Revolutionizing health data management
               </span>
               <span className="text-white">
-                through blockchain technology. Vyvo Smart Chain offers a secure
+                through blockchain technology. Nyoton Smart Chain offers a secure
                 and transparent platform that directly connects users and
                 researchers.
               </span>
@@ -99,7 +99,7 @@ function Section1() {
           </div>
           <div className="col-span-6">
             <p className="text-[#979797] font-light text-[10px] mt-3 text-right">
-              VYVO SMART CHAIN
+              NYOTON SMART CHAIN
             </p>
           </div>
           <div className="col-span-12 mt-[60px] grid grid-cols-12 text-white z-[9000]">
@@ -108,7 +108,7 @@ function Section1() {
               style={{ opacity: 1, transform: "none" }}>
               <div className="col-span-12 mb-12">
                 <p className="text-[24px] leading-[30px] mb-2 font-light">
-                  Vyvo Smart Chain is the first&nbsp;
+                  Nyoton Smart Chain is the first&nbsp;
                   <span className="faded-lilac font-light">
                     heartbeat-powered blockchain
                   </span>
@@ -184,7 +184,7 @@ function Section1() {
               style={{ opacity: 1, transform: "none" }}>
               <div className="col-span-12 mb-20">
                 <p className="mb-8 text-[#AFAFAF] font-light indent-8">
-                  Vyvo Smart Chain (VSC)&apos;s platform anonymises users&apos;
+                  Nyoton Smart Chain (NYT)&apos;s platform anonymises users&apos;
                   data in a decentralized digital health (DDH) platform,
                   fuelling medical research and scientific discoveries to create
                   better solutions for tomorrow.

@@ -19,7 +19,7 @@ function Section2() {
                       <span className="faded-light-blue leading-[36px] tracking-[-2%]">
                         How&nbsp;
                       </span>
-                      VSC
+                      NYT
                     </span>
                   </div>
                   <div className="flex text-[36px] text-white font-light leading-[36px] tracking-[-2%]">
@@ -82,8 +82,7 @@ function Section2() {
                   autoPlay={true}
                   playsInline={true}
                   src="https://www.vyvo.com/videos/atom-loop.mp4"
-                  loop={true}
-                >
+                  loop={true}>
                   <source
                     src="https://www.vyvo.com/videos/atom-first2.mp4"
                     type="video/mp4"
