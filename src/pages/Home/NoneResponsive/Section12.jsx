@@ -9,9 +9,13 @@ const syleDiv = {
   transform: "none",
 };
 const Section12 = () => {
-  const[toggle , setToggle]=useState(false)
+  const [toggle, setToggle] = useState(false);
   const [toggle1, setToggle1] = useState(false);
   const [toggle2, setToggle2] = useState(false);
+  const [toggle3, setToggle3] = useState(false);
+  const [toggle4, setToggle4] = useState(false);
+  const [toggle5, setToggle5] = useState(false);
+  const [toggle6, setToggle6] = useState(false);
   return (
     <>
       <div className="mx-12">
@@ -45,7 +49,15 @@ const Section12 = () => {
             <div>
               <div style={syleDiv}>
                 <div className="chakra-accordion__item css-mwf1ir">
-                  <h2 onClick={() => setToggle1(!toggle1)}>
+                  <h2
+                    onClick={() => {
+                      setToggle1(!toggle1);
+                      setToggle2(false); // Close other FAQ items
+                      setToggle3(false);
+                      setToggle4(false);
+                      setToggle5(false);
+                      setToggle6(false);
+                    }}>
                     <button
                       className="chakra-accordion__button bg-black hover:bg-transparent border-t-0 flex items-center css-1k491gn"
                       type="button"
@@ -111,7 +123,15 @@ const Section12 = () => {
               </div>
               <div style={syleDiv}>
                 <div className="chakra-accordion__item css-1dy2maw">
-                  <h2 onClick={()=>setToggle2(!toggle2)}>
+                  <h2
+                    onClick={() => {
+                      setToggle2(!toggle2);
+                      setToggle1(false); // Close other FAQ items
+                      setToggle3(false);
+                      setToggle4(false);
+                      setToggle5(false);
+                      setToggle6(false);
+                    }}>
                     <button
                       className="chakra-accordion__button bg-black hover:bg-transparent border-t-0 css-1k491gn"
                       type="button"
@@ -122,7 +142,12 @@ const Section12 = () => {
                       <span className="text-[20px] font-light opacity-40 text-[#FCFCFC] mr-20">
                         02.
                       </span>
-                      <span className="text-[#FCFCFC]  opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv">
+                      <span
+                        className={
+                          toggle2
+                            ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                            : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        }>
                         What is Proof-of-Sensing?
                       </span>
                       <svg
@@ -171,7 +196,15 @@ const Section12 = () => {
               </div>
               <div style={syleDiv}>
                 <div className="chakra-accordion__item css-1dy2maw">
-                  <h2 onClick={()=> setToggle2(!toggle2)}>
+                  <h2
+                    onClick={() => {
+                      setToggle3(!toggle3);
+                      setToggle2(false); // Close other FAQ items
+                      setToggle1(false);
+                      setToggle4(false);
+                      setToggle5(false);
+                      setToggle6(false);
+                    }}>
                     <button
                       className="chakra-accordion__button bg-black hover:bg-transparent border-t-0 flex items-center css-1k491gn"
                       type="button"
@@ -182,7 +215,12 @@ const Section12 = () => {
                       <span className="text-[20px] font-light opacity-40 text-[#FCFCFC] mr-20">
                         03.
                       </span>
-                      <span className="text-[#FCFCFC]  opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv">
+                      <span
+                        className={
+                          toggle3
+                            ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                            : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        }>
                         What is Vyvo Coin $(VSC)?
                       </span>
                       <svg
@@ -199,7 +237,7 @@ const Section12 = () => {
                   <div
                     className="chakra-collapse"
                     style={
-                      toggle2
+                      toggle3
                         ? {
                             overflow: "hidden",
                             display: "block",
@@ -231,7 +269,15 @@ const Section12 = () => {
               </div>
               <div style={syleDiv}>
                 <div className="chakra-accordion__item css-1dy2maw">
-                  <h2>
+                  <h2
+                    onClick={() => {
+                      setToggle4(!toggle4);
+                      setToggle2(false); // Close other FAQ items
+                      setToggle3(false);
+                      setToggle1(false);
+                      setToggle5(false);
+                      setToggle6(false);
+                    }}>
                     <button
                       className="chakra-accordion__button bg-black hover:bg-transparent border-t-0 flex items-center css-1k491gn"
                       type="button"
@@ -242,7 +288,12 @@ const Section12 = () => {
                       <span className="text-[20px] font-light opacity-40 text-[#FCFCFC] mr-20">
                         04.
                       </span>
-                      <span className="text-[#FCFCFC]  opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv">
+                      <span
+                        className={
+                          toggle4
+                            ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                            : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        }>
                         What is the Burn and Mint Mechanism?
                       </span>
                       <svg
@@ -258,12 +309,21 @@ const Section12 = () => {
                   </h2>
                   <div
                     className="chakra-collapse"
-                    style={{
-                      overflow: "hidden",
-                      display: "none",
-                      opacity: 0,
-                      height: "0px",
-                    }}>
+                    style={
+                      toggle4
+                        ? {
+                            overflow: "hidden",
+                            display: "block",
+                            opacity: "1",
+                            height: "auto",
+                          }
+                        : {
+                            overflow: "hidden",
+                            display: "none",
+                            opacity: 0,
+                            height: "0px",
+                          }
+                    }>
                     <div
                       role="region"
                       id="accordion-panel-:r4i:"
@@ -285,7 +345,15 @@ const Section12 = () => {
               </div>
               <div style={syleDiv}>
                 <div className="chakra-accordion__item css-1dy2maw">
-                  <h2>
+                  <h2
+                    onClick={() => {
+                      setToggle5(!toggle5);
+                      setToggle2(false); // Close other FAQ items
+                      setToggle3(false);
+                      setToggle1(false);
+                      setToggle4(false);
+                      setToggle6(false);
+                    }}>
                     <button
                       className="chakra-accordion__button bg-black hover:bg-transparent border-t-0 flex items-center css-1k491gn"
                       type="button"
@@ -296,7 +364,12 @@ const Section12 = () => {
                       <span className="text-[20px] font-light opacity-40 text-[#FCFCFC] mr-20">
                         05.
                       </span>
-                      <span className="text-[#FCFCFC]  opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv">
+                      <span
+                        className={
+                          toggle5
+                            ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                            : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        }>
                         What is the Decentralized Digital Health (DDH) Platform?
                       </span>
                       <svg
@@ -313,7 +386,7 @@ const Section12 = () => {
                   <div
                     className="chakra-collapse"
                     style={
-                      toggle
+                      toggle5
                         ? {
                             overflow: "hidden",
                             display: "block",
@@ -345,7 +418,15 @@ const Section12 = () => {
               </div>
               <div style={syleDiv}>
                 <div className="chakra-accordion__item css-1dy2maw">
-                  <h2>
+                  <h2
+                    onClick={() => {
+                      setToggle6(!toggle6);
+                      setToggle2(false);
+                      setToggle3(false);
+                      setToggle1(false);
+                      setToggle4(false);
+                      setToggle5(false);
+                    }}>
                     <button
                       className="chakra-accordion__button bg-black hover:bg-transparent border-t-0 flex items-center css-1k491gn"
                       type="button"
@@ -356,7 +437,12 @@ const Section12 = () => {
                       <span className="text-[20px] font-light opacity-40 text-[#FCFCFC] mr-20">
                         06.
                       </span>
-                      <span className="text-[#FCFCFC]  opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv">
+                      <span
+                        className={
+                          toggle6
+                            ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                            : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        }>
                         Is my data safe?
                       </span>
                       <svg
@@ -373,7 +459,7 @@ const Section12 = () => {
                   <div
                     className="chakra-collapse"
                     style={
-                      toggle
+                      toggle6
                         ? {
                             overflow: "hidden",
                             display: "block",
