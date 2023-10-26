@@ -39,6 +39,19 @@ function Section6() {
                 about <span className="faded-lilac">data</span>
               </span>
             </div>
+            {/* <div className="col-span-12 lg:hidden flex justify-center">
+              <img
+                alt="green-circle"
+                loading="lazy"
+                width="583"
+                height="575"
+                decoding="async"
+                data-nimg="1"
+                style={{ color: "transparent" }}
+                // srcSet="https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fpurple-balls.png&amp;w=640&amp;q=75 1x, https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fpurple-balls.png&amp;w=1200&amp;q=75 2x"
+                src="https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fpurple-balls.png&amp;w=1200&amp;q=75"
+              />
+            </div> */}
             <div className="hidden lg:col-span-2 lg:col-start-1 lg:flex items-end">
               <img
                 alt="squares"
