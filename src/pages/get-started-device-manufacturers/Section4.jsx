@@ -100,8 +100,8 @@ function Section4() {
               decoding="async"
               data-nimg="1"
               style={{ color: "transparent" }}
-              srcSet="/_next/image?url=%2Fbackgrounds%2Fdevice-man-card-good.png&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fbackgrounds%2Fdevice-man-card-good.png&amp;w=1200&amp;q=75 2x"
-              src="/_next/image?url=%2Fbackgrounds%2Fdevice-man-card-good.png&amp;w=1200&amp;q=75"
+              srcSet="https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fdevice-man-card-good.png&amp;w=640&amp;q=75 1x, https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fdevice-man-card-good.png&amp;w=1200&amp;q=75 2x"
+              src="https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fdevice-man-card-good.png&amp;w=1200&amp;q=75"
             />
           </div>
         </div>
