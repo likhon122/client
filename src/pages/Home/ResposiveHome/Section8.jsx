@@ -1,9 +1,15 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useState } from "react";
 
 // css
 import "./section8.css";
 function Section8() {
+  const [toggle1, setToggle1] = useState(false);
+  const [toggle2, setToggle2] = useState(false);
+  const [toggle3, setToggle3] = useState(false);
+  const [toggle4, setToggle4] = useState(false);
+  const [toggle5, setToggle5] = useState(false);
+  const [toggle6, setToggle6] = useState(false);
   return (
     <>
       <div className="mx-4 my-10">
@@ -234,7 +240,15 @@ function Section8() {
         <div className=" mt-10">
           <div className="chakra-accordion bg-transparent css-0">
             <div className="chakra-accordion__item css-mwf1ir">
-              <h2>
+              <h2
+                onClick={() => {
+                  setToggle1(!toggle1);
+                  setToggle2(false); // Close other FAQ items
+                  setToggle3(false);
+                  setToggle4(false);
+                  setToggle5(false);
+                  setToggle6(false);
+                }}>
                 <button
                   className="chakra-accordion__button bg-black hover:bg-transparent border-t-0 flex items-center css-1k491gn"
                   type="button"
@@ -245,7 +259,12 @@ function Section8() {
                   <span className="text-[14px] font-light opacity-40 text-[#FCFCFC] mr-10">
                     01.
                   </span>
-                  <span className="text-[#FCFCFC]  opacity-40 text-[16px] leading-[44px] font-light py-4 css-1eziwv">
+                  <span
+                    className={
+                      toggle1
+                        ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                    }>
                     What is Nyoton Smart Chain Network?
                   </span>
                   <svg
@@ -261,12 +280,21 @@ function Section8() {
               </h2>
               <div
                 className="chakra-collapse"
-                style={{
-                  overflow: "hidden",
-                  display: "none",
-                  opacity: 0,
-                  height: "0px",
-                }}>
+                style={
+                  toggle1
+                    ? {
+                        overflow: "hidden",
+                        display: "block",
+                        opacity: "1",
+                        height: "auto",
+                      }
+                    : {
+                        overflow: "hidden",
+                        display: "none",
+                        opacity: 0,
+                        height: "0px",
+                      }
+                }>
                 <div
                   role="region"
                   id="accordion-panel-:r6c:"
@@ -284,7 +312,15 @@ function Section8() {
               </div>
             </div>
             <div className="chakra-accordion__item css-1dy2maw">
-              <h2>
+              <h2
+                onClick={() => {
+                  setToggle2(!toggle2);
+                  setToggle1(false); // Close other FAQ items
+                  setToggle3(false);
+                  setToggle4(false);
+                  setToggle5(false);
+                  setToggle6(false);
+                }}>
                 <button
                   className="chakra-accordion__button bg-black hover:bg-transparent border-t-0 css-1k491gn"
                   type="button"
@@ -295,7 +331,12 @@ function Section8() {
                   <span className="text-[14px] font-light opacity-40 text-[#FCFCFC] mr-10">
                     02.
                   </span>
-                  <span className="text-[#FCFCFC]  opacity-40 text-[16px] leading-[44px] font-light py-4 css-1eziwv">
+                  <span
+                    className={
+                      toggle2
+                        ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                    }>
                     What is Proof-of-Sensing?
                   </span>
                   <svg
@@ -311,12 +352,21 @@ function Section8() {
               </h2>
               <div
                 className="chakra-collapse"
-                style={{
-                  overflow: "hidden",
-                  display: "none",
-                  opacity: 0,
-                  height: "0px",
-                }}>
+                style={
+                  toggle2
+                    ? {
+                        overflow: "hidden",
+                        display: "block",
+                        opacity: "1",
+                        height: "auto",
+                      }
+                    : {
+                        overflow: "hidden",
+                        display: "none",
+                        opacity: 0,
+                        height: "0px",
+                      }
+                }>
                 <div
                   role="region"
                   id="accordion-panel-:r6e:"
@@ -326,14 +376,22 @@ function Section8() {
                     03.
                   </span>
                   Proof-of-Sensing (PoSe) is a validation protocol utilised by
-                  Nyoton Smart Chain to authenticate health data generated by IoT
-                  wearable devices. It verifies the authenticity of data and
+                  Nyoton Smart Chain to authenticate health data generated by
+                  IoT wearable devices. It verifies the authenticity of data and
                   ensures that it comes from real users.
                 </div>
               </div>
             </div>
             <div className="chakra-accordion__item css-1dy2maw">
-              <h2>
+              <h2
+                onClick={() => {
+                  setToggle3(!toggle3);
+                  setToggle2(false); // Close other FAQ items
+                  setToggle1(false);
+                  setToggle4(false);
+                  setToggle5(false);
+                  setToggle6(false);
+                }}>
                 <button
                   className="chakra-accordion__button bg-black hover:bg-transparent border-t-0 flex items-center css-1k491gn"
                   type="button"
@@ -344,7 +402,12 @@ function Section8() {
                   <span className="text-[14px] font-light opacity-40 text-[#FCFCFC] mr-10">
                     03.
                   </span>
-                  <span className="text-[#FCFCFC]  opacity-40 text-[16px] leading-[44px] font-light py-4 css-1eziwv">
+                  <span
+                    className={
+                      toggle3
+                        ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                    }>
                     What is Nyoton Coin $(NYT)?
                   </span>
                   <svg
@@ -360,12 +423,21 @@ function Section8() {
               </h2>
               <div
                 className="chakra-collapse"
-                style={{
-                  overflow: "hidden",
-                  display: "none",
-                  opacity: 0,
-                  height: "0px",
-                }}>
+                style={
+                  toggle3
+                    ? {
+                        overflow: "hidden",
+                        display: "block",
+                        opacity: "1",
+                        height: "auto",
+                      }
+                    : {
+                        overflow: "hidden",
+                        display: "none",
+                        opacity: 0,
+                        height: "0px",
+                      }
+                }>
                 <div
                   role="region"
                   id="accordion-panel-:r6g:"
@@ -374,15 +446,23 @@ function Section8() {
                   <span className="font-light opacity-40 text-[#FCFCFC] hidden">
                     04.
                   </span>
-                  Nyoton Coin ($NYT) is the native cryptocurrency of Nyoton Smart
-                  Chain Network. It is used for various purposes within the
-                  ecosystem, including staking and rewarding users for
+                  Nyoton Coin ($NYT) is the native cryptocurrency of Nyoton
+                  Smart Chain Network. It is used for various purposes within
+                  the ecosystem, including staking and rewarding users for
                   contributions.
                 </div>
               </div>
             </div>
             <div className="chakra-accordion__item css-1dy2maw">
-              <h2>
+              <h2
+                onClick={() => {
+                  setToggle4(!toggle4);
+                  setToggle2(false); // Close other FAQ items
+                  setToggle3(false);
+                  setToggle1(false);
+                  setToggle5(false);
+                  setToggle6(false);
+                }}>
                 <button
                   className="chakra-accordion__button bg-black hover:bg-transparent border-t-0 flex items-center css-1k491gn"
                   type="button"
@@ -393,7 +473,12 @@ function Section8() {
                   <span className="text-[14px] font-light opacity-40 text-[#FCFCFC] mr-10">
                     04.
                   </span>
-                  <span className="text-[#FCFCFC]  opacity-40 text-[16px] leading-[44px] font-light py-4 css-1eziwv">
+                  <span
+                    className={
+                      toggle4
+                        ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                    }>
                     What is the Burn and Mint Mechanism?
                   </span>
                   <svg
@@ -409,12 +494,21 @@ function Section8() {
               </h2>
               <div
                 className="chakra-collapse"
-                style={{
-                  overflow: "hidden",
-                  display: "none",
-                  opacity: 0,
-                  height: "0px",
-                }}>
+                style={
+                  toggle4
+                    ? {
+                        overflow: "hidden",
+                        display: "block",
+                        opacity: "1",
+                        height: "auto",
+                      }
+                    : {
+                        overflow: "hidden",
+                        display: "none",
+                        opacity: 0,
+                        height: "0px",
+                      }
+                }>
                 <div
                   role="region"
                   id="accordion-panel-:r6i:"
@@ -433,7 +527,15 @@ function Section8() {
               </div>
             </div>
             <div className="chakra-accordion__item css-1dy2maw">
-              <h2>
+              <h2
+                onClick={() => {
+                  setToggle5(!toggle5);
+                  setToggle2(false); // Close other FAQ items
+                  setToggle3(false);
+                  setToggle1(false);
+                  setToggle4(false);
+                  setToggle6(false);
+                }}>
                 <button
                   className="chakra-accordion__button bg-black hover:bg-transparent border-t-0 flex items-center css-1k491gn"
                   type="button"
@@ -444,7 +546,12 @@ function Section8() {
                   <span className="text-[14px] font-light opacity-40 text-[#FCFCFC] mr-10">
                     05.
                   </span>
-                  <span className="text-[#FCFCFC]  opacity-40 text-[16px] leading-[44px] font-light py-4 css-1eziwv">
+                  <span
+                    className={
+                      toggle5
+                        ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                    }>
                     What is the Decentralized Digital Health (DDH) Platform?
                   </span>
                   <svg
@@ -460,12 +567,21 @@ function Section8() {
               </h2>
               <div
                 className="chakra-collapse"
-                style={{
-                  overflow: "hidden",
-                  display: "none",
-                  opacity: 0,
-                  height: "0px",
-                }}>
+                style={
+                  toggle5
+                    ? {
+                        overflow: "hidden",
+                        display: "block",
+                        opacity: "1",
+                        height: "auto",
+                      }
+                    : {
+                        overflow: "hidden",
+                        display: "none",
+                        opacity: 0,
+                        height: "0px",
+                      }
+                }>
                 <div
                   role="region"
                   id="accordion-panel-:r6k:"
@@ -482,7 +598,15 @@ function Section8() {
               </div>
             </div>
             <div className="chakra-accordion__item css-1dy2maw">
-              <h2>
+              <h2
+                onClick={() => {
+                  setToggle6(!toggle6);
+                  setToggle2(false);
+                  setToggle3(false);
+                  setToggle1(false);
+                  setToggle4(false);
+                  setToggle5(false);
+                }}>
                 <button
                   className="chakra-accordion__button bg-black hover:bg-transparent border-t-0 flex items-center css-1k491gn"
                   type="button"
@@ -493,7 +617,11 @@ function Section8() {
                   <span className="text-[14px] font-light opacity-40 text-[#FCFCFC] mr-10">
                     06.
                   </span>
-                  <span className="text-[#FCFCFC]  opacity-40 text-[16px] leading-[44px] font-light py-4 css-1eziwv">
+                  <span className={
+                          toggle6
+                            ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                            : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        }>
                     Is my data safe?
                   </span>
                   <svg
@@ -509,12 +637,21 @@ function Section8() {
               </h2>
               <div
                 className="chakra-collapse"
-                style={{
-                  overflow: "hidden",
-                  display: "none",
-                  opacity: 0,
-                  height: "0px",
-                }}>
+                style={
+                  toggle6
+                    ? {
+                        overflow: "hidden",
+                        display: "block",
+                        opacity: "1",
+                        height: "auto",
+                      }
+                    : {
+                        overflow: "hidden",
+                        display: "none",
+                        opacity: 0,
+                        height: "0px",
+                      }
+                }>
                 <div
                   role="region"
                   id="accordion-panel-:r6m:"

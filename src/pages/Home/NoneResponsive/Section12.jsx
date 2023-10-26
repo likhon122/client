@@ -10,7 +10,6 @@ const syleDiv = {
   transform: "none",
 };
 const Section12 = () => {
-  const [toggle, setToggle] = useState(false);
   const [toggle1, setToggle1] = useState(false);
   const [toggle2, setToggle2] = useState(false);
   const [toggle3, setToggle3] = useState(false);
