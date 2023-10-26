@@ -140,6 +140,7 @@ function Section1() {
                     transform: "translate3d(0px, 0px, 0px)",
                     contentVisibility: "visible",
                   }}
+                  data-aos="fade-in" 
                 >
                   <defs>
                     <clipPath id="__lottie_element_1016">

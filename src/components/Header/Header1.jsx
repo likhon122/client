@@ -13,7 +13,7 @@ import "./header1.css";
 import logo from "../../assets/images/logo.png";
 const Header1 = () => {
   useEffect(() => {
-    AOS.init() // Initialize AOS
+    AOS.init(); // Initialize AOS
   });
   const [toggle, setToggle] = useState(false);
   return (
@@ -36,7 +36,7 @@ const Header1 = () => {
           <div>
             <button
               data-aos="fade-down-left"
-              data-aos-once="true" // AOS one-time transition
+              data-aos-once="true"
               type="button"
               className={
                 toggle
@@ -63,7 +63,8 @@ const Header1 = () => {
                         <NavHashLink
                           className="text white text-xs leading-[21px] tracking-[2px] py-4 font-medium opacity-90"
                           aria-current="page"
-                          to="/#">
+                          to="/#"
+                          onClick={() => setToggle(!toggle)}>
                           HOME
                         </NavHashLink>
                       </li>
@@ -74,31 +75,36 @@ const Header1 = () => {
                         <NavHashLink
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          to="/get-started-vsc#what-is-vsc">
+                          to="/get-started-vsc#what-is-vsc"
+                          onClick={() => setToggle(!toggle)}>
                           What is VSC
                         </NavHashLink>
                         <a
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          href="/get-started-vsc#data-nfts">
+                          href="/get-started-vsc#data-nfts"
+                          onClick={() => setToggle(!toggle)}>
                           Data-NFTs
                         </a>
                         <a
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          href="/get-started-vsc#pose">
+                          href="/get-started-vsc#pose"
+                          onClick={() => setToggle(!toggle)}>
                           PoSe
                         </a>
                         <NavLink
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          to="/get-started-vsc#tokenomics">
+                          to="/get-started-vsc#tokenomics"
+                          onClick={() => setToggle(!toggle)}>
                           Tokenomics
                         </NavLink>
                         <a
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          href="/get-started-vsc#ddh-platform">
+                          href="/get-started-vsc#ddh-platform"
+                          onClick={() => setToggle(!toggle)}>
                           DDH Platform
                         </a>
                         <a
@@ -106,7 +112,8 @@ const Header1 = () => {
                           aria-current="page"
                           target="_blank"
                           rel="noreferrer"
-                          href="https://vyvo.org/">
+                          href="https://vyvo.org/"
+                          onClick={() => setToggle(!toggle)}>
                           VSC Foundation
                         </a>
                       </li>
@@ -119,25 +126,29 @@ const Header1 = () => {
                           aria-current="page"
                           target="_blank"
                           rel="noreferrer"
-                          href="https://linktr.ee/vyvosmartchain">
+                          href="https://linktr.ee/vyvosmartchain"
+                          onClick={() => setToggle(!toggle)}>
                           Socials
                         </a>
                         <NavHashLink
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          to="/press">
+                          to="/press"
+                          onClick={() => setToggle(!toggle)}>
                           Press
                         </NavHashLink>
                         <NavLink
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          to="/contact-us">
+                          to="/contact-us"
+                          onClick={() => setToggle(!toggle)}>
                           Contact
                         </NavLink>
                         <NavLink
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          to="/business-inquiries">
+                          to="/business-inquiries"
+                          onClick={() => setToggle(!toggle)}>
                           Business Inquiries
                         </NavLink>
                       </li>

@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useState } from "react";
 
 // css
 import "./section12.css";
@@ -8,7 +8,10 @@ const syleDiv = {
   opacity: 1,
   transform: "none",
 };
-function Section12() {
+const Section12 = () => {
+  const[toggle , setToggle]=useState(false)
+  const [toggle1, setToggle1] = useState(false);
+  const [toggle2, setToggle2] = useState(false);
   return (
     <>
       <div className="mx-12">
@@ -42,51 +45,60 @@ function Section12() {
             <div>
               <div style={syleDiv}>
                 <div className="chakra-accordion__item css-mwf1ir">
-                  <h2>
+                  <h2 onClick={() => setToggle1(!toggle1)}>
                     <button
                       className="chakra-accordion__button bg-black hover:bg-transparent border-t-0 flex items-center css-1k491gn"
                       type="button"
                       id="accordion-button-:r4c:"
-                      aria-expanded="false"
+                      aria-expanded={toggle1 ? "true" : "false"}
                       aria-controls="accordion-panel-:r4c:"
-                      data-index="0"
-                    >
+                      data-index="0">
                       <span className="text-[20px] font-light opacity-40 text-[#FCFCFC] mr-20">
                         01.
                       </span>
-                      <span className="text-[#FCFCFC]  opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv">
+                      <span
+                        className={
+                          toggle1
+                            ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                            : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        }>
                         What is Vyvo Smart Chain Network?
                       </span>
                       <svg
                         viewBox="0 0 24 24"
                         focusable="false"
                         className="chakra-icon chakra-accordion__icon css-186l2rg"
-                        aria-hidden="true"
-                      >
+                        aria-hidden="true">
                         <path
                           fill="currentColor"
-                          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                        ></path>
+                          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
                       </svg>
                     </button>
                   </h2>
                   <div
                     className="chakra-collapse"
-                    style={{
-                      overflow: "hidden",
-                      display: "none",
-                      opacity: 0,
-                      height: "0px",
-                    }}
-                  >
+                    style={
+                      toggle1
+                        ? {
+                            overflow: "hidden",
+                            display: "block",
+                            opacity: "1",
+                            height: "auto",
+                          }
+                        : {
+                            overflow: "hidden",
+                            display: "none",
+                            opacity: 0,
+                            height: "0px",
+                          }
+                    }>
                     <div
                       role="region"
                       id="accordion-panel-:r4c:"
                       aria-labelledby="accordion-button-:r4c:"
-                      className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light text-base leading-[22px] flex w-3/5 css-1hb5ode"
-                    >
-                      <span className="text-[20px] font-light opacity-40 text-[#FCFCFC] mr-20 invisible">
-                        02.
+                      className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light text-base leading-[22px] flex w-3/5 css-1hb5ode">
+                      <span className="text-[20px] duration-[5s] ease-in-out font-light opacity-40 text-[#FCFCFC] mr-20 invisible">
+                        01.
                       </span>
                       Vyvo Smart Chain Network is a Layer 1 Ethereum-compatible
                       blockchain network. It is the latest blockchain framework
@@ -99,15 +111,14 @@ function Section12() {
               </div>
               <div style={syleDiv}>
                 <div className="chakra-accordion__item css-1dy2maw">
-                  <h2>
+                  <h2 onClick={()=>setToggle2(!toggle2)}>
                     <button
                       className="chakra-accordion__button bg-black hover:bg-transparent border-t-0 css-1k491gn"
                       type="button"
                       id="accordion-button-:r4e:"
                       aria-expanded="false"
                       aria-controls="accordion-panel-:r4e:"
-                      data-index="1"
-                    >
+                      data-index="1">
                       <span className="text-[20px] font-light opacity-40 text-[#FCFCFC] mr-20">
                         02.
                       </span>
@@ -118,30 +129,35 @@ function Section12() {
                         viewBox="0 0 24 24"
                         focusable="false"
                         className="chakra-icon chakra-accordion__icon css-186l2rg"
-                        aria-hidden="true"
-                      >
+                        aria-hidden="true">
                         <path
                           fill="currentColor"
-                          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                        ></path>
+                          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
                       </svg>
                     </button>
                   </h2>
                   <div
                     className="chakra-collapse"
-                    style={{
-                      overflow: "hidden",
-                      display: "none",
-                      opacity: 0,
-                      height: "0px",
-                    }}
-                  >
+                    style={
+                      toggle2
+                        ? {
+                            overflow: "hidden",
+                            display: "block",
+                            opacity: "1",
+                            height: "auto",
+                          }
+                        : {
+                            overflow: "hidden",
+                            display: "none",
+                            opacity: 0,
+                            height: "0px",
+                          }
+                    }>
                     <div
                       role="region"
                       id="accordion-panel-:r4e:"
                       aria-labelledby="accordion-button-:r4e:"
-                      className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light text-base leading-[22px] flex w-3/5 css-1hb5ode"
-                    >
+                      className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light text-base leading-[22px] flex w-3/5 css-1hb5ode">
                       <span className="text-[20px] font-light opacity-40 text-[#FCFCFC] mr-20 invisible">
                         03.
                       </span>
@@ -155,15 +171,14 @@ function Section12() {
               </div>
               <div style={syleDiv}>
                 <div className="chakra-accordion__item css-1dy2maw">
-                  <h2>
+                  <h2 onClick={()=> setToggle2(!toggle2)}>
                     <button
                       className="chakra-accordion__button bg-black hover:bg-transparent border-t-0 flex items-center css-1k491gn"
                       type="button"
                       id="accordion-button-:r4g:"
                       aria-expanded="false"
                       aria-controls="accordion-panel-:r4g:"
-                      data-index="2"
-                    >
+                      data-index="2">
                       <span className="text-[20px] font-light opacity-40 text-[#FCFCFC] mr-20">
                         03.
                       </span>
@@ -174,30 +189,35 @@ function Section12() {
                         viewBox="0 0 24 24"
                         focusable="false"
                         className="chakra-icon chakra-accordion__icon css-186l2rg"
-                        aria-hidden="true"
-                      >
+                        aria-hidden="true">
                         <path
                           fill="currentColor"
-                          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                        ></path>
+                          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
                       </svg>
                     </button>
                   </h2>
                   <div
                     className="chakra-collapse"
-                    style={{
-                      overflow: "hidden",
-                      display: "none",
-                      opacity: 0,
-                      height: "0px",
-                    }}
-                  >
+                    style={
+                      toggle2
+                        ? {
+                            overflow: "hidden",
+                            display: "block",
+                            opacity: "1",
+                            height: "auto",
+                          }
+                        : {
+                            overflow: "hidden",
+                            display: "none",
+                            opacity: 0,
+                            height: "0px",
+                          }
+                    }>
                     <div
                       role="region"
                       id="accordion-panel-:r4g:"
                       aria-labelledby="accordion-button-:r4g:"
-                      className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light text-base leading-[22px] flex w-3/5 css-1hb5ode"
-                    >
+                      className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light text-base leading-[22px] flex w-3/5 css-1hb5ode">
                       <span className="text-[20px] font-light opacity-40 text-[#FCFCFC] mr-20 invisible">
                         04.
                       </span>
@@ -218,8 +238,7 @@ function Section12() {
                       id="accordion-button-:r4i:"
                       aria-expanded="false"
                       aria-controls="accordion-panel-:r4i:"
-                      data-index="3"
-                    >
+                      data-index="3">
                       <span className="text-[20px] font-light opacity-40 text-[#FCFCFC] mr-20">
                         04.
                       </span>
@@ -230,12 +249,10 @@ function Section12() {
                         viewBox="0 0 24 24"
                         focusable="false"
                         className="chakra-icon chakra-accordion__icon css-186l2rg"
-                        aria-hidden="true"
-                      >
+                        aria-hidden="true">
                         <path
                           fill="currentColor"
-                          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                        ></path>
+                          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
                       </svg>
                     </button>
                   </h2>
@@ -246,14 +263,12 @@ function Section12() {
                       display: "none",
                       opacity: 0,
                       height: "0px",
-                    }}
-                  >
+                    }}>
                     <div
                       role="region"
                       id="accordion-panel-:r4i:"
                       aria-labelledby="accordion-button-:r4i:"
-                      className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light text-base leading-[22px] flex w-3/5 css-1hb5ode"
-                    >
+                      className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light text-base leading-[22px] flex w-3/5 css-1hb5ode">
                       <span className="text-[20px] font-light opacity-40 text-[#FCFCFC] mr-20 invisible">
                         05.
                       </span>
@@ -277,8 +292,7 @@ function Section12() {
                       id="accordion-button-:r4k:"
                       aria-expanded="false"
                       aria-controls="accordion-panel-:r4k:"
-                      data-index="4"
-                    >
+                      data-index="4">
                       <span className="text-[20px] font-light opacity-40 text-[#FCFCFC] mr-20">
                         05.
                       </span>
@@ -289,30 +303,35 @@ function Section12() {
                         viewBox="0 0 24 24"
                         focusable="false"
                         className="chakra-icon chakra-accordion__icon css-186l2rg"
-                        aria-hidden="true"
-                      >
+                        aria-hidden="true">
                         <path
                           fill="currentColor"
-                          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                        ></path>
+                          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
                       </svg>
                     </button>
                   </h2>
                   <div
                     className="chakra-collapse"
-                    style={{
-                      overflow: "hidden",
-                      display: "none",
-                      opacity: 0,
-                      height: "0px",
-                    }}
-                  >
+                    style={
+                      toggle
+                        ? {
+                            overflow: "hidden",
+                            display: "block",
+                            opacity: "1",
+                            height: "auto",
+                          }
+                        : {
+                            overflow: "hidden",
+                            display: "none",
+                            opacity: 0,
+                            height: "0px",
+                          }
+                    }>
                     <div
                       role="region"
                       id="accordion-panel-:r4k:"
                       aria-labelledby="accordion-button-:r4k:"
-                      className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light text-base leading-[22px] flex w-3/5 css-1hb5ode"
-                    >
+                      className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light text-base leading-[22px] flex w-3/5 css-1hb5ode">
                       <span className="text-[20px] font-light opacity-40 text-[#FCFCFC] mr-20 invisible">
                         06.
                       </span>
@@ -333,8 +352,7 @@ function Section12() {
                       id="accordion-button-:r4m:"
                       aria-expanded="false"
                       aria-controls="accordion-panel-:r4m:"
-                      data-index="5"
-                    >
+                      data-index="5">
                       <span className="text-[20px] font-light opacity-40 text-[#FCFCFC] mr-20">
                         06.
                       </span>
@@ -345,30 +363,35 @@ function Section12() {
                         viewBox="0 0 24 24"
                         focusable="false"
                         className="chakra-icon chakra-accordion__icon css-186l2rg"
-                        aria-hidden="true"
-                      >
+                        aria-hidden="true">
                         <path
                           fill="currentColor"
-                          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                        ></path>
+                          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
                       </svg>
                     </button>
                   </h2>
                   <div
                     className="chakra-collapse"
-                    style={{
-                      overflow: "hidden",
-                      display: "none",
-                      opacity: 0,
-                      height: "0px",
-                    }}
-                  >
+                    style={
+                      toggle
+                        ? {
+                            overflow: "hidden",
+                            display: "block",
+                            opacity: "1",
+                            height: "auto",
+                          }
+                        : {
+                            overflow: "hidden",
+                            display: "none",
+                            opacity: 0,
+                            height: "0px",
+                          }
+                    }>
                     <div
                       role="region"
                       id="accordion-panel-:r4m:"
                       aria-labelledby="accordion-button-:r4m:"
-                      className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light text-base leading-[22px] flex w-3/5 css-1hb5ode"
-                    >
+                      className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light text-base leading-[22px] flex w-3/5 css-1hb5ode">
                       <span className="text-[20px] font-light opacity-40 text-[#FCFCFC] mr-20 invisible">
                         07.
                       </span>
@@ -387,6 +410,6 @@ function Section12() {
       </div>
     </>
   );
-}
+};
 
 export default Section12;

@@ -129,6 +129,7 @@ const Header2 = () => {
                           className="block py-2 text-white font-normal opacity-90 col-span-6"
                           aria-current="page"
                           to="/get-started-vsc#what-is-vsc"
+                          onClick={() => setToggle(!toggle)}
                         >
                           What is VSC
                         </NavHashLink>
@@ -136,6 +137,7 @@ const Header2 = () => {
                           className="block py-2 text-white font-normal opacity-90 col-span-6"
                           aria-current="page"
                           to="/get-started-vsc#mobile-timeline"
+                          onClick={() => setToggle(!toggle)}
                         >
                           Roadmap
                         </NavHashLink>
@@ -143,6 +145,7 @@ const Header2 = () => {
                           className="block py-2 text-white font-normal opacity-90 col-span-6"
                           aria-current="page"
                           to="/get-started-vsc#data-nfts"
+                          onClick={() => setToggle(!toggle)}
                         >
                           Data-NFTs
                         </NavHashLink>
@@ -152,6 +155,7 @@ const Header2 = () => {
                           target="_blank"
                           rel="noreferrer"
                           href="https://vyvo.org/"
+                          onClick={() => setToggle(!toggle)}
                         >
                           VSC Foundation
                         </a>
@@ -159,6 +163,7 @@ const Header2 = () => {
                           className="block py-2 text-white font-normal opacity-90 col-span-6"
                           aria-current="page"
                           to="/get-started-vsc#pose"
+                          onClick={() => setToggle(!toggle)}
                         >
                           PoSe
                         </NavHashLink>
@@ -166,6 +171,7 @@ const Header2 = () => {
                           className="block py-2 text-white font-normal opacity-90 col-span-6"
                           aria-current="page"
                           to="/get-started-vsc#ddh-platform"
+                          onClick={() => setToggle(!toggle)}
                         >
                           DDH Platform
                         </NavHashLink>
@@ -173,6 +179,7 @@ const Header2 = () => {
                           className="block py-2 text-white font-normal opacity-90 col-span-6"
                           aria-current="page"
                           to="/get-started-vsc#tokenomics"
+                          onClick={() => setToggle(!toggle)}
                         >
                           Tokenomics
                         </NavHashLink>
@@ -238,6 +245,7 @@ const Header2 = () => {
                           target="_blank"
                           rel="noreferrer"
                           href="https://linktr.ee/vyvosmartchain"
+                          onClick={() => setToggle(!toggle)}
                         >
                           Socials
                         </a>
@@ -245,6 +253,7 @@ const Header2 = () => {
                           className="block py-2 text-white font-normal opacity-90 col-span-6"
                           aria-current="page"
                           to="/contact-us#"
+                          onClick={() => setToggle(!toggle)}
                         >
                           Contact
                         </NavHashLink>
@@ -252,6 +261,7 @@ const Header2 = () => {
                           className="block py-2 text-white font-normal opacity-90 col-span-6"
                           aria-current="page"
                           to="/press#"
+                          onClick={() => setToggle(!toggle)}
                         >
                           Press
                         </NavHashLink>
@@ -259,6 +269,7 @@ const Header2 = () => {
                           className="block py-2 text-white font-normal opacity-90 col-span-6"
                           aria-current="page"
                           to="/business-inquiries#"
+                          onClick={() => setToggle(!toggle)}
                         >
                           Business Inquiries
                         </NavHashLink>
