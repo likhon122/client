@@ -1567,7 +1567,7 @@ function Section5() {
             height="575"
             decoding="async"
             data-nimg="1"
-            srcSet="/_next/image?url=%2Fbackgrounds%2Fpurple-balls.png&amp;w=640&amp;q=75 1x, https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fpurple-balls.png&amp;w=1200&amp;q=75 2x"
+            srcSet="https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fpurple-balls.png&amp;w=640&amp;q=75 1x, https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fpurple-balls.png&amp;w=1200&amp;q=75 2x"
             src="https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fpurple-balls.png&amp;w=1200&amp;q=75"
             style={{ color: "transparent" }}
           />
