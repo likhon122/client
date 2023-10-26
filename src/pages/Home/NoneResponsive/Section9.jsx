@@ -3,6 +3,7 @@ import React from "react";
 
 // css
 import "./section9.css";
+import { NavHashLink } from "react-router-hash-link";
 
 const syleDiv = {
   opacity: 1,
@@ -110,7 +111,9 @@ function Section9() {
                     Total Data Gathered Since Genesis
                   </p>
                   <div className="w-full flex justify-center" style={syleDiv}>
-                    <a className="" href="/get-started-vsc#ddh-platform">
+                    <NavHashLink
+                      className=""
+                      to="/get-started-vsc#ddh-platform">
                       <button className="border-faded-pink mt-8 py-3 px-8 flex w-fulljustify-center items-center hover:border-faded-pink-pressed">
                         <span className="text-white">Learn More</span>
                         <img
@@ -129,7 +132,7 @@ function Section9() {
                           }}
                         />
                       </button>
-                    </a>
+                    </NavHashLink>
                   </div>
                 </div>
               </div>
@@ -138,7 +141,7 @@ function Section9() {
           <div className="col-span-1" style={syleDiv}>
             <div className="">
               <div className="text-xs leading-[18px] text-white pl-[325px] pt-12 xl:pt-0 ml-[100%] rotate-90 origin-top-left whitespace-nowrap ">
-                <span className="mr-6">[</span>VYVO&nbsp;
+                <span className="mr-6">[</span>NYOTON&nbsp;
                 <span className="text-[#979797] leading-[18px] ml-2">
                   /&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/
                 </span>

@@ -247,15 +247,14 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.prweb.com/releases/vyvo-smart-chain-unveils-cutting-edge-project-website-to-reflect-its-mission-301939697.html"
-                  >
+                    href="https://www.prweb.com/releases/vyvo-smart-chain-unveils-cutting-edge-project-website-to-reflect-its-mission-301939697.html">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      Vyvo Smart Chain Unveils Cutting-Edge Project Website to
+                      Nyoton Smart Chain Unveils Cutting-Edge Project Website to
                       Reflect Its Mission...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    Vyvo Smart Chain&apos;s new, interactive website reflects
+                    Nyoton Smart Chain&apos;s new, interactive website reflects
                     its mission to empower people with control over their health
                     data.
                   </span>
@@ -282,15 +281,14 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.prweb.com/releases/vyvo-smart-chain-unveils-cutting-edge-project-website-to-reflect-its-mission-301939697.html"
-                  >
+                    href="https://www.prweb.com/releases/vyvo-smart-chain-unveils-cutting-edge-project-website-to-reflect-its-mission-301939697.html">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      Vyvo Smart Chain Unveils Cutting-Edge Project Website to
+                      Nyoton Smart Chain Unveils Cutting-Edge Project Website to
                       Reflect Its Mission...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    Vyvo Smart Chain&apos;s new, interactive website reflects
+                    Nyoton Smart Chain&apos;s new, interactive website reflects
                     its mission to empower people with control over their health
                     data.
                   </span>
@@ -317,8 +315,7 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://blockworks.co/news/web3-innovation-adoption"
-                  >
+                    href="https://blockworks.co/news/web3-innovation-adoption">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
                       Web3 is far from its iPhone moment...
                     </span>
@@ -357,8 +354,7 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://blockworks.co/news/web3-innovation-adoption"
-                  >
+                    href="https://blockworks.co/news/web3-innovation-adoption">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
                       Web3 is far from its iPhone moment...
                     </span>
@@ -397,8 +393,7 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.bitcoininsider.org/article/226349/web3-going-win-battle-over-health-data-ownership"
-                  >
+                    href="https://www.bitcoininsider.org/article/226349/web3-going-win-battle-over-health-data-ownership">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
                       Web3 Is Going To Win The Battle Over Health Data
                       Ownership...
@@ -433,8 +428,7 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.bitcoininsider.org/article/226349/web3-going-win-battle-over-health-data-ownership"
-                  >
+                    href="https://www.bitcoininsider.org/article/226349/web3-going-win-battle-over-health-data-ownership">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
                       Web3 Is Going To Win The Battle Over Health Data
                       Ownership...
@@ -469,18 +463,17 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.ethnews.com/blockchain-titans-vechain-and-vyvo-smart-chain-join-forces-to-conquer-billion-dollar-industry-2/"
-                  >
+                    href="https://www.ethnews.com/blockchain-titans-vechain-and-vyvo-smart-chain-join-forces-to-conquer-billion-dollar-industry-2/">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      Blockchain Titans VeChain and Vyvo Smart Chain Join Forces
-                      to Conquer Billion-Dollar Industry...
+                      Blockchain Titans VeChain and Nyoton Smart Chain Join
+                      Forces to Conquer Billion-Dollar Industry...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    Vyvo Smart Chain announces a strategic partnership with
+                    Nyoton Smart Chain announces a strategic partnership with
                     Vechain, aimed at fostering cross-blockchain utilization for
                     enhanced user experience in the health data field. This
-                    alliance allows users to leverage both $VSC and $USDV within
+                    alliance allows users to leverage both $NYT and $USDV within
                     the Vechain ecosystem, offering unprecedented stability,
                     security, and convenience.
                   </span>
@@ -507,18 +500,17 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.ethnews.com/blockchain-titans-vechain-and-vyvo-smart-chain-join-forces-to-conquer-billion-dollar-industry-2/"
-                  >
+                    href="https://www.ethnews.com/blockchain-titans-vechain-and-vyvo-smart-chain-join-forces-to-conquer-billion-dollar-industry-2/">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      Blockchain Titans VeChain and Vyvo Smart Chain Join Forces
-                      to Conquer Billion-Dollar Industry...
+                      Blockchain Titans VeChain and Nyoton Smart Chain Join
+                      Forces to Conquer Billion-Dollar Industry...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    Vyvo Smart Chain announces a strategic partnership with
+                    Nyoton Smart Chain announces a strategic partnership with
                     Vechain, aimed at fostering cross-blockchain utilization for
                     enhanced user experience in the health data field. This
-                    alliance allows users to leverage both $VSC and $USDV within
+                    alliance allows users to leverage both $NYT and $USDV within
                     the Vechain ecosystem, offering unprecedented stability,
                     security, and convenience.
                   </span>
@@ -545,17 +537,16 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.cointrust.com/market-news/vechain-and-vyvo-smart-chain-forge-strategic-partnership-for-health-and-wellness"
-                  >
+                    href="https://www.cointrust.com/market-news/vechain-and-vyvo-smart-chain-forge-strategic-partnership-for-health-and-wellness">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      VeChain and Vyvo Smart Chain Forge Strategic Partnership
+                      VeChain and Nyoton Smart Chain Forge Strategic Partnership
                       for Health and Wellness...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
                     In a significant announcement that has garnered the
-                    attention of industry insiders, VeChain and Vyvo Smart Chain
-                    (VSC) have unveiled a strategic partnership aimed at
+                    attention of industry insiders, VeChain and Nyoton Smart
+                    Chain (NYT) have unveiled a strategic partnership aimed at
                     enabling cross-blockchain integration. This collaboration
                     marks the union of two formidable entities in their
                     respective domains, poised to make a substantial impact in
@@ -584,17 +575,16 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.cointrust.com/market-news/vechain-and-vyvo-smart-chain-forge-strategic-partnership-for-health-and-wellness"
-                  >
+                    href="https://www.cointrust.com/market-news/vechain-and-vyvo-smart-chain-forge-strategic-partnership-for-health-and-wellness">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      VeChain and Vyvo Smart Chain Forge Strategic Partnership
+                      VeChain and Myoton Smart Chain Forge Strategic Partnership
                       for Health and Wellness...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
                     In a significant announcement that has garnered the
-                    attention of industry insiders, VeChain and Vyvo Smart Chain
-                    (VSC) have unveiled a strategic partnership aimed at
+                    attention of industry insiders, VeChain and Nyoton Smart
+                    Chain (NYT) have unveiled a strategic partnership aimed at
                     enabling cross-blockchain integration. This collaboration
                     marks the union of two formidable entities in their
                     respective domains, poised to make a substantial impact in
@@ -623,8 +613,7 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://cryptonews.com/news/crypto-exchange-listing-delisting-announcements-october-2023.htm"
-                  >
+                    href="https://cryptonews.com/news/crypto-exchange-listing-delisting-announcements-october-2023.htm">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
                       Crypto Exchange Listing and Delisting Announcements:
                       October 2, 2023...
@@ -654,8 +643,7 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://cryptonews.com/news/crypto-exchange-listing-delisting-announcements-october-2023.htm"
-                  >
+                    href="https://cryptonews.com/news/crypto-exchange-listing-delisting-announcements-october-2023.htm">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
                       Crypto Exchange Listing and Delisting Announcements:
                       October 2, 2023...
@@ -685,15 +673,14 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.youtube.com/watch?v=ZGJzNQVU8Qw"
-                  >
+                    href="https://www.youtube.com/watch?v=ZGJzNQVU8Qw">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
                       The First Blockchain Powered By Your Heartbeat...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    VSC COO Mariana Krym joins We Talk NFTs to discuss the
-                    unique utility VSC Data-NFTs
+                    NYT COO Mariana Krym joins We Talk NFTs to discuss the
+                    unique utility NYT Data-NFTs
                   </span>
                 </div>
               </div>
@@ -718,15 +705,14 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.youtube.com/watch?v=ZGJzNQVU8Qw"
-                  >
+                    href="https://www.youtube.com/watch?v=ZGJzNQVU8Qw">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
                       The First Blockchain Powered By Your Heartbeat...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    VSC COO Mariana Krym joins We Talk NFTs to discuss the
-                    unique utility VSC Data-NFTs
+                    NYT COO Mariana Krym joins We Talk NFTs to discuss the
+                    unique utility NYT Data-NFTs
                   </span>
                 </div>
               </div>
@@ -751,14 +737,13 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.youtube.com/watch?v=wgDg-T9VlSw"
-                  >
+                    href="https://www.youtube.com/watch?v=wgDg-T9VlSw">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      $VSC - VyvoCoin CRYPTO COIN...
+                      $NYT - VyvoCoin CRYPTO COIN...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    Influencer reviews $VSC upcoming listing on Lbank
+                    Influencer reviews $NYT upcoming listing on Lbank
                   </span>
                 </div>
               </div>
@@ -783,14 +768,13 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.youtube.com/watch?v=wgDg-T9VlSw"
-                  >
+                    href="https://www.youtube.com/watch?v=wgDg-T9VlSw">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      $VSC - VyvoCoin CRYPTO COIN...
+                      $NYT - NyotonCoin CRYPTO COIN...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    Influencer reviews $VSC upcoming listing on Lbank
+                    Influencer reviews $NYT upcoming listing on Lbank
                   </span>
                 </div>
               </div>
@@ -815,16 +799,15 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://blockzeit.com/vechain-and-vyvo-smart-chain-forge-a-game-changing-blockchain-partnership/"
-                  >
+                    href="https://blockzeit.com/vechain-and-vyvo-smart-chain-forge-a-game-changing-blockchain-partnership/">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      VeChain And Vyvo Smart Chain Forge A Game-Changing
+                      VeChain And Nyoton Smart Chain Forge A Game-Changing
                       Blockchain Partnership...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
                     In a groundbreaking move that promises to advance the
-                    blockchain landscape, VeChain and Vyvo Smart Chain have
+                    blockchain landscape, VeChain and Nyoton Smart Chain have
                     joined forces in a strategic partnership. This collaboration
                     aims to reshape the blockchain industry and enhance the user
                     experience by fostering cross-blockchain utilization,
@@ -853,16 +836,15 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://blockzeit.com/vechain-and-vyvo-smart-chain-forge-a-game-changing-blockchain-partnership/"
-                  >
+                    href="https://blockzeit.com/vechain-and-vyvo-smart-chain-forge-a-game-changing-blockchain-partnership/">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      VeChain And Vyvo Smart Chain Forge A Game-Changing
+                      VeChain And Nyoton Smart Chain Forge A Game-Changing
                       Blockchain Partnership...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
                     In a groundbreaking move that promises to advance the
-                    blockchain landscape, VeChain and Vyvo Smart Chain have
+                    blockchain landscape, VeChain and Nyoton Smart Chain have
                     joined forces in a strategic partnership. This collaboration
                     aims to reshape the blockchain industry and enhance the user
                     experience by fostering cross-blockchain utilization,
@@ -891,15 +873,14 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.crypto-news-flash.com/vechain-and-vyvo-smart-chain-unite-for-cross-blockchain-integration-to-conquer-a-billion-dollar-market/?prefer_reader_view=1&amp;prefer_safari=1"
-                  >
+                    href="https://www.crypto-news-flash.com/vechain-and-vyvo-smart-chain-unite-for-cross-blockchain-integration-to-conquer-a-billion-dollar-market/?prefer_reader_view=1&amp;prefer_safari=1">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      VeChain and Vyvo Smart Chain Unite for Cross-Blockchain
+                      VeChain and Nyoton Smart Chain Unite for Cross-Blockchain
                       Integration to Conquer a Billion-Dollar Market...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    VeChain collaborates with Vyvo Smart Chain (VSC) in a
+                    VeChain collaborates with Nyoton Smart Chain (NYT) in a
                     groundbreaking cross-blockchain integration. The partnership
                     aims to foster a community that benefits from health data
                     monetization and data privacy, targeting a billion-dollar
@@ -928,15 +909,14 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.crypto-news-flash.com/vechain-and-vyvo-smart-chain-unite-for-cross-blockchain-integration-to-conquer-a-billion-dollar-market/?prefer_reader_view=1&amp;prefer_safari=1"
-                  >
+                    href="https://www.crypto-news-flash.com/vechain-and-vyvo-smart-chain-unite-for-cross-blockchain-integration-to-conquer-a-billion-dollar-market/?prefer_reader_view=1&amp;prefer_safari=1">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      VeChain and Vyvo Smart Chain Unite for Cross-Blockchain
+                      VeChain and Nyoton Smart Chain Unite for Cross-Blockchain
                       Integration to Conquer a Billion-Dollar Market...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    VeChain collaborates with Vyvo Smart Chain (VSC) in a
+                    VeChain collaborates with Nyoton Smart Chain (NYT) in a
                     groundbreaking cross-blockchain integration. The partnership
                     aims to foster a community that benefits from health data
                     monetization and data privacy, targeting a billion-dollar
@@ -965,10 +945,9 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://finance.yahoo.com/news/vyvo-smart-chain-announces-strategic-000000072.html"
-                  >
+                    href="https://finance.yahoo.com/news/vyvo-smart-chain-announces-strategic-000000072.html">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      Vyvo Smart Chain Announces Strategic Cross-Blockchain
+                      Nyoton Smart Chain Announces Strategic Cross-Blockchain
                       Integration on Vechain...
                     </span>
                   </a>
@@ -999,10 +978,9 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://finance.yahoo.com/news/vyvo-smart-chain-announces-strategic-000000072.html"
-                  >
+                    href="https://finance.yahoo.com/news/vyvo-smart-chain-announces-strategic-000000072.html">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      Vyvo Smart Chain Announces Strategic Cross-Blockchain
+                      Nyoton Smart Chain Announces Strategic Cross-Blockchain
                       Integration on Vechain...
                     </span>
                   </a>
@@ -1033,14 +1011,13 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.youtube.com/watch?v=FpbXCjiyCew"
-                  >
+                    href="https://www.youtube.com/watch?v=FpbXCjiyCew">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      Cryptowolf X VSC AMA...
+                      Cryptowolf X NYT AMA...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    Influencer hosts AMA with VSC Co-founders{" "}
+                    Influencer hosts AMA with NYT Co-founders{" "}
                   </span>
                 </div>
               </div>
@@ -1065,14 +1042,13 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.youtube.com/watch?v=FpbXCjiyCew"
-                  >
+                    href="https://www.youtube.com/watch?v=FpbXCjiyCew">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      Cryptowolf X VSC AMA...
+                      Cryptowolf X NYT AMA...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    Influencer hosts AMA with VSC Co-founders{" "}
+                    Influencer hosts AMA with NYT Co-founders{" "}
                   </span>
                 </div>
               </div>
@@ -1097,8 +1073,7 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://beincrypto.com/saskatchewan-court-crypto-hack-victim/"
-                  >
+                    href="https://beincrypto.com/saskatchewan-court-crypto-hack-victim/">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
                       Saskatchewan Court Withholds Recovered Funds From Victim
                       of Crypto Hack...
@@ -1132,8 +1107,7 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://beincrypto.com/saskatchewan-court-crypto-hack-victim/"
-                  >
+                    href="https://beincrypto.com/saskatchewan-court-crypto-hack-victim/">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
                       Saskatchewan Court Withholds Recovered Funds From Victim
                       of Crypto Hack...
@@ -1167,14 +1141,13 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.youtube.com/watch?v=-pjxD7WR5xQ"
-                  >
+                    href="https://www.youtube.com/watch?v=-pjxD7WR5xQ">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      Vyvo Smart Chain update! VSC is going to set us free!...
+                      Nyoton Smart Chain update! NYT is going to set us free!...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    Influencer Reviews Vyvo Smart Chain{" "}
+                    Influencer Reviews Nyoton Smart Chain{" "}
                   </span>
                 </div>
               </div>
@@ -1199,14 +1172,13 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.youtube.com/watch?v=-pjxD7WR5xQ"
-                  >
+                    href="https://www.youtube.com/watch?v=-pjxD7WR5xQ">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      Vyvo Smart Chain update! VSC is going to set us free!...
+                      Nyoton Smart Chain update! NYT is going to set us free!...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    Influencer Reviews Vyvo Smart Chain{" "}
+                    Influencer Reviews Nyoton Smart Chain{" "}
                   </span>
                 </div>
               </div>
@@ -1231,15 +1203,14 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.youtube.com/watch?v=mXpgN2ny0U8"
-                  >
+                    href="https://www.youtube.com/watch?v=mXpgN2ny0U8">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      VeChain VET News: VeChain Partners With Vyvo Smart Chain
+                      VeChain VET News: VeChain Partners With Nyoton Smart Chain
                       ...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    Influencer reviews VSC &amp; Vechain News
+                    Influencer reviews NYT &amp; Vechain News
                   </span>
                 </div>
               </div>
@@ -1264,15 +1235,14 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.youtube.com/watch?v=mXpgN2ny0U8"
-                  >
+                    href="https://www.youtube.com/watch?v=mXpgN2ny0U8">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      VeChain VET News: VeChain Partners With Vyvo Smart Chain
+                      VeChain VET News: VeChain Partners With Nyoton Smart Chain
                       ...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    Influencer reviews VSC &amp; Vechain News
+                    Influencer reviews NYT &amp; Vechain News
                   </span>
                 </div>
               </div>
@@ -1297,15 +1267,14 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://timestabloid.com/vechain-seals-partnership-with-vyvo-smart-chain-to-revolutionize-health-data-management/"
-                  >
+                    href="https://timestabloid.com/vechain-seals-partnership-with-vyvo-smart-chain-to-revolutionize-health-data-management/">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      VeChain Seals Partnership With Vyvo Smart Chain to
+                      VeChain Seals Partnership With Nyoton Smart Chain to
                       Revolutionize Health Data Management...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    VeChain and Vyvo Smart Chain (VSC) have announced a
+                    VeChain and Nyoton Smart Chain (NYT) have announced a
                     partnership to enhance blockchain interoperability and
                     revolutionize health data management.
                   </span>
@@ -1332,15 +1301,14 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://timestabloid.com/vechain-seals-partnership-with-vyvo-smart-chain-to-revolutionize-health-data-management/"
-                  >
+                    href="https://timestabloid.com/vechain-seals-partnership-with-vyvo-smart-chain-to-revolutionize-health-data-management/">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      VeChain Seals Partnership With Vyvo Smart Chain to
+                      VeChain Seals Partnership With Nyoton Smart Chain to
                       Revolutionize Health Data Management...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    VeChain and Vyvo Smart Chain (VSC) have announced a
+                    VeChain and Nyoton Smart Chain (NYT) have announced a
                     partnership to enhance blockchain interoperability and
                     revolutionize health data management.
                   </span>
@@ -1367,15 +1335,14 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://finance.yahoo.com/news/vsc-healthfi-ecosystem-sees-strong-010000964.html"
-                  >
+                    href="https://finance.yahoo.com/news/vsc-healthfi-ecosystem-sees-strong-010000964.html">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      VSC HealthFi Ecosystem Sees Strong Usage Just 8 Months
+                      NYT HealthFi Ecosystem Sees Strong Usage Just 8 Months
                       Post Mainnet Launch...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    Within a year of its Mainnet launch, the VSC HealthFi
+                    Within a year of its Mainnet launch, the NYT HealthFi
                     Ecosystem has generated 42K unique users creating health
                     data daily on the protocol.
                   </span>
@@ -1402,15 +1369,14 @@ function Section2() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://finance.yahoo.com/news/vsc-healthfi-ecosystem-sees-strong-010000964.html"
-                  >
+                    href="https://finance.yahoo.com/news/vsc-healthfi-ecosystem-sees-strong-010000964.html">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      VSC HealthFi Ecosystem Sees Strong Usage Just 8 Months
+                      NYT HealthFi Ecosystem Sees Strong Usage Just 8 Months
                       Post Mainnet Launch...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    Within a year of its Mainnet launch, the VSC HealthFi
+                    Within a year of its Mainnet launch, the NYT HealthFi
                     Ecosystem has generated 42K unique users creating health
                     data daily on the protocol.
                   </span>

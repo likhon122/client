@@ -11,7 +11,7 @@ function Section6() {
           <div className="grid grid-cols-12">
             <div className="hidden lg:block lg:col-span-3 vertical-text-right">
               <span className="text-xs leading-[18px] text-white lg:relative lg:left-[450px]">
-                <span className="mr-6">[</span> VYVO&nbsp;
+                <span className="mr-6">[</span> NYOTON&nbsp;
                 <span className="text-[#979797] leading-[18px] ml-2">
                   /&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/
                 </span>
@@ -67,8 +67,7 @@ function Section6() {
                         <a target="_blank" href="#">
                           <button
                             type="submit"
-                            className="border-[1px] border-[#FCFCFC26] rounded-[43px] text-base font-light leading-[22px] text-[#FCFCFC] px-8 py-4 lg:w-full 2xl:w-3/5 mt-10 flex justify-center items-center"
-                          >
+                            className="border-[1px] border-[#FCFCFC26] rounded-[43px] text-base font-light leading-[22px] text-[#FCFCFC] px-8 py-4 lg:w-full 2xl:w-3/5 mt-10 flex justify-center items-center">
                             <span>Learn More</span>
                             <img
                               alt="Arrow right"
@@ -129,8 +128,7 @@ function Section6() {
                         <a target="_blank" href="#">
                           <button
                             type="submit"
-                            className="border-[1px] border-[#FCFCFC26] rounded-[43px] text-base font-light leading-[22px] text-[#FCFCFC] px-8 py-4 lg:w-full 2xl:w-3/5 mt-10 flex justify-center items-center"
-                          >
+                            className="border-[1px] border-[#FCFCFC26] rounded-[43px] text-base font-light leading-[22px] text-[#FCFCFC] px-8 py-4 lg:w-full 2xl:w-3/5 mt-10 flex justify-center items-center">
                             <span>Learn More</span>
                             <img
                               alt="Arrow right"
@@ -161,7 +159,7 @@ function Section6() {
                   DATA
                 </span>
                 <span className="text-xs text-[#979797] leading-[18px]">
-                  VSC NETWORK
+                  NYT NETWORK
                 </span>
               </div>
             </div>

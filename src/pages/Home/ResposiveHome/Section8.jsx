@@ -7,7 +7,7 @@ function Section8() {
   return (
     <>
       <div className="mx-4 my-10">
-        <div className="flex flex-col gap-y-8">
+        {/* <div className="flex flex-col gap-y-8">
           <span className="text-white text-[36px] leading-[34px]">
             Developer <span className="faded-pink">Resources</span>
           </span>
@@ -32,8 +32,8 @@ function Section8() {
               By developers for developers.
             </span>
           </div>
-        </div>
-        <div id="developer-carousel">
+        </div> */}
+        {/* <div id="developer-carousel">
           <div className="">
             <div className="swiper swiper-initialized swiper-horizontal mySwiper overflow-auto swiper-backface-hidden">
               <div
@@ -123,8 +123,8 @@ function Section8() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="flex flex-col my-8 gap-y-4">
+        </div> */}
+        {/* <div className="flex flex-col my-8 gap-y-4">
           <span className="text-white text-[36px] font-light leading-[48px]">
             Successful Projects &amp; Partners
           </span>
@@ -148,9 +148,9 @@ function Section8() {
               />
             </button>
           </a>
-        </div>
-        <div className="border-[1px] border-[#FFFFFF] opacity-[25%]"></div>
-        <div className="my-10" id="projects-carousel">
+        </div> */}
+        {/* <div className="border-[1px] border-[#FFFFFF] opacity-[25%]"></div> */}
+        {/* <div className="my-10" id="projects-carousel">
           <div className="card-container-mobile">
             <div className="w-[300px] sm:w-[422px] h-[526px] bg-[url('https://www.vyvo.com/backgrounds/inPersona.png')] bg-no-repeat rounded-xl pl-7 pt-7 flex flex-col card-mobile">
               <div className="flex space-x-[10px] z-10">
@@ -225,7 +225,7 @@ function Section8() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="flex justify-center items-center">
           <span className="text-white text-[36px] leading-[36px] font-normal">
             FAQs
@@ -241,24 +241,21 @@ function Section8() {
                   id="accordion-button-:r6c:"
                   aria-expanded="false"
                   aria-controls="accordion-panel-:r6c:"
-                  data-index="0"
-                >
+                  data-index="0">
                   <span className="text-[14px] font-light opacity-40 text-[#FCFCFC] mr-10">
                     01.
                   </span>
                   <span className="text-[#FCFCFC]  opacity-40 text-[16px] leading-[44px] font-light py-4 css-1eziwv">
-                    What is Vyvo Smart Chain Network?
+                    What is Nyoton Smart Chain Network?
                   </span>
                   <svg
                     viewBox="0 0 24 24"
                     focusable="false"
                     className="chakra-icon chakra-accordion__icon css-186l2rg"
-                    aria-hidden="true"
-                  >
+                    aria-hidden="true">
                     <path
                       fill="currentColor"
-                      d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                    ></path>
+                      d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
                   </svg>
                 </button>
               </h2>
@@ -269,14 +266,12 @@ function Section8() {
                   display: "none",
                   opacity: 0,
                   height: "0px",
-                }}
-              >
+                }}>
                 <div
                   role="region"
                   id="accordion-panel-:r6c:"
                   aria-labelledby="accordion-button-:r6c:"
-                  className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light leading-[22px] text-[14px] css-1hb5ode"
-                >
+                  className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light leading-[22px] text-[14px] css-1hb5ode">
                   <span className="font-light opacity-40 text-[#FCFCFC] hidden">
                     02.
                   </span>
@@ -296,8 +291,7 @@ function Section8() {
                   id="accordion-button-:r6e:"
                   aria-expanded="false"
                   aria-controls="accordion-panel-:r6e:"
-                  data-index="1"
-                >
+                  data-index="1">
                   <span className="text-[14px] font-light opacity-40 text-[#FCFCFC] mr-10">
                     02.
                   </span>
@@ -308,12 +302,10 @@ function Section8() {
                     viewBox="0 0 24 24"
                     focusable="false"
                     className="chakra-icon chakra-accordion__icon css-186l2rg"
-                    aria-hidden="true"
-                  >
+                    aria-hidden="true">
                     <path
                       fill="currentColor"
-                      d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                    ></path>
+                      d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
                   </svg>
                 </button>
               </h2>
@@ -324,14 +316,12 @@ function Section8() {
                   display: "none",
                   opacity: 0,
                   height: "0px",
-                }}
-              >
+                }}>
                 <div
                   role="region"
                   id="accordion-panel-:r6e:"
                   aria-labelledby="accordion-button-:r6e:"
-                  className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light leading-[22px] text-[14px] flex  css-1hb5ode"
-                >
+                  className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light leading-[22px] text-[14px] flex  css-1hb5ode">
                   <span className="font-light opacity-40 text-[#FCFCFC] hidden">
                     03.
                   </span>
@@ -350,24 +340,21 @@ function Section8() {
                   id="accordion-button-:r6g:"
                   aria-expanded="false"
                   aria-controls="accordion-panel-:r6g:"
-                  data-index="2"
-                >
+                  data-index="2">
                   <span className="text-[14px] font-light opacity-40 text-[#FCFCFC] mr-10">
                     03.
                   </span>
                   <span className="text-[#FCFCFC]  opacity-40 text-[16px] leading-[44px] font-light py-4 css-1eziwv">
-                    What is Vyvo Coin $(VSC)?
+                    What is Nyoton Coin $(NYT)?
                   </span>
                   <svg
                     viewBox="0 0 24 24"
                     focusable="false"
                     className="chakra-icon chakra-accordion__icon css-186l2rg"
-                    aria-hidden="true"
-                  >
+                    aria-hidden="true">
                     <path
                       fill="currentColor"
-                      d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                    ></path>
+                      d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
                   </svg>
                 </button>
               </h2>
@@ -378,14 +365,12 @@ function Section8() {
                   display: "none",
                   opacity: 0,
                   height: "0px",
-                }}
-              >
+                }}>
                 <div
                   role="region"
                   id="accordion-panel-:r6g:"
                   aria-labelledby="accordion-button-:r6g:"
-                  className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light leading-[22px] text-[14px] flex  css-1hb5ode"
-                >
+                  className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light leading-[22px] text-[14px] flex  css-1hb5ode">
                   <span className="font-light opacity-40 text-[#FCFCFC] hidden">
                     04.
                   </span>
@@ -404,8 +389,7 @@ function Section8() {
                   id="accordion-button-:r6i:"
                   aria-expanded="false"
                   aria-controls="accordion-panel-:r6i:"
-                  data-index="3"
-                >
+                  data-index="3">
                   <span className="text-[14px] font-light opacity-40 text-[#FCFCFC] mr-10">
                     04.
                   </span>
@@ -416,12 +400,10 @@ function Section8() {
                     viewBox="0 0 24 24"
                     focusable="false"
                     className="chakra-icon chakra-accordion__icon css-186l2rg"
-                    aria-hidden="true"
-                  >
+                    aria-hidden="true">
                     <path
                       fill="currentColor"
-                      d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                    ></path>
+                      d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
                   </svg>
                 </button>
               </h2>
@@ -432,14 +414,12 @@ function Section8() {
                   display: "none",
                   opacity: 0,
                   height: "0px",
-                }}
-              >
+                }}>
                 <div
                   role="region"
                   id="accordion-panel-:r6i:"
                   aria-labelledby="accordion-button-:r6i:"
-                  className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light leading-[22px] text-[14px] flex  css-1hb5ode"
-                >
+                  className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light leading-[22px] text-[14px] flex  css-1hb5ode">
                   <span className="font-light opacity-40 text-[#FCFCFC] hidden">
                     05.
                   </span>
@@ -460,8 +440,7 @@ function Section8() {
                   id="accordion-button-:r6k:"
                   aria-expanded="false"
                   aria-controls="accordion-panel-:r6k:"
-                  data-index="4"
-                >
+                  data-index="4">
                   <span className="text-[14px] font-light opacity-40 text-[#FCFCFC] mr-10">
                     05.
                   </span>
@@ -472,12 +451,10 @@ function Section8() {
                     viewBox="0 0 24 24"
                     focusable="false"
                     className="chakra-icon chakra-accordion__icon css-186l2rg"
-                    aria-hidden="true"
-                  >
+                    aria-hidden="true">
                     <path
                       fill="currentColor"
-                      d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                    ></path>
+                      d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
                   </svg>
                 </button>
               </h2>
@@ -488,14 +465,12 @@ function Section8() {
                   display: "none",
                   opacity: 0,
                   height: "0px",
-                }}
-              >
+                }}>
                 <div
                   role="region"
                   id="accordion-panel-:r6k:"
                   aria-labelledby="accordion-button-:r6k:"
-                  className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light leading-[22px] flex text-[14px] css-1hb5ode"
-                >
+                  className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light leading-[22px] flex text-[14px] css-1hb5ode">
                   <span className="font-light opacity-40 text-[#FCFCFC] hidden">
                     06.
                   </span>
@@ -514,8 +489,7 @@ function Section8() {
                   id="accordion-button-:r6m:"
                   aria-expanded="false"
                   aria-controls="accordion-panel-:r6m:"
-                  data-index="5"
-                >
+                  data-index="5">
                   <span className="text-[14px] font-light opacity-40 text-[#FCFCFC] mr-10">
                     06.
                   </span>
@@ -526,12 +500,10 @@ function Section8() {
                     viewBox="0 0 24 24"
                     focusable="false"
                     className="chakra-icon chakra-accordion__icon css-186l2rg"
-                    aria-hidden="true"
-                  >
+                    aria-hidden="true">
                     <path
                       fill="currentColor"
-                      d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                    ></path>
+                      d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
                   </svg>
                 </button>
               </h2>
@@ -542,14 +514,12 @@ function Section8() {
                   display: "none",
                   opacity: 0,
                   height: "0px",
-                }}
-              >
+                }}>
                 <div
                   role="region"
                   id="accordion-panel-:r6m:"
                   aria-labelledby="accordion-button-:r6m:"
-                  className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light leading-[22px] text-[14px] flex css-1hb5ode"
-                >
+                  className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light leading-[22px] text-[14px] flex css-1hb5ode">
                   <span className="font-light opacity-40 text-[#FCFCFC] hidden">
                     07.
                   </span>
@@ -563,11 +533,11 @@ function Section8() {
             </div>
           </div>
         </div>
-        <div className=" my-10">
+        {/* <div className=" my-10">
           <span className="text-[36px] font-light leading-[36px] text-white">
             Some of our partners
           </span>
-        </div>
+        </div> */}
       </div>
     </>
   );

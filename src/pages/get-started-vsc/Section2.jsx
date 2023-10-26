@@ -51,7 +51,7 @@ function Section2() {
                     <span className="text-base font-light text-[#AFAFAF] mt-4">
                       Traditional data platforms often lack transparency, and
                       users often do not have control over their personal data.
-                      VSC allows individuals to have control over their data,
+                      NYT allows individuals to have control over their data,
                       giving access to monetize it.
                     </span>
                   </div>
@@ -64,7 +64,7 @@ function Section2() {
                     </div>
                     <span className="text-base font-light text-[#AFAFAF] mt-4">
                       Centralized data systems can be vulnerable to breaches.
-                      VSC leverages blockchain technology to provide security
+                      NYT leverages blockchain technology to provide security
                       and user anonymity.
                     </span>
                   </div>
@@ -76,7 +76,7 @@ function Section2() {
                       <div className="border-t-[1px] w-full border-[#FFFFFF] opacity-40 mt-2"></div>
                     </div>
                     <span className="text-base font-light text-[#AFAFAF] mt-4">
-                      Researchers often struggle to access verified data. VSC
+                      Researchers often struggle to access verified data. NYT
                       provides them with the ability to purchase authenticated
                       health data.
                     </span>
@@ -140,7 +140,7 @@ function Section2() {
                   <span className="text-base font-light text-[#AFAFAF] mt-4">
                     Traditional data platforms often lack transparency, and
                     users often do not have control over their personal data.
-                    VSC allows individuals to have control over their data,
+                    NYT allows individuals to have control over their data,
                     giving access to monetize it.
                   </span>
                 </div>
@@ -150,7 +150,7 @@ function Section2() {
                   </span>
                   <div className="border-t-[1px] w-full border-[#FFFFFF] opacity-40"></div>
                   <span className="text-base font-light text-[#AFAFAF] mt-4">
-                    Centralized data systems can be vulnerable to breaches. VSC
+                    Centralized data systems can be vulnerable to breaches. NYT
                     leverages blockchain technology to provide security and user
                     anonymity.
                   </span>
@@ -161,7 +161,7 @@ function Section2() {
                   </span>
                   <div className="border-t-[1px] w-full border-[#FFFFFF] opacity-40"></div>
                   <span className="text-base font-light text-[#AFAFAF] mt-4">
-                    Researchers often struggle to access verified data. VSC
+                    Researchers often struggle to access verified data. NYT
                     provides them with the ability to purchase authenticated
                     health data.
                   </span>
@@ -192,7 +192,7 @@ function Section2() {
             </div>
             <div className="col-span-6">
               <p className="text-[#979797] font-light leading-[18px] mt-3 text-xs text-right lg:text-left">
-                VYVO SMART CHAIN
+                NYTOTON SMART CHAIN
               </p>
             </div>
           </div>

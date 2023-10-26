@@ -3,16 +3,17 @@ import React from "react";
 
 // css
 import "./section9.css";
+import { NavHashLink } from "react-router-hash-link";
 function Section9() {
   return (
     <>
       <div className="mx-4 mt-8">
-        <div className="my-4">
+        {/* <div className="my-4">
           <span className="text-base font-light leading-[21px] text-[#979797]">
             Partner and awards
           </span>
-        </div>
-        <div className="scrollable-grid">
+        </div> */}
+        {/* <div className="scrollable-grid">
           <a
             target="_blank"
             rel="noreferrer"
@@ -298,13 +299,13 @@ function Section9() {
               </span>
             </div>
           </a>
-        </div>
-        <div className="my-4">
+        </div> */}
+        {/* <div className="my-4">
           <span className="text-base font-light text-[#979797] leading-[21px]">
             Compatible Wallets
           </span>
-        </div>
-        <div className="scrollable-grid mb-8">
+        </div> */}
+        {/* <div className="scrollable-grid mb-8">
           <a target="_blank" rel="noreferrer" href="https://www.metamask.io/">
             <div className="border-[1px] rounded-xl border-[#FCFCFC33] flex justify-center items-center h-[76px] logo-card w-[172px] mr-4">
               <span className="">
@@ -415,7 +416,7 @@ function Section9() {
               </span>
             </div>
           </a>
-        </div>
+        </div> */}
         <div className="huge-dots-left"></div>
         <div className="huge-dots-right">
           <div className="grid grid-cols-12 gap-y-10 relative top-[-100px]">
@@ -432,11 +433,10 @@ function Section9() {
             </div>
             <div
               className="col-span-12"
-              style={{ opacity: 1, transform: "none" }}
-            >
+              style={{ opacity: 1, transform: "none" }}>
               <div className="col-span-12 grid grid-cols-12">
                 <div className="col-span-12 lg:col-span-6 grid grid-cols-12 gap-y-8">
-                  <a
+                  {/* <a
                     className="col-span-6"
                     href="https://www.youtube.com/@VyvoSmartChain"
                   >
@@ -458,11 +458,10 @@ function Section9() {
                         }}
                       />
                     </button>
-                  </a>
+                  </a> */}
                   <a
                     className="col-span-6"
-                    href="https://twitter.com/VyvoSmartChain"
-                  >
+                    href="https://twitter.com/VyvoSmartChain">
                     <button className="text-base font-normal text-[#FCFCFC] leading-[21px] hover:faded-lilac flex justify-center items-center">
                       Twitter
                       <img
@@ -482,7 +481,7 @@ function Section9() {
                       />
                     </button>
                   </a>
-                  <a
+                  {/* <a
                     className="col-span-6"
                     href="https://medium.com/@vyvosmartchain"
                   >
@@ -504,8 +503,8 @@ function Section9() {
                         }}
                       />
                     </button>
-                  </a>
-                  <a className="col-span-6" href="/contact-us">
+                  </a> */}
+                  <NavHashLink className="col-span-6" to="/contact-us#">
                     <button className="text-base font-normal text-[#FCFCFC] leading-[21px] hover:faded-lilac flex justify-center items-center">
                       Contact-us
                       <img
@@ -524,8 +523,8 @@ function Section9() {
                         }}
                       />
                     </button>
-                  </a>
-                  <a
+                  </NavHashLink>
+                  {/* <a
                     className="col-span-6"
                     href="https://discord.gg/VyvoSmartChain"
                   >
@@ -547,11 +546,8 @@ function Section9() {
                         }}
                       />
                     </button>
-                  </a>
-                  <a
-                    className="col-span-6"
-                    href="https://t.me/VyvoSmartChainEN"
-                  >
+                  </a> */}
+                  <a className="col-span-6" href="https://t.me/nyotonwealth">
                     <button className="text-base font-normal text-[#FCFCFC] leading-[21px] hover:faded-lilac flex justify-center items-center">
                       Telegram
                       <img

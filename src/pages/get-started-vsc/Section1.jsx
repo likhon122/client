@@ -14,7 +14,7 @@ function Section1() {
               </span>
               <span className="text-[36px] leading-[36px] lg:text-[90px] lg:leading-[92px] font-light text-white">
                 What is <br />
-                <span className="faded-lilac-alt">Vyvo Smart Chain?</span>
+                <span className="faded-lilac-alt">NYOTON Smart Chain?</span>
               </span>
             </div>
             <div className="hidden lg:block lg:col-span-1 lg:col-start-12 vertical-text-right left-[100%]">
@@ -42,15 +42,15 @@ function Section1() {
             </div>
             <div className="col-span-12 lg:col-span-4 mb-4 lg:mb-0">
               <span className="text-white text-base font-light leading-[22px]">
-                <span className="faded-pink-tertiary">Vyvo Smart Chain</span>{" "}
-                (VSC Network) is a comprehensive blockchain infrastructure that
+                <span className="faded-pink-tertiary">NYOTON Smart Chain</span>{" "}
+                (NYT Network) is a comprehensive blockchain infrastructure that
                 bridges IoT device users and institutions, letting users regain
                 ownership of their data.
               </span>
             </div>
             <div className="col-span-12 lg:col-span-3 mb-4 lg:mb-0">
               <span className="text-white text-base font-light leading-[22px]">
-                VSC Network aims to solve key problems related to data
+                NYT Network aims to solve key problems related to data
                 ownership, privacy, and monetization.
               </span>
             </div>
@@ -62,7 +62,7 @@ function Section1() {
             </div>
             <div className="col-span-6">
               <p className="text-[#979797] font-light leading-[18px] mt-3 text-right text-xs">
-                VYVO SMART CHAIN
+                NYOTON SMART CHAIN
               </p>
             </div>
           </div>

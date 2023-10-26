@@ -8,6 +8,7 @@ import Section3 from "./Section3";
 import Section4 from "./Section4";
 import Section5 from "./Section5";
 import Section6 from "./Section6";
+import Marquee from "../../components/Marquee";
 function DataBuyerPage() {
   return (
     <>
@@ -19,6 +20,7 @@ function DataBuyerPage() {
           <Section4 />
           <Section5 />
           <Section6 />
+          <Marquee/>
         </div>
       </div>
     </>

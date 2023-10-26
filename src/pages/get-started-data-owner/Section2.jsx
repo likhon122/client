@@ -28,7 +28,7 @@ function Section2() {
                   data.
                 </span>
                 <span className="faded-light-blue font-light">
-                  VSC aims to build the world`s first decentralized health data
+                  NYT aims to build the world`s first decentralized health data
                   platform where users are the sole owners of their data and its
                   value.
                 </span>

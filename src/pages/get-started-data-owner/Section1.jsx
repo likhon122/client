@@ -52,7 +52,7 @@ function Section1() {
                   <span className="faded-light-blue">Data Owner.</span>
                 </span>
                 <span className="text-white text-base font-light leading-[22px]">
-                  VSC empowers Data Owners with decentralization to allow data
+                  NYT empowers Data Owners with decentralization to allow data
                   ownership, privacy, and the ability to monetise their health
                   data.
                 </span>
@@ -101,7 +101,7 @@ function Section1() {
             </div>
             <div className="col-span-6">
               <p className="text-[#979797] font-light leading-[18px] mt-3 text-right text-xs">
-                VYVO SMART CHAIN
+                NYOTON SMART CHAIN
               </p>
             </div>
           </div>

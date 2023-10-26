@@ -2,6 +2,7 @@
 import React from "react";
 
 import "./section10.css";
+import { NavHashLink } from "react-router-hash-link";
 
 const syleDiv = {
   opacity: 1,
@@ -41,8 +42,7 @@ function Section10() {
                   </span>
                   <div
                     className="w-full flex justify-center"
-                    style={syleDiv}
-                  ></div>
+                    style={syleDiv}></div>
                 </div>
               </div>
             </div>
@@ -58,13 +58,11 @@ function Section10() {
                     justifyContent: "center",
                     width: "225px",
                     marginRight: "50px",
-                  }}
-                >
+                  }}>
                   <div style={syleDiv}>
                     <div
                       className="h-[425px] bg-cover bg-right rounded-xl bg-no-repeat flex flex-wrap items-end $"
-                      style={{ backgroundPpositionY: "0px" }}
-                    >
+                      style={{ backgroundPpositionY: "0px" }}>
                       <div className="-z-10">
                         <img
                           alt="BuildingWatch"
@@ -115,13 +113,11 @@ function Section10() {
                     justifyContent: "center",
                     width: " 225px",
                     marginRight: "50px",
-                  }}
-                >
+                  }}>
                   <div style={syleDiv}>
                     <div
                       className="h-[425px] bg-cover bg-right rounded-xl bg-no-repeat flex flex-wrap items-end $"
-                      style={{ backgroundPositionY: "0px" }}
-                    >
+                      style={{ backgroundPositionY: "0px" }}>
                       <div className="-z-10">
                         <img
                           alt="ExpandCarouselCard2"
@@ -172,13 +168,11 @@ function Section10() {
                     justifyContent: "start",
                     width: "225px",
                     marginRight: "50px",
-                  }}
-                >
+                  }}>
                   <div style={syleDiv}>
                     <div
                       className="h-[425px] bg-cover bg-right rounded-xl bg-no-repeat flex flex-wrap items-end $"
-                      style={{ backgroundPositionY: "10%" }}
-                    >
+                      style={{ backgroundPositionY: "10%" }}>
                       <div className="-z-10">
                         <img
                           alt="NutralifeAI"
@@ -230,8 +224,7 @@ function Section10() {
                   style={{
                     transform: "translate3d(0px, 0px, 0px)",
                     width: "841.29px",
-                  }}
-                ></div>
+                  }}></div>
               </div>
             </div>
           </div>
@@ -246,7 +239,7 @@ function Section10() {
             Successful Projects &amp; Partners
           </span>
           <div className="flex justify-end" style={syleDiv}>
-            <a href="/get-started-device-manufacturers">
+            <NavHashLink to="/get-started-device-manufacturers#">
               <button className="border-faded-pink py-3 w-full px-8 flex justify-center items-center hover:border-faded-pink-pressed">
                 <span className="text-white">Learn More</span>
                 <img
@@ -265,7 +258,7 @@ function Section10() {
                   }}
                 />
               </button>
-            </a>
+            </NavHashLink>
           </div>
         </div>
         <div className="border-[1px] border-[#FFFFFF] opacity-[25%]"></div>

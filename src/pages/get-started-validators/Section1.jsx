@@ -8,8 +8,7 @@ function Section1() {
     <>
       <div
         id="vsc-foundation"
-        className="validators-bg lg:h-[640px] pt-[140px] lg:pt-0"
-      >
+        className="validators-bg lg:h-[640px] pt-[140px] lg:pt-0">
         <div className="mx-4 lg:mx-12">
           <div className="grid grid-cols-12 lg:gap-x-16 gap-y-4 lg:relative lg:top-[280px]">
             <div className="col-span-12 lg:col-span-11 lg:mb-10">
@@ -19,7 +18,7 @@ function Section1() {
               <span className="text-[36px] leading-[36px] lg:text-[90px] lg:leading-[92px] font-light text-white">
                 <span className="faded-pink-to-orange">Secure the</span>
                 <br />
-                Network Earn $VSC
+                Network Earn $NYT
               </span>
             </div>
             <div className="hidden lg:block lg:col-span-1 lg:col-start-12 vertical-text-right left-[100%]">
@@ -63,7 +62,7 @@ function Section1() {
               <span className="text-white text-base font-light leading-[22px] ">
                 <span className="faded-pink-to-orange ml-8">Validators</span>{" "}
                 and <span className="faded-pink-to-orange">Delegators</span> are
-                the foundation of the VSC Network. By processing transactions,
+                the foundation of the NYT Network. By processing transactions,
                 each validator helps make Vyvo Smart Chain the first
                 decentralised health data platform in the world.
               </span>
@@ -78,8 +77,7 @@ function Section1() {
                 <a className="flex justify-start" href="#">
                   <button
                     type="submit"
-                    className="border-faded-tangerine border-faded-tangerine-hover text-base font-light leading-[22px] text-[#FCFCFC] px-8 py-4 lg:w-3/5 w-full flex justify-center items-center"
-                  >
+                    className="border-faded-tangerine border-faded-tangerine-hover text-base font-light leading-[22px] text-[#FCFCFC] px-8 py-4 lg:w-3/5 w-full flex justify-center items-center">
                     Start Staking
                     <img
                       alt="Arrow right"
@@ -122,12 +120,12 @@ function Section1() {
             </div>
             <div className="hidden lg:block col-span-5">
               <p className="text-[#979797] font-light leading-[18px] mt-3 text-xs">
-                VSC
+                NYT
               </p>
             </div>
             <div className="col-span-6 lg:col-span-3">
               <p className="text-[#979797] font-light leading-[18px] mt-3 text-right text-xs">
-                VYVO SMART CHAIN
+                NYOTON SMART CHAIN
               </p>
             </div>
           </div>

@@ -10,7 +10,7 @@ function Section4() {
           <div className="grid grid-cols-12 lg:gap-x-16 relative">
             <div className="col-span-12 mb-5 lg:mb-10">
               <span className="text-[36px] leading-[36px] lg:text-[90px] lg:leading-[92px] font-light text-white">
-                $VSC <span className="faded-purple-vertical">and </span>{" "}
+                $NYT <span className="faded-purple-vertical">and </span>{" "}
                 <span className="border-b-[1px] border-[#FFFFFFCC]">
                   Data-NFTs
                 </span>
@@ -37,19 +37,19 @@ function Section4() {
             </div>
             <div className="col-span-12 lg:col-span-4 flex flex-col">
               <span className="text-white text-base font-light leading-[22px]">
-                <span className="faded-tangerine">Vyvo Coin ($VSC)</span> is the
-                native currency of{" "}
+                <span className="faded-tangerine">NYOTON Coin ($NYT)</span> is
+                the native currency of{" "}
                 <span className="faded-lilac-alt">
-                  Vyvo Smart Chain (VSC Network)
+                  NYOTON Smart Chain (NYT Network)
                 </span>
-                .<br /> $VSC a digital asset that runs on the VSC Network and
-                serves as a medium of exchange within the ecosystem. $VSC can be
+                .<br /> $NYT a digital asset that runs on the NYT Network and
+                serves as a medium of exchange within the ecosystem. $NYT can be
                 used for various purposes, such as staking and participating in
                 decentralised applications (dApps).
               </span>
               <span className="text-white text-base font-light leading-[22px] mt-10">
-                $VSC`s main use is rewarding users who contribute health data
-                through their VSC-compatible IoT devices, building the network`s
+                $NYT`s main use is rewarding users who contribute health data
+                through their NYT-compatible IoT devices, building the network`s
                 <span className="faded-pink-tertiary">
                   &nbsp;Decentralised Data Health (DDH){" "}
                 </span>{" "}

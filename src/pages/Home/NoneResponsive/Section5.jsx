@@ -2,6 +2,7 @@
 import React from "react";
 
 import "./section5.css";
+import { NavHashLink } from "react-router-hash-link";
 function Section5() {
   return (
     <>
@@ -41,8 +42,7 @@ function Section5() {
             <div className="swiper-wrapper">
               <div
                 className="swiper-slide peer md:ml-12 swiper-slide-active"
-                style={{ width: "225px", marginRight: "50px" }}
-              >
+                style={{ width: "225px", marginRight: "50px" }}>
                 <div style={{ opacity: 1, transform: "none" }}>
                   <div className="">
                     <div className="h-[481px] w-[335px] bg-[#121212] px-10 py-10 group relative peer lg:hover:z-30">
@@ -104,7 +104,7 @@ function Section5() {
                         </ul>
                       </div>
                       <div className="mt-10 flex justify-start relative z-[9000]">
-                        <a href="/get-started-device-manufacturers">
+                        <NavHashLink to="/get-started-device-manufacturers#">
                           <button className="text-[#FCFCFC] text-[16px] font-light leading-[22px] px-9 py-3.5 rounded-[43px] border border-[#fcfcfc]/[0.15] flex space-x-[18px] items-center hover:border-faded-green-lime">
                             <span>Learn More</span>
                             <div className="relative h-3 w-[6px]">
@@ -126,7 +126,7 @@ function Section5() {
                               />
                             </div>
                           </button>
-                        </a>
+                        </NavHashLink>
                       </div>
                     </div>
                     <div className="absolute top-0 h-[481px] w-[335px] bg-cover bg-[url('https://www.vyvo.com/backgrounds/card-hover-bg.png')]  px-10 py-10  lg:peer-hover:-rotate-12 transition duration-700 ease-in-out lg:peer-hover:z-10 invisible lg:peer-hover:visible rounded-xl"></div>
@@ -135,8 +135,7 @@ function Section5() {
               </div>
               <div
                 className="swiper-slide peer peer-hover:z-30 swiper-slide-next"
-                style={{ width: "225px", marginRight: "50px" }}
-              >
+                style={{ width: "225px", marginRight: "50px" }}>
                 <div style={{ opacity: 1, transform: "none" }}>
                   <div className="">
                     <div className="h-[481px] w-[335px] bg-[#121212] px-10 py-10 group relative peer lg:hover:z-30">
@@ -198,7 +197,7 @@ function Section5() {
                         </ul>
                       </div>
                       <div className="mt-10 flex justify-start relative z-[9000]">
-                        <a href="/get-started-data-owner">
+                        <NavHashLink to="/get-started-data-owner#">
                           <button className="text-[#FCFCFC] text-[16px] font-light leading-[22px] px-9 py-3.5 rounded-[43px] border border-[#fcfcfc]/[0.15] flex space-x-[18px] items-center hover:border-faded-light-blue">
                             <span>Start Owning</span>
                             <div className="relative h-3 w-[6px]">
@@ -220,7 +219,7 @@ function Section5() {
                               />
                             </div>
                           </button>
-                        </a>
+                        </NavHashLink>
                       </div>
                     </div>
                     <div className="absolute top-0 h-[481px] w-[335px] bg-cover bg-[url('https://www.vyvo.com/backgrounds/card-hover-bg.png')]  px-10 py-10  lg:peer-hover:-rotate-12 transition duration-700 ease-in-out lg:peer-hover:z-10 invisible lg:peer-hover:visible rounded-xl"></div>
@@ -229,8 +228,7 @@ function Section5() {
               </div>
               <div
                 className="swiper-slide peer peer-hover:z-30"
-                style={{ width: "225px", marginRight: "50px" }}
-              >
+                style={{ width: "225px", marginRight: "50px" }}>
                 <div style={{ opacity: 1, transform: "none" }}>
                   <div className="">
                     <div className="h-[481px] w-[335px] bg-[#121212] px-10 py-10 group relative peer lg:hover:z-30">
@@ -292,7 +290,7 @@ function Section5() {
                         </ul>
                       </div>
                       <div className="mt-10 flex justify-start relative z-[9000]">
-                        <a href="/get-started-validators">
+                        <NavHashLink to="/get-started-validators#">
                           <button className="text-[#FCFCFC] text-[16px] font-light leading-[22px] px-9 py-3.5 rounded-[43px] border border-[#fcfcfc]/[0.15] flex space-x-[18px] items-center hover:border-faded-pink-to-orange">
                             <span>Start Staking</span>
                             <div className="relative h-3 w-[6px]">
@@ -314,7 +312,7 @@ function Section5() {
                               />
                             </div>
                           </button>
-                        </a>
+                        </NavHashLink>
                       </div>
                     </div>
                     <div className="absolute top-0 h-[481px] w-[335px] bg-cover bg-[url('https://www.vyvo.com/backgrounds/card-hover-bg.png')]  px-10 py-10  lg:peer-hover:-rotate-12 transition duration-700 ease-in-out lg:peer-hover:z-10 invisible lg:peer-hover:visible rounded-xl"></div>
@@ -323,8 +321,7 @@ function Section5() {
               </div>
               <div
                 className="swiper-slide peer peer-hover:z-30"
-                style={{ width: "225px", marginRight: "50px" }}
-              >
+                style={{ width: "225px", marginRight: "50px" }}>
                 <div style={{ opacity: 1, transform: "none" }}>
                   <div className="">
                     <div className="h-[481px] w-[335px] bg-[#121212] px-10 py-10 group relative peer lg:hover:z-30">
@@ -386,7 +383,7 @@ function Section5() {
                         </ul>
                       </div>
                       <div className="mt-10 flex justify-start relative z-[9000]">
-                        <a href="/get-started-data-buyer">
+                        <NavHashLink to="/get-started-data-buyer#">
                           <button className="text-[#FCFCFC] text-[16px] font-light leading-[22px] px-9 py-3.5 rounded-[43px] border border-[#fcfcfc]/[0.15] flex space-x-[18px] items-center hover:border-faded-tangerine">
                             <span>Learn More</span>
                             <div className="relative h-3 w-[6px]">
@@ -408,7 +405,7 @@ function Section5() {
                               />
                             </div>
                           </button>
-                        </a>
+                        </NavHashLink>
                       </div>
                     </div>
                     <div className="absolute top-0 h-[481px] w-[335px] bg-cover bg-[url('https://www.vyvo.com/backgrounds/card-hover-bg.png')]  px-10 py-10  lg:peer-hover:-rotate-12 transition duration-700 ease-in-out lg:peer-hover:z-10 invisible lg:peer-hover:visible rounded-xl"></div>
@@ -417,14 +414,12 @@ function Section5() {
               </div>
               <div
                 className="swiper-slide peer peer-hover:z-30"
-                style={{ width: "225px", marginRight: "50px" }}
-              >
+                style={{ width: "225px", marginRight: "50px" }}>
                 <div
                   style={{
                     opacity: 0,
                     transform: "translateY(24px) translateZ(0px)",
-                  }}
-                >
+                  }}>
                   <div className="">
                     <div className="h-[481px] w-[335px] bg-[#121212] px-10 py-10 group relative peer lg:hover:z-30">
                       <img
@@ -499,8 +494,7 @@ function Section5() {
                 style={{
                   transform: "translate3d(0px, 0px, 0px)",
                   width: "527.547px",
-                }}
-              ></div>
+                }}></div>
             </div>
           </div>
         </div>

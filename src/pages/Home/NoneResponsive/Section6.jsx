@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import "./section6.css";
+import { NavHashLink } from "react-router-hash-link";
 
 function Section6() {
   return (
@@ -11,7 +12,7 @@ function Section6() {
             {/* top  */}
             <div className="col-span-12">
               <span className="text-[#979797] leading-[21px] text-base font-light tracking-wider">
-                VYVO ECOSYSTEM
+                NYOTON ECOSYSTEM
               </span>
             </div>
 
@@ -54,16 +55,15 @@ function Section6() {
                         src="https://www.vyvo.com/_next/image?url=%2Fshapes%2Fdifferent-circles.png&amp;w=256&amp;q=75"
                       />
                     </div>
-                    <a
+                    <NavHashLink
                       className="col-span-8 xl:col-span-6 col-start-1"
-                      href="/get-started-vsc#pose"
-                    >
+                      to="/get-started-vsc#pose">
                       <button className="mt-4 border-white border-solid border-[1px] rounded-[55px] px-4 py-2 w-full">
                         <span className="text-white">VSC-PoSe Chip</span>
                       </button>
-                    </a>
+                    </NavHashLink>
                   </div>
-                  <a href="/business-inquiries">
+                  <NavHashLink to="/business-inquiries#">
                     <button className="faded-purple-bg x-10 rounded-[43px] px-10 py-4 flex justify-center items-center text-white hover:text-black">
                       <span className="">Become a Partner</span>
                       <svg
@@ -73,16 +73,14 @@ function Section6() {
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                         className="ml-4"
-                        style={{ color: "black" }}
-                      >
+                        style={{ color: "black" }}>
                         <path
                           d="M1 1L5 5L1 9"
                           stroke="#FCFCFC"
-                          strokeLinecap="round"
-                        ></path>
+                          strokeLinecap="round"></path>
                       </svg>
                     </button>
-                  </a>
+                  </NavHashLink>
                 </div>
               </div>
             </div>
@@ -97,8 +95,7 @@ function Section6() {
                   <div className="flex flex-col items-start gap-y-4 mb-4 relative top-[-30%]">
                     <p
                       id="heart-text"
-                      className="text-[36px] text-black opacity-40 hover:faded-pink hover:opacity-100 leading-[38px] font-light pt-8 pb-4"
-                    >
+                      className="text-[36px] text-black opacity-40 hover:faded-pink hover:opacity-100 leading-[38px] font-light pt-8 pb-4">
                       Differentiate from Competitors
                     </p>
                     <p className="text-[#0D0D0D] font-light leading-[22px]">
@@ -119,12 +116,11 @@ function Section6() {
                   <div className="flex flex-col items-start gap-y-4 mb-4 relative top-[-30%]">
                     <p
                       id="heart-text"
-                      className="text-[36px] text-black opacity-40 hover:faded-pink hover:opacity-100 leading-[38px] font-light pt-8 pb-4"
-                    >
+                      className="text-[36px] text-black opacity-40 hover:faded-pink hover:opacity-100 leading-[38px] font-light pt-8 pb-4">
                       Leverage Web3 on devices
                     </p>
                     <p className="text-[#0D0D0D] font-light leading-[22px]">
-                      With VSC&apos;s infrastructure, almost any IoT device can
+                      With NYT&apos;s infrastructure, almost any IoT device can
                       be bridged to the new decentralised economy.
                     </p>
                     <p className="text-[21px] text-black opacity-40 leading-[24px]">
@@ -141,8 +137,7 @@ function Section6() {
                   <div className="flex flex-col items-start gap-y-4 mb-4 relative top-[-30%]">
                     <p
                       id="heart-text"
-                      className="text-[36px] text-black opacity-40 hover:faded-pink hover:opacity-100 leading-[38px] font-light pt-8 pb-4"
-                    >
+                      className="text-[36px] text-black opacity-40 hover:faded-pink hover:opacity-100 leading-[38px] font-light pt-8 pb-4">
                       Benefit your Users
                     </p>
                     <p className="text-[#0D0D0D] font-light leading-[22px]">
@@ -163,13 +158,12 @@ function Section6() {
                   <div className="flex flex-col items-start gap-y-4 mb-4 relative top-[-30%]">
                     <p
                       id="heart-text"
-                      className="text-[36px] text-black opacity-40 hover:faded-pink hover:opacity-100 leading-[38px] font-light pt-8 pb-4"
-                    >
-                      Streamlining Adoption on VSC
+                      className="text-[36px] text-black opacity-40 hover:faded-pink hover:opacity-100 leading-[38px] font-light pt-8 pb-4">
+                      Streamlining Adoption on NYT
                     </p>
                     <p className="text-[#0D0D0D] font-light leading-[22px]">
-                      Quick-start on VSC by importing your incentive program
-                      with white-label dApps through VSC developers.
+                      Quick-start on NYT by importing your incentive program
+                      with white-label dApps through NYT developers.
                     </p>
                     <p className="text-[21px] text-black opacity-40 leading-[24px]">
                       006

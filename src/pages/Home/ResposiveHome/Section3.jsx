@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import { NavHashLink } from "react-router-hash-link";
 
 function Section3() {
   return (
@@ -21,8 +22,7 @@ function Section3() {
           <div className="grid grid-cols-12">
             <div
               className="col-span-12"
-              style={{ opacity: 1, transform: "none" }}
-            >
+              style={{ opacity: 1, transform: "none" }}>
               <div className="col-span-12">
                 <span className="text-white text-[34px] leading-[36px] font-light">
                   data integrity{" "}
@@ -35,15 +35,13 @@ function Section3() {
             </div>
             <div
               className="col-span-12"
-              style={{ opacity: 1, transform: "none" }}
-            >
+              style={{ opacity: 1, transform: "none" }}>
               <div className="flex items-end justify-center">
                 <a
                   target="_blank"
                   rel="noreferrer"
                   className=""
-                  href="https://m.inpersona.com/auth/login"
-                >
+                  href="https://m.inpersona.com/auth/login">
                   <button className="mb-12 border-faded-pink px-10 py-4 w-full mt-10 flex justify-center items-center hover:border-faded-pink-pressed">
                     <span className="text-white">Start Now</span>
                     <img
@@ -67,13 +65,11 @@ function Section3() {
             </div>
             <div
               className="col-span-12"
-              style={{ opacity: 1, transform: "none" }}
-            >
+              style={{ opacity: 1, transform: "none" }}>
               <div className="flex flex-col items-center justify-center">
                 <div
                   className="mb-12"
-                  style={{ opacity: 1, transform: "none" }}
-                >
+                  style={{ opacity: 1, transform: "none" }}>
                   <div style={{ opacity: 1, transform: "none" }}>
                     <img
                       alt="ice"

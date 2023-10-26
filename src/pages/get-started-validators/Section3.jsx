@@ -98,11 +98,11 @@ function Section3() {
                     Validator Responsibilities
                   </span>
                   <span className="text-[#DFDFDF] text-base font-light">
-                    On the VSC Network, any participant can be qualified to
+                    On the NYT Network, any participant can be qualified to
                     become a Validator by running a Validator Node to earn
                     rewards and collect transaction fees. To ensure beneficial
                     participation by validators, they lock up at least 500,000
-                    $VSC as a stake in the ecosystem.
+                    $NYT as a stake in the ecosystem.
                   </span>
                 </div>
               </div>
@@ -145,7 +145,7 @@ function Section3() {
                     Delegator Responsibilities
                   </span>
                   <span className="text-[#DFDFDF] text-base font-light">
-                    Delegators stake their $VSC by delegating them to a
+                    Delegators stake their $NYT by delegating them to a
                     validator, obtaining a percentage of their rewards in
                     exchange. Because delegators share rewards with their
                     validators, delegators also share risks. Should a validator

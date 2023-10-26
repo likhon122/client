@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import { NavHashLink } from "react-router-hash-link";
 
 function Section2() {
   return (
@@ -53,7 +54,7 @@ function Section2() {
                   </div>
                 </div>
                 <div className="col-span-12">
-                  <a href="/get-started-data-owner">
+                  <NavHashLink to="/get-started-data-owner">
                     <button className="border-faded-green px-10 py-4 w-full flex justify-center items-center hover:border-faded-green-hover">
                       <span className="text-white">Learn More</span>
                       <img
@@ -72,7 +73,7 @@ function Section2() {
                         }}
                       />
                     </button>
-                  </a>
+                  </NavHashLink>
                 </div>
               </div>
               <div className="col-span-12 lg:block">

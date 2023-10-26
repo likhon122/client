@@ -3,6 +3,7 @@ import React from "react";
 
 // css import
 import "./section7.css";
+import { NavHashLink } from "react-router-hash-link";
 
 const styleDiv = {
   opacity: 1,
@@ -58,12 +59,12 @@ function Section7() {
                       EARN REWARDS
                     </span>
                     <p className="text-[#FCFCFC] font-light leading-[22px] opacity-50">
-                      25% of the available $VSC rewards is allocated to fun
+                      25% of the available $NYT rewards is allocated to fun
                       staking rewards. You set your own commission for accepting
                       delegations to your node.
                     </p>
                     <div style={styleDiv}>
-                      <a href="/get-started-validators">
+                      <NavHashLink to="/get-started-validators#">
                         <button className="border-faded-pink mt-8 py-4 w-3/5 flex justify-center items-center hover:border-faded-pink-pressed">
                           <span className="text-white">Start Staking</span>
                           <img
@@ -82,7 +83,7 @@ function Section7() {
                             }}
                           />
                         </button>
-                      </a>
+                      </NavHashLink>
                     </div>
                   </div>
                 </div>

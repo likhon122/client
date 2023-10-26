@@ -15,13 +15,13 @@ function Section7() {
             </div>
             <div className="col-span-6">
               <p className="text-[#979797] font-light leading-[18px] mt-3 text-right text-xs">
-                VYVO SMART CHAIN
+                NYOTON SMART CHAIN
               </p>
             </div>
             <div className="col-span-12 lg:col-span-8 lg:grid grid-cols-12">
               <div className="col-span-12">
                 <span className="text-[36px] leading-[36px] lg:text-[90px] lg:leading-[92px] font-light text-white">
-                  The First VSC
+                  The First NYT
                   <br />
                   <span className="text-[#7C7C7C] text-[36px] lg:text-[2rem] lg:mr-40">
                     {"//"}

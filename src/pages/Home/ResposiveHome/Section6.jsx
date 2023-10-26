@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import { NavHashLink } from "react-router-hash-link";
 
 function Section6() {
   return (
@@ -16,15 +17,14 @@ function Section6() {
           </div>
           <div
             className="col-span-12"
-            style={{ opacity: 1, transform: "none" }}
-          >
+            style={{ opacity: 1, transform: "none" }}>
             <div className="">
               <div className="flex flex-col">
                 <span className="text-[#FCFCFC] font-light leading-[21px] mb-4">
                   BUILD THE FUTURE
                 </span>
                 <p className="text-[#FCFCFC] font-light leading-[22px] opacity-50">
-                  VSC PoSe + PoS is one of the most unique and fastest growing
+                  NYT PoSe + PoS is one of the most unique and fastest growing
                   protocols. By staking early, you help bridge health data and
                   Web3.
                 </p>
@@ -33,8 +33,7 @@ function Section6() {
           </div>
           <div
             className="col-span-12"
-            style={{ opacity: 1, transform: "none" }}
-          >
+            style={{ opacity: 1, transform: "none" }}>
             <div className="col-span-12">
               <div className="flex flex-col">
                 <span className="text-[#FCFCFC] font-light leading-[21px] mb-4">
@@ -55,13 +54,13 @@ function Section6() {
                   EARN REWARDS
                 </span>
                 <p className="text-[#FCFCFC] font-light leading-[22px] opacity-50">
-                  25% of the available $VSC rewards is allocated to fun staking
+                  25% of the available $NYT rewards is allocated to fun staking
                   rewards. You set your own commission for accepting delegations
                   to your node.
                 </p>
               </div>
               <div style={{ opacity: 1, transform: "none" }}>
-                <a href="/get-started-validators">
+                <NavHashLink to="/get-started-validators#">
                   <button className="border-faded-pink mt-8 py-4 w-full flex items-center justify-center hover:border-faded-pink-pressed">
                     <span className="text-white">Start Staking</span>
                     <img
@@ -80,7 +79,7 @@ function Section6() {
                       }}
                     />
                   </button>
-                </a>
+                </NavHashLink>
               </div>
             </div>
           </div>

@@ -35,7 +35,7 @@ function Section5() {
                 />
                 <span className="faded-lilac-alt text-base font-light leading-[22px]">
                   Vyvo Coin is the native coin and the protocol token of the
-                  Vyvo Smart Chain. The Vyvo Coin symbol is $VSC.
+                  Vyvo Smart Chain. The Vyvo Coin symbol is $NYT.
                 </span>
                 <div className="flex flex-col xl:flex-row gap-y-4 justify-between">
                   <a href={fdf}>
@@ -352,7 +352,7 @@ function Section5() {
                         </li>
                       </ul>
                     </span>
-                    <span className="faded-lilac mt-8">$VSC Supply</span>
+                    <span className="faded-lilac mt-8">$NYT Supply</span>
                   </div>
                   <div className="mt-10 lg:mt-0">
                     <div className="border-t-[1px] border-[#FFFFFF40]"></div>
@@ -362,7 +362,7 @@ function Section5() {
                           $ 10.0B
                         </span>
                         <span className="text-base font-light text-[#FCFCFC] opacity-50">
-                          The initial supply of $VSC
+                          The initial supply of $NYT
                         </span>
                       </div>
                       <div className="col-span-6 flex flex-col">
@@ -393,7 +393,7 @@ function Section5() {
                       </span>
                     </span>
                     <span className="text-[16px] lg:text-[24px] font-light text-[#AFAFAF] indent-8 lg:indent-0">
-                      Distribution for development of the Vyvo Smart Chain
+                      Distribution for development of the NYOTON Smart Chain
                       Ecosystem.
                     </span>
                   </div>
@@ -418,7 +418,7 @@ function Section5() {
                         DATA OWNERS
                       </span>
                       <span className="text-xs leading-[18px]">
-                        <span className="mr-6">[</span> VSC&nbsp; NETWORK
+                        <span className="mr-6">[</span> NYT&nbsp; NETWORK
                         <span className="text-[#979797] leading-[18px] ml-2">
                           /&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/
                         </span>

@@ -16,12 +16,12 @@ function Section7() {
             </div>
             <div className="hidden lg:block lg:col-span-6">
               <span className="text-[12px] font-light text-[#979797]">
-                VSC CORE COMPONENTS
+                NYT CORE COMPONENTS
               </span>
             </div>
             <div className="col-span-6 lg:col-span-3 flex justify-end mb-10 lg:mb-0">
               <span className="text-[12px] font-light text-[#979797]">
-                VYVO SMART CHAIN
+                NYOTON SMART CHAIN
               </span>
             </div>
             <div className="col-span-10 lg:col-span-6 lg:mt-[200px]">
@@ -52,7 +52,7 @@ function Section7() {
               <span className="flex flex-col justify-between lg:h-3/5">
                 <div className="flex flex-col">
                   <span className="text-[12px] font-light text-[#979797]">
-                    VSC CORE COMPONENTS
+                    NYT CORE COMPONENTS
                   </span>
                   <span className="text-[#DFDFDF] font-light text-[20px] lg:text-[24px]">
                     The Decentralized Digital Health (DDH) Platform &amp;

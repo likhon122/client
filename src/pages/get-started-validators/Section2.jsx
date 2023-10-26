@@ -22,7 +22,7 @@ function Section2() {
             </div>
             <div className="hidden lg:block lg:col-span-1 lg:col-start-12 vertical-text-right left-[100%]">
               <span className="text-xs leading-[18px] text-white">
-                <span className="mr-6">[</span> VYVO&nbsp;
+                <span className="mr-6">[</span> NYOTON&nbsp;
                 <span className="text-[#979797] leading-[18px] ml-2">
                   /&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/
                 </span>
@@ -36,8 +36,8 @@ function Section2() {
               <span className="text-white text-base font-light leading-[22px] lg:pr-20">
                 <span className="faded-pink-to-orange">Validators</span> and{" "}
                 <span className="faded-pink-to-orange">Delegators</span> are the
-                foundation of the VSC Network. By processing transactions, each
-                validator helps make Vyvo Smart Chain the first decentralised
+                foundation of the NYT Network. By processing transactions, each
+                validator helps make Nyoton Smart Chain the first decentralised
                 health data platform in the world.
               </span>
             </div>
@@ -46,12 +46,12 @@ function Section2() {
                 VALIDATORS
               </span>
               <span className="text-white text-base font-light leading-[22px] lg:pr-20">
-                <span className="faded-pink-to-orange">Validators</span> on Vyvo
-                Smart Chain stake their Vyvo Coins as collateral using staking
-                contracts to secure the network, and they receive rewards for
-                their services. These rewards are distributed to all stakers
-                based on their stake at each checkpoint, with an additional
-                bonus for the proposer.
+                <span className="faded-pink-to-orange">Validators</span> on
+                Nyoton Smart Chain stake their Nyoton Coins as collateral using
+                staking contracts to secure the network, and they receive
+                rewards for their services. These rewards are distributed to all
+                stakers based on their stake at each checkpoint, with an
+                additional bonus for the proposer.
               </span>
             </div>
             <div className="col-span-12 lg:col-span-4 flex flex-col gap-2 lg:gap-y-6">

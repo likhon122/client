@@ -8,6 +8,7 @@ import "./section1.css";
 // video
 import worldStart1Video from "../../.././assets/videos/world-start1.mp4";
 import worldLoop1Video from "../../.././assets/videos/world-loop1.mp4";
+import { NavHashLink } from "react-router-hash-link";
 function Section1() {
   return (
     <>
@@ -19,16 +20,14 @@ function Section1() {
           data-aos-easing="linear"
           // data-aos-easing="ease-out-cubic"
           data-aos-duration="3000"
-          data-aos-delay="500"
-        >
+          data-aos-delay="500">
           <video
             // controls
             className="videoTag w-full"
             autoPlay
             playsInline
             src={worldLoop1Video}
-            loop
-          >
+            loop>
             <source src={worldStart1Video} type="video/mp4" />
           </video>
         </div>
@@ -69,14 +68,12 @@ function Section1() {
                     style={{
                       opacity: 1,
                       transform: "translateX(5px) translateZ(0px)",
-                    }}
-                  >
+                    }}>
                     <div
                       // data-aos="fade-right"
                       data-aos="zoom-in-left"
                       data-aos-once={false}
-                      className="absolute w-[20px] h-[20px] z-10 transform-gpu bg-transparent border-[1.9px] rounded-full border-[#FCFCFC]"
-                    ></div>
+                      className="absolute w-[20px] h-[20px] z-10 transform-gpu bg-transparent border-[1.9px] rounded-full border-[#FCFCFC]"></div>
                   </div>
 
                   <div
@@ -84,13 +81,11 @@ function Section1() {
                     style={{
                       opacity: 1,
                       transform: "translateX(-5px) translateZ(0px)",
-                    }}
-                  >
+                    }}>
                     <div
                       data-aos="zoom-in-right"
                       data-aos-once={false}
-                      className="absolute w-[20px] h-[20px] transform-gpu bg-transparent border-[1.9px] rounded-full border-[#FCFCFC]"
-                    ></div>
+                      className="absolute w-[20px] h-[20px] transform-gpu bg-transparent border-[1.9px] rounded-full border-[#FCFCFC]"></div>
                   </div>
                 </div>
                 <span>
@@ -98,7 +93,7 @@ function Section1() {
                     Revolutionizing health data management
                   </span>
                   <span className="text-white">
-                    "through blockchain technology. Vyvo Smart Chain offers a
+                    "through blockchain technology. Nyoton Smart Chain offers a
                     secure and transparent platform that directly connects users
                     and researchers."
                   </span>
@@ -124,8 +119,7 @@ function Section1() {
                       color: "transparent",
                       objectFit: "contain",
                       objectPosition: "left center",
-                    }}
-                  ></img>
+                    }}></img>
                 </button>
               </a>
             </div>
@@ -134,43 +128,37 @@ function Section1() {
             <div className="col-span-12 grid grid-cols-12">
               <div
                 className="col-span-6"
-                style={{ opacity: 1, transform: "none" }}
-              >
+                style={{ opacity: 1, transform: "none" }}>
                 <div>
                   <p
                     data-aos="fade-up"
                     data-aos-duration="1000"
-                    className="text-[#979797] font-light leading-[18px] mt-3 text-xs"
-                  >
+                    className="text-[#979797] font-light leading-[18px] mt-3 text-xs">
                     BUILD DATA-DRIVEN SOLUTIONS
                   </p>
                 </div>
               </div>
               <div
                 className="col-span-3"
-                style={{ opacity: 1, transform: "none" }}
-              >
+                style={{ opacity: 1, transform: "none" }}>
                 <div>
                   <p
                     data-aos="fade-up"
                     data-aos-duration="1000"
-                    className="text-[#979797] font-light leading-[18px] mt-3 text-xs"
-                  >
+                    className="text-[#979797] font-light leading-[18px] mt-3 text-xs">
                     BLOCKCHAIN
                   </p>
                 </div>
               </div>
               <div
                 className="col-span-3"
-                style={{ opacity: 1, transform: "none" }}
-              >
+                style={{ opacity: 1, transform: "none" }}>
                 <div>
                   <p
                     data-aos="fade-up"
                     data-aos-duration="1000"
-                    className="text-[#979797] font-light leading-[18px] mt-3 text-right text-xs"
-                  >
-                    VYVO SMART CHAIN
+                    className="text-[#979797] font-light leading-[18px] mt-3 text-right text-xs">
+                    NYOTON SMART CHAIN
                   </p>
                 </div>
               </div>
@@ -182,22 +170,20 @@ function Section1() {
           <div className="grid grid-cols-12 mt-[9px] relative home-bg-2 pb-[125px]">
             <div className="col-span-4  lg:mt-[124px]">
               <p className="text-[#979797] font-light leading-[18px] text-xs">
-                ABOUT VYVO
+                ABOUT NYOTON
               </p>
             </div>
 
             <div className="col-span-8 lg:mt-[124px] grid grid-cols-12 text-white gap-x-10 z-[9000] mr-12">
               <div
                 className="col-span-12"
-                style={{ opacity: 1, transform: "none" }}
-              >
+                style={{ opacity: 1, transform: "none" }}>
                 <div
                   data-aos="fade-up"
                   data-aos-duration="1000"
-                  className="col-span-12 mb-12"
-                >
+                  className="col-span-12 mb-12">
                   <p className="text-5xl leading-[3.5rem] mb-2 font-light">
-                    Vyvo Smart Chain is the <br />
+                    Nyoton Smart Chain is the <br />
                     first&nbsp;
                     <span className="faded-lilac font-light">
                       heartbeat-powered blockchain
@@ -224,14 +210,12 @@ function Section1() {
                   <div
                     data-aos="fade-up"
                     data-aos-duration="1000"
-                    style={{ opacity: 1, transform: "none" }}
-                  >
+                    style={{ opacity: 1, transform: "none" }}>
                     <p
                       data-aos="fade-up"
                       data-aos-duration="1000"
-                      className="font-light "
-                    >
-                      Vyvo Smart Chain (VSC)'s platform <br />
+                      className="font-light ">
+                      Nyoton Smart Chain (NYT)'s platform <br />
                       <span className="whitespace-nowrap">
                         anonymises users'
                         <br />
@@ -248,25 +232,22 @@ function Section1() {
                   </div>
                   <div
                     className="mb-8 "
-                    style={{ opacity: 1, transform: "none" }}
-                  >
+                    style={{ opacity: 1, transform: "none" }}>
                     <p
                       data-aos="fade-up"
                       data-aos-duration="1000"
                       data-aos-delay="300"
-                      className=""
-                    >
+                      className="">
                       fuelling medical research and scientific discoveries{" "}
                       <br /> to create better solutions for tomorrow.
                     </p>
                   </div>
                   <div style={{ opacity: 1, transform: "none" }}>
-                    <a href="/get-started-vsc">
+                    <NavHashLink to="/get-started-vsc#">
                       <button
                         data-aos="fade-up"
                         data-aos-delay="300"
-                        className="mr-12 border-faded-purple px-10 py-3 flex justify-center items-center hover:border-faded-purple-pressed"
-                      >
+                        className="mr-12 border-faded-purple px-10 py-3 flex justify-center items-center hover:border-faded-purple-pressed">
                         <span className="text-white">Learn More</span>
                         <img
                           alt="Arrow right"
@@ -283,19 +264,17 @@ function Section1() {
                           src="https://www.vyvo.com/shapes/arrow-right.svg"
                         />
                       </button>
-                    </a>
+                    </NavHashLink>
                   </div>
                 </div>
               </div>
               {/* card 1 */}
               <div
                 className="col-span-6 2xl:col-span-5"
-                style={{ opacity: 1, transform: "none" }}
-              >
+                style={{ opacity: 1, transform: "none" }}>
                 <div
                   data-aos="fade-up"
-                  className="bg-[#121212] rounded-[4px] p-5 mt-[100px]"
-                >
+                  className="bg-[#121212] rounded-[4px] p-5 mt-[100px]">
                   <div className="flex justify-between items-center">
                     <div className="relative h-10 w-full">
                       <img
@@ -377,13 +356,11 @@ function Section1() {
               {/* card2 */}
               <div
                 className="col-span-6 2xl:col-span-5"
-                style={{ opacity: 1, transform: "none" }}
-              >
+                style={{ opacity: 1, transform: "none" }}>
                 <div
                   data-aos="fade-up"
                   data-aos-delay="300"
-                  className="bg-[#121212] rounded-[4px] mt-[100px]"
-                >
+                  className="bg-[#121212] rounded-[4px] mt-[100px]">
                   <div className="px-5 pt-5 relative h-[270px] flex flex-col">
                     <div className="flex justify-between items-center">
                       <div className="relative h-10 w-full">

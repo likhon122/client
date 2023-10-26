@@ -33,8 +33,7 @@ function Section1() {
               <a
                 className="mt-8 w-full"
                 target="_blank"
-                href="/files/VSC_BrandBook.pdf"
-              >
+                href="/files/VSC_BrandBook.pdf">
                 <button className="border-faded-pink py-4 px-4 w-full lg:w-3/5 flex justify-center items-center hover:border-faded-pink-pressed">
                   <span className="text-white">Press Kit</span>
                   <img
@@ -57,11 +56,11 @@ function Section1() {
             </div>
             <div className="col-span-12 md:col-span-3 md:col-start-6 flex flex-col md:gap-y-6">
               <span className="text-base font-light opacity-50 text-[#FCFCFC]">
-                Latest from VSC
+                Latest from NYT
               </span>
               <span className="text-base font-light faded-lilac">
                 If you`re a member of the media and would like to submit an
-                inquiry, please direct your questions to press@vyvo.com
+                inquiry, please direct your questions to press@nyoton.com
               </span>
               <a className="mt-8 w-full" href="mailto:press@vyvo.com">
                 <button className="border-faded-pink py-4 px-4 w-full lg:w-3/5 flex justify-center items-center hover:border-faded-pink-pressed">

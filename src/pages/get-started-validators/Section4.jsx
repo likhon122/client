@@ -41,7 +41,7 @@ function Section4() {
                     </span>
                     <span className="text-base font-light text-[#AFAFAF] opacity-70 block-text">
                       To support the initial growth and stability of the
-                      network, VSC has allocated 25% of rewards available (2.5
+                      network, NYT has allocated 25% of rewards available (2.5
                       billion coins) to be distributed to validators.
                     </span>
                   </div>
@@ -115,7 +115,7 @@ function Section4() {
                     </span>
                     <span className="text-base font-light text-[#AFAFAF] opacity-70 block-text">
                       <span className="faded-tangerine">Transaction fees</span>{" "}
-                      on Vyvo Smart Chain are incurred by users when making
+                      on Nyoton Smart Chain are incurred by users when making
                       transactions on the network. Validators, who secure the
                       network and validate transactions, typically receive a
                       portion of these fees as rewards.
@@ -134,7 +134,7 @@ function Section4() {
           </div>
           <div className="col-span-6">
             <p className="text-[#979797] font-light leading-[18px] mt-3 text-xs text-right">
-              VYVO SMART CHAIN
+              NYOTON SMART CHAIN
             </p>
           </div>
         </div>

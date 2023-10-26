@@ -2,6 +2,7 @@
 import React from "react";
 
 import "./section4.css";
+import { NavHashLink } from "react-router-hash-link";
 
 function Section4() {
   return (
@@ -91,7 +92,7 @@ function Section4() {
                 </ul>
               </div>
               <div className="mt-10 flex justify-start relative z-[9000]">
-                <a href="/get-started-device-manufacturers">
+                <NavHashLink to="/get-started-device-manufacturers#">
                   <button className="text-[#FCFCFC] text-[16px] font-light leading-[22px] px-9 py-3.5 rounded-[43px] border border-[#fcfcfc]/[0.15] flex space-x-[18px] items-center group-hover:border-faded-green-lime">
                     <span>Learn More</span>
                     <div className="relative h-3 w-[6px]">
@@ -113,7 +114,7 @@ function Section4() {
                       />
                     </div>
                   </button>
-                </a>
+                </NavHashLink>
               </div>
             </div>
             <div className="absolute top-0 h-[481px] w-[335px] bg-cover bg-[url('https://www.vyvo.com/backgrounds/card-hover-bg.png')]  px-10 py-10  lg:peer-hover:-rotate-12 transition duration-700 ease-in-out lg:peer-hover:z-10 invisible lg:peer-hover:visible rounded-xl"></div>
@@ -180,7 +181,7 @@ function Section4() {
                 </ul>
               </div>
               <div className="mt-10 flex justify-start relative z-[9000]">
-                <a href="/get-started-data-owner">
+                <NavHashLink to="/get-started-data-owner#">
                   <button className="text-[#FCFCFC] text-[16px] font-light leading-[22px] px-9 py-3.5 rounded-[43px] border border-[#fcfcfc]/[0.15] flex space-x-[18px] items-center group-hover:border-faded-light-blue">
                     <span>Start Owning</span>
                     <div className="relative h-3 w-[6px]">
@@ -202,7 +203,7 @@ function Section4() {
                       />
                     </div>
                   </button>
-                </a>
+                </NavHashLink>
               </div>
             </div>
             <div className="absolute top-0 h-[481px] w-[335px] bg-cover bg-[url('https://www.vyvo.com/backgrounds/card-hover-bg.png')]  px-10 py-10  lg:peer-hover:-rotate-12 transition duration-700 ease-in-out lg:peer-hover:z-10 invisible lg:peer-hover:visible rounded-xl"></div>
@@ -269,7 +270,7 @@ function Section4() {
                 </ul>
               </div>
               <div className="mt-10 flex justify-start relative z-[9000]">
-                <a href="/get-started-validators">
+                <NavHashLink to="/get-started-validators#">
                   <button className="text-[#FCFCFC] text-[16px] font-light leading-[22px] px-9 py-3.5 rounded-[43px] border border-[#fcfcfc]/[0.15] flex space-x-[18px] items-center group-hover:border-faded-pink-to-orange">
                     <span>Start Staking</span>
                     <div className="relative h-3 w-[6px]">
@@ -291,7 +292,7 @@ function Section4() {
                       />
                     </div>
                   </button>
-                </a>
+                </NavHashLink>
               </div>
             </div>
             <div className="absolute top-0 h-[481px] w-[335px] bg-cover bg-[url('https://www.vyvo.com/backgrounds/card-hover-bg.png')]  px-10 py-10  lg:peer-hover:-rotate-12 transition duration-700 ease-in-out lg:peer-hover:z-10 invisible lg:peer-hover:visible rounded-xl"></div>
@@ -358,7 +359,7 @@ function Section4() {
                 </ul>
               </div>
               <div className="mt-10 flex justify-start relative z-[9000]">
-                <a href="/get-started-data-buyer">
+                <NavHashLink to="/get-started-data-buyer#">
                   <button className="text-[#FCFCFC] text-[16px] font-light leading-[22px] px-9 py-3.5 rounded-[43px] border border-[#fcfcfc]/[0.15] flex space-x-[18px] items-center group-hover:border-faded-tangerine">
                     <span>Learn More</span>
                     <div className="relative h-3 w-[6px]">
@@ -380,7 +381,7 @@ function Section4() {
                       />
                     </div>
                   </button>
-                </a>
+                </NavHashLink>
               </div>
             </div>
             <div className="absolute top-0 h-[481px] w-[335px] bg-cover bg-[url('https://www.vyvo.com/backgrounds/card-hover-bg.png')]  px-10 py-10  lg:peer-hover:-rotate-12 transition duration-700 ease-in-out lg:peer-hover:z-10 invisible lg:peer-hover:visible rounded-xl"></div>

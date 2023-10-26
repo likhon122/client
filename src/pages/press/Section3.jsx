@@ -33,16 +33,16 @@ function Section3() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://bitmart-exchange.medium.com/bitmart-listed-vsc-vyvo-smart-chains-native-token-706097738c17"
-                  >
+                    href="https://bitmart-exchange.medium.com/bitmart-listed-vsc-vyvo-smart-chains-native-token-706097738c17">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      BitMart Listed VSC, Vyvo Smart Chain’s Native Token...
+                      BitMart Listed Nyoton, Nyoton Smart Chain’s Native
+                      Token...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
                     BitMart, a premier global digital asset trading platform,
-                    launched the exclusive primary listing of Vyvo Smart Chain
-                    (VSC) on Sep 28, 2023. The VSC/USDT trading pair became
+                    launched the exclusive primary listing of Nyoton Smart Chain
+                    (NYT) on Sep 28, 2023. The NYT/USDT trading pair became
                     available for trading at 3:00 PM UTC on the same day.
                   </span>
                 </div>
@@ -68,16 +68,15 @@ function Section3() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://bitmart-exchange.medium.com/bitmart-listed-vsc-vyvo-smart-chains-native-token-706097738c17"
-                  >
+                    href="https://bitmart-exchange.medium.com/bitmart-listed-vsc-vyvo-smart-chains-native-token-706097738c17">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      BitMart Listed VSC, Vyvo Smart Chain’s Native Token...
+                      BitMart Listed NYT, Nyoton Smart Chain’s Native Token...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
                     BitMart, a premier global digital asset trading platform,
-                    launched the exclusive primary listing of Vyvo Smart Chain
-                    (VSC) on Sep 28, 2023. The VSC/USDT trading pair became
+                    launched the exclusive primary listing of Nyoton Smart Chain
+                    (NYT) on Sep 28, 2023. The NYT/USDT trading pair became
                     available for trading at 3:00 PM UTC on the same day.
                   </span>
                 </div>
@@ -103,16 +102,15 @@ function Section3() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://medium.com/coinmonks/vechain-and-vyvo-smart-chain-form-strategic-partnership-a-healthcare-revolution-through-dbc8e6013ab4"
-                  >
+                    href="https://medium.com/coinmonks/vechain-and-vyvo-smart-chain-form-strategic-partnership-a-healthcare-revolution-through-dbc8e6013ab4">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      Vyvo x Vechain...
+                      Nyoton x Vechain...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    Vyvo Smart Chain, backed by the VSC Foundation, is a
+                    Nyoton Smart Chain, backed by the NYT Foundation, is a
                     purpose-built blockchain aimed at revolutionising the way we
-                    monetise healthcare data. VSC is building the first
+                    monetise healthcare data. NYT is building the first
                     heartbeat-powered ecosystem that rewards and promotes
                     individual health by empowering users to take more healthy
                     lifestyle choices.
@@ -140,16 +138,15 @@ function Section3() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://medium.com/coinmonks/vechain-and-vyvo-smart-chain-form-strategic-partnership-a-healthcare-revolution-through-dbc8e6013ab4"
-                  >
+                    href="https://medium.com/coinmonks/vechain-and-vyvo-smart-chain-form-strategic-partnership-a-healthcare-revolution-through-dbc8e6013ab4">
                     <span className="text-[28px] font-light faded-lilac line-clamp-1">
-                      Vyvo x Vechain...
+                      Nyoton x Vechain...
                     </span>
                   </a>
                   <span className="text-base font-light text-[#FCFCFC] opacity-60 mt-4 line-clamp-4">
-                    Vyvo Smart Chain, backed by the VSC Foundation, is a
+                    Nyoton Smart Chain, backed by the NYT Foundation, is a
                     purpose-built blockchain aimed at revolutionising the way we
-                    monetise healthcare data. VSC is building the first
+                    monetise healthcare data. NYT is building the first
                     heartbeat-powered ecosystem that rewards and promotes
                     individual health by empowering users to take more healthy
                     lifestyle choices.

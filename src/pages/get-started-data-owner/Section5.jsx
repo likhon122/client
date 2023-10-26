@@ -35,7 +35,7 @@ function Section5() {
                   />
                 </div>
                 <span className="faded-purple text-base font-light leading-[22px] indent-8 lg:indent-0">
-                  Data Owners on Vyvo Smart Chain can follow these steps to
+                  Data Owners on Nyoton Smart Chain can follow these steps to
                   begin receiving rewards
                 </span>
               </div>
@@ -57,7 +57,7 @@ function Section5() {
               <div className="col-span-11 lg:col-span-4 flex flex-col lg:gap-y-4 mb-2 lg:mb-0">
                 <div className="flex justify-between items-center lg:px-2">
                   <span className="faded-light-blue text-[24px] lg:text-[16px] xl:text-[20px] 2xl:text-[24px] font-light">
-                    VSC-Compatible Wearable Device
+                    NYT-Compatible Wearable Device
                   </span>
                   <img
                     alt="plus"
@@ -78,8 +78,8 @@ function Section5() {
                 </div>
                 <span className="text-base font-light text-white leading-[22px] lg:pr-4">
                   Data Owners must possess wearable devices that are compatible
-                  with Vyvo Smart Chain&apos;s ecosystem and can measure health
-                  data.
+                  with Nyoton Smart Chain&apos;s ecosystem and can measure
+                  health data.
                 </span>
               </div>
               <div className="col-span-1 flex flex-col lg:hidden items-center h-full mb-2 lg:mb-0">
@@ -109,7 +109,7 @@ function Section5() {
                   <span className="h-0.5 w-full rounded-2xl bg-green-400"></span>
                 </div>
                 <span className="text-base font-light text-white leading-[22px] lg:pr-4">
-                  Using a VSC-compatible application (dApp), Data Owners must
+                  Using a NYT-compatible application (dApp), Data Owners must
                   link their Data-NFT to their wearable device. This anonymously
                   associates the health data generated with the Data-NFT, and
                   alerts the blockchain where to send rewards.
@@ -129,9 +129,9 @@ function Section5() {
                 </div>
                 <span className="text-base font-light text-white leading-[22px]">
                   Once the user&apos;s device is bound to the Data-NFT via the
-                  VSC-compatible dApp and the wearable device has begun
+                  NYT-compatible dApp and the wearable device has begun
                   measuring health data, the user will start receiving rewards
-                  in $VSC.
+                  in $NYT.
                 </span>
               </div>
             </div>

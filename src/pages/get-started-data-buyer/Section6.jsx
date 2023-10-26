@@ -17,7 +17,7 @@ function Section6() {
           </div>
           <div className="col-span-6">
             <p className="text-[#979797] font-light leading-[18px] mt-3 text-right text-xs">
-              VYVO SMART CHAIN
+              NYOTON SMART CHAIN
             </p>
           </div>
         </div>
@@ -85,13 +85,11 @@ function Section6() {
                   placeholder="Message"
                   className="bg-transparent text-[20px] leading-[44px] font-light text-[#FFFFFFCC] pt-8 px-4 border-b-[1px] border-white focus:outline-none"
                   spellCheck={false}
-                  data-ms-editor={true}
-                ></textarea>
+                  data-ms-editor={true}></textarea>
                 <div className="flex justify-start">
                   <button
                     type="submit"
-                    className="bg-transparent border-faded-pink text-base font-light leading-[22px] text-[#FCFCFC] px-8 py-4 w-full lg:w-2/5 flex justify-center items-center hover:border-faded-pink-pressed"
-                  >
+                    className="bg-transparent border-faded-pink text-base font-light leading-[22px] text-[#FCFCFC] px-8 py-4 w-full lg:w-2/5 flex justify-center items-center hover:border-faded-pink-pressed">
                     Submit
                     <img
                       alt="Arrow right"

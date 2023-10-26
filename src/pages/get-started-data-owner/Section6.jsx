@@ -43,8 +43,8 @@ function Section6() {
                   />
                 </div>
                 <span className="text-[#AFAFAF] text-base font-light leading-[22px] indent-8 lg:indent-0">
-                  VSC is compatible with any of the following major device
-                  manufacturers (VSC-PoSe Encryption Chip not included)
+                  NYT is compatible with any of the following major device
+                  manufacturers (NYT-PoSe Encryption Chip not included)
                 </span>
                 {/* <a href="/files/FullDevicesList.pdf">
                   <button className="border-faded-pink py-4 px-8 w-full lg:w-full 2xl:w-3/5 flex justify-center items-center hover:border-faded-pink-pressed">

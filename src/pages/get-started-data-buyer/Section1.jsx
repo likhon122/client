@@ -82,7 +82,7 @@ function Section1() {
             </div>
             <div className="col-span-6 lg:col-span-3">
               <p className="text-[#979797] font-light leading-[18px] mt-3 text-right text-[10px] lg:text-xs">
-                VYVO SMART CHAIN
+                NYOTON SMART CHAIN
               </p>
             </div>
           </div>

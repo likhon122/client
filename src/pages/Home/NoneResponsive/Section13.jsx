@@ -18,7 +18,7 @@ function Section13() {
               Some of our partners
             </span>
             <span className="line-clamp-1 leading-[18px] text-[12px] font-light text-[#979797] tracking-[2%] text-right">
-              VYVO <br />
+              NYOTON <br />
               Partners
             </span>
           </div>
