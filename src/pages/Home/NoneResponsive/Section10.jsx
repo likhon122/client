@@ -36,7 +36,7 @@ function Section10() {
               <div style={syleDiv}>
                 <div className="flex flex-col">
                   <span className="text-[#FCFCFC] leading-[22px] font-light opacity-80">
-                    A manual for joining the VSC Ecosystem.
+                    A manual for joining the NYT Ecosystem.
                     <br />
                     By developers for developers.
                   </span>
@@ -87,7 +87,7 @@ function Section10() {
                         <div className="items-end flex justify-between px-9 pt-14 pb-10">
                           <div className="flex flex-col">
                             <span className="block text-[36px] leading-[38px] text-[#FCFCFC] text-start">
-                              Starting building on VSC Network
+                              Starting building on NYT Network
                             </span>
                           </div>
                           <img

@@ -46,9 +46,9 @@ function Section1() {
             <div className="col-span-12 lg:col-span-3">
               <span className="text-white text-base font-light leading-[22px]">
                 <span className="faded-green-secondary">Manufacturers</span> of
-                Internet of Things (IoT) devices can integrate Vyvo Smart Chain
-                (VSC) into their products, adapting to the new decentralised
-                market.
+                Internet of Things (IoT) devices can integrate Nyoton Smart
+                Chain (NYT) into their products, adapting to the new
+                decentralised market.
               </span>
             </div>
             <div className="col-span-12 lg:col-span-3">
@@ -63,7 +63,7 @@ function Section1() {
             <div className="col-span-12 lg:col-span-3">
               <span className="text-white text-base font-light leading-[22px]">
                 <span className="faded-green-secondary">Manufacturers</span> can
-                even participate in partnerships with VSC, expanding revenue
+                even participate in partnerships with NYT, expanding revenue
                 streams and strengthening their position in the IoT market.
               </span>
             </div>
@@ -80,7 +80,7 @@ function Section1() {
             </div>
             <div className="col-span-6 lg:col-span-3">
               <p className="text-[#979797] font-light leading-[18px] mt-3 text-right text-xs">
-                VYVO SMART CHAIN
+                NYOTON SMART CHAIN
               </p>
             </div>
           </div>

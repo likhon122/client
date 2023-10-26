@@ -21,14 +21,14 @@ function Section3() {
                   <br />
                   with
                   <span className="faded-pink-quaternary">
-                    Vyvo Smart Chain
+                    Nyoton Smart Chain
                   </span>
                 </span>
               </div>
             </div>
             <div className="hidden lg:block lg:col-span-1 lg:col-start-12 vertical-text-right left-[100%]">
               <span className="text-xs leading-[18px] text-white">
-                <span className="mr-6">[</span> VYVO&nbsp;
+                <span className="mr-6">[</span> NYOTON&nbsp;
                 <span className="text-[#979797] leading-[18px] ml-2">
                   /&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/
                 </span>

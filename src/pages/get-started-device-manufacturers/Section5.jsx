@@ -35,7 +35,7 @@ function Section5() {
                   />
                 </div>
                 <span className="faded-green-secondary text-base font-light leading-[22px] indent-6 lg:indent-0">
-                  Vyvo Smart Chain has already empowered IoT device
+                  Nyoton Smart Chain has already empowered IoT device
                   manufacturers by bridging their physical devices to the
                   decentralised economy.
                 </span>

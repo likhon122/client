@@ -125,9 +125,7 @@ function Section14() {
                   </a>
                 </div> */}
                 <div className="col-span-4" style={styleDiv}>
-                  <a
-                    className="block w-fit"
-                    href="https://t.me/nyotonwealth">
+                  <a className="block w-fit" href="https://t.me/nyotonwealth">
                     <button className="text-base font-normal text-[#FCFCFC] leading-[21px] flex justify-start items-center hover:faded-lilac hover:arrow-purple-icon-hover">
                       <span>Telegram</span>
                       <svg
@@ -156,7 +154,7 @@ function Section14() {
               <div className="col-span-1 col-start-12" style={styleDiv}>
                 <div className=" vertical-text-right left-[100%]">
                   <span className="text-xs leading-[18px] text-white">
-                    <span className="mr-6">[</span> VYVO&nbsp;
+                    <span className="mr-6">[</span> NYOTON&nbsp;
                     <span className="text-[#979797] leading-[18px] ml-2">
                       /&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/
                     </span>

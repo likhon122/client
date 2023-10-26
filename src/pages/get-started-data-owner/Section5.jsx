@@ -13,7 +13,7 @@ function Section5() {
                 {"//"}
               </span>
               <span className="text-[36px] leading-[36px] lg:text-[60px] lg:leading-[60px] 2xl:text-[90px] 2xl:leading-[92px] font-light text-white">
-                <span className="faded-light-blue">How to</span>&nbsp;join VSC
+                <span className="faded-light-blue">How to</span>&nbsp;join NYT
                 <br />
                 <span className="faded-light-blue">to receive&nbsp;</span>
                 Rewards
@@ -42,7 +42,7 @@ function Section5() {
             </div>
             <div className="hidden lg:block lg:col-span-1 lg:col-start-12 vertical-text-right left-[100%]">
               <span className="text-xs leading-[18px] text-white">
-                <span className="mr-6">[</span> VYVO&nbsp;
+                <span className="mr-6">[</span> NYOTON&nbsp;
                 <span className="text-[#979797] leading-[18px] ml-2">
                   /&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/
                 </span>

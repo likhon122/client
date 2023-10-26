@@ -17,7 +17,7 @@ function Section2() {
             <div className="col-span-12 lg:col-span-9 grid grid-cols-12 gap-y-4 lg:pb-28">
               <div className="col-span-12">
                 <span className="text-[36px] lg:text-[90px] font-light text-white">
-                  <span className="faded-light-blue">Why</span> join VSC?
+                  <span className="faded-light-blue">Why</span> join NYT?
                 </span>
               </div>
               <div className="col-span-12 lg:col-span-6 flex flex-col lg:gap-y-8 lg:px-1">

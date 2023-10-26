@@ -33,7 +33,7 @@ function Section4() {
                 <SvgHover />
               </div>
               <span className="block-text text-base font-light leading-[22px] text-[#FCFCFC] opacity-50 relative top-[-30px]">
-                Vyvo Smart Chain helps manufacturers integrate their physical
+                Nyoton Smart Chain helps manufacturers integrate their physical
                 devices into the new decentralised economy, enabling
                 participation in the Web3 space.
               </span>
@@ -49,7 +49,7 @@ function Section4() {
                 <SvgHover />
               </div>
               <span className="block-text text-base font-light leading-[22px] text-[#FCFCFC] opacity-50 relative top-[-30px]">
-                VSC’s infrastructure allows any IoT device to bridge to the new
+                NYT’s infrastructure allows any IoT device to bridge to the new
                 decentralised economy.Manufacturers also receive 30% of device
                 users rewards.
               </span>
@@ -65,9 +65,9 @@ function Section4() {
                 <SvgHover />
               </div>
               <span className="block-text text-base font-light leading-[22px] text-[#FCFCFC] opacity-50 relative top-[-30px]">
-                Vyvo Smart Chain`s proprietary PoSe Chip encrypts data directly
-                from the IoT device, authenticating the data from the source.
-                Other additional enhancements can be added, such as NFC
+                Nyoton Smart Chain`s proprietary PoSe Chip encrypts data
+                directly from the IoT device, authenticating the data from the
+                source. Other additional enhancements can be added, such as NFC
                 payments.
               </span>
             </div>
@@ -84,7 +84,7 @@ function Section4() {
               </div>
               <span className="block-text text-base font-light leading-[22px] text-[#FCFCFC] opacity-50 relative top-[-30px]">
                 Manufacturers can easily import an incentive program using
-                white-label dApps through VSC developers, enhancing
+                white-label dApps through NYT developers, enhancing
                 accessibility to the platform. Manufacturers can even add new
                 products to their business and even create a proprietary token,
                 if they wish.
@@ -113,7 +113,7 @@ function Section4() {
         </div>
         <div className="col-span-6">
           <p className="text-[#979797] font-light leading-[18px] mt-3 text-right text-xs">
-            VYVO SMART CHAIN
+            NYOTON SMART CHAIN
           </p>
         </div>
       </div>

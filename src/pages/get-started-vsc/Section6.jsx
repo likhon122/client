@@ -101,13 +101,13 @@ function Section6() {
                   </span>
                   <ul className=" ml-4 mb-10">
                     <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
-                      ✓ $VSC Burn Mechanism Initialization
+                      ✓ $NYT Burn Mechanism Initialization
                     </li>
                     <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
-                      ✓ $VSC Mining Rewards
+                      ✓ $NYT Mining Rewards
                     </li>
                     <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
-                      ✓ $VSC redemption at fixed price
+                      ✓ $NYT redemption at fixed price
                     </li>
                   </ul>
                 </div>
@@ -128,7 +128,7 @@ function Section6() {
                       ✓ Staking capability available for users
                     </li>
                     <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
-                      ✓ List of 300+ devices compatible with VSC.
+                      ✓ List of 300+ devices compatible with NYT.
                     </li>
                     <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
                       ✓ Exchange Listing Application begins.&nbsp;
@@ -236,7 +236,7 @@ function Section6() {
                       <ul dir="rtl" className=" mb-10 pr-4">
                         <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
                           <p style={{ direction: "ltr" }}>
-                            Initial Distribution of $VSC ✓
+                            Initial Distribution of $NYT ✓
                           </p>
                         </li>
                         <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
@@ -264,7 +264,7 @@ function Section6() {
                         <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
                           <p style={{ direction: "ltr" }}>
                             Fintech partnership adds first On-ramp solution to
-                            VSC Ecosystem ✓
+                            NYT Ecosystem ✓
                           </p>
                         </li>
                       </ul>
@@ -288,7 +288,7 @@ function Section6() {
                         </li>
                         <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
                           <p style={{ direction: "ltr" }}>
-                            List of 300+ devices compatible with VSC.✓
+                            List of 300+ devices compatible with NYT.✓
                           </p>
                         </li>
                         <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
@@ -565,13 +565,13 @@ function Section6() {
                       </span>
                       <ul className=" ml-4 mb-10">
                         <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
-                          ✓ Deployment of the Vyvo Smart Chain.
+                          ✓ Deployment of the Nyoton Smart Chain.
                         </li>
                         <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
                           ✓ Whitepaper 1.0 published.
                         </li>
                         <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
-                          ✓ Genesis block minted and first issuance of $VSC.
+                          ✓ Genesis block minted and first issuance of $NYT.
                         </li>
                         <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
                           ✓ Installation of 21 validation nodes.
@@ -591,13 +591,13 @@ function Section6() {
                       </span>
                       <ul className="ml-4 mb-10">
                         <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
-                          ✓ $VSC Burn Mechanism Initialization
+                          ✓ $NYT Burn Mechanism Initialization
                         </li>
                         <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
-                          ✓ $VSC Mining Rewards
+                          ✓ $NYT Mining Rewards
                         </li>
                         <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
-                          ✓ $VSC redemption at fixed price
+                          ✓ $NYT redemption at fixed price
                         </li>
                       </ul>
                     </div>

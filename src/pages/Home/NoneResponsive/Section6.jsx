@@ -59,7 +59,7 @@ function Section6() {
                       className="col-span-8 xl:col-span-6 col-start-1"
                       to="/get-started-vsc#pose">
                       <button className="mt-4 border-white border-solid border-[1px] rounded-[55px] px-4 py-2 w-full">
-                        <span className="text-white">VSC-PoSe Chip</span>
+                        <span className="text-white">NYT-PoSe Chip</span>
                       </button>
                     </NavHashLink>
                   </div>

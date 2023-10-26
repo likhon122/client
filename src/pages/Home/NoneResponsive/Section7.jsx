@@ -31,7 +31,7 @@ function Section7() {
                       BUILD THE FUTURE
                     </span>
                     <p className="text-[#FCFCFC] font-light leading-[22px] opacity-50">
-                      VSC PoSe + PoS is one of the most unique and fastest
+                      NYT PoSe + PoS is one of the most unique and fastest
                       growing protocols. By staking early, you help bridge
                       health data and Web3.
                     </p>

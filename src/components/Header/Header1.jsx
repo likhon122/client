@@ -70,14 +70,14 @@ const Header1 = () => {
                       </li>
                       <li className="flex flex-col">
                         <span className="text white text-xs leading-[21px] tracking-[2px] py-4 font-medium">
-                          ABOUT VSC
+                          ABOUT NYT
                         </span>
                         <NavHashLink
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
                           to="/get-started-vsc#what-is-vsc"
                           onClick={() => setToggle(!toggle)}>
-                          What is VSC
+                          What is NYT
                         </NavHashLink>
                         <a
                           className="block py-2 text-white font-normal opacity-90"
@@ -114,7 +114,7 @@ const Header1 = () => {
                           rel="noreferrer"
                           href="https://vyvo.org/"
                           onClick={() => setToggle(!toggle)}>
-                          VSC Foundation
+                          NYT Foundation
                         </a>
                       </li>
                       <li className="flex flex-col">
@@ -175,7 +175,7 @@ const Header1 = () => {
                       </li>
                       <li className="flex flex-col">
                         <span className="text white text-xs leading-[21px] tracking-[2px] py-4 font-medium uppercase">
-                          Vyvo Backoffice <br /> (legacy users only)
+                          Nyoton Backoffice <br /> (legacy users only)
                         </span>
                         <a
                           target="_blank"

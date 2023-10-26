@@ -97,7 +97,7 @@ function Section9() {
                   The DDH Platform provides access to a diverse range of
                   verified and validated data categories; including health,
                   environmental, AI, and nutritional data. All data is generated
-                  by verified users of all demographics wearing VSC-compatible
+                  by verified users of all demographics wearing NYT-compatible
                   IoT Devices.
                 </p>
               </div>

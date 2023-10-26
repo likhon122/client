@@ -18,7 +18,7 @@ function Section13() {
               Some of our partners
             </span>
             <span className="line-clamp-1 leading-[18px] text-[12px] font-light text-[#979797] tracking-[2%] text-right">
-              NYOTON <br />
+              Nyoton <br />
               Partners
             </span>
           </div>
@@ -75,8 +75,7 @@ function Section13() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.goodix.com/en"
-            >
+              href="https://www.goodix.com/en">
               <div className="border-[1px] rounded-xl border-[#FCFCFC33] flex justify-center items-center h-[76px]  container-purple-line">
                 <span className="z-[2]">
                   <img
@@ -98,8 +97,7 @@ function Section13() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://singaporeblockchain.org/"
-            >
+              href="https://singaporeblockchain.org/">
               <div className="border-[1px] rounded-xl border-[#FCFCFC33] flex justify-center items-center h-[76px]  container-purple-line">
                 <span className="z-[2]">
                   <img
@@ -140,8 +138,7 @@ function Section13() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www2.deloitte.com/"
-            >
+              href="https://www2.deloitte.com/">
               <div className="border-[1px] rounded-xl border-[#FCFCFC33] flex justify-center items-center h-[76px]  container-purple-line">
                 <span className="z-[2]">
                   <img
@@ -201,8 +198,7 @@ function Section13() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.infineon.com/"
-            >
+              href="https://www.infineon.com/">
               <div className="border-[1px] rounded-xl border-[#FCFCFC33] flex justify-center items-center h-[76px]  container-purple-line">
                 <span className="z-[2]">
                   <img
@@ -262,8 +258,7 @@ function Section13() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.mastercard.us/"
-            >
+              href="https://www.mastercard.us/">
               <div className="border-[1px] rounded-xl border-[#FCFCFC33] flex justify-center items-center h-[76px]  container-purple-line">
                 <span className="z-[2]">
                   <img
@@ -285,8 +280,7 @@ function Section13() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.subhosting.net/"
-            >
+              href="https://www.subhosting.net/">
               <div className="border-[1px] rounded-xl border-[#FCFCFC33] flex justify-center items-center h-[76px]  container-purple-line">
                 <span className="z-[2]">
                   <img
@@ -389,8 +383,7 @@ function Section13() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.coinbase.com/"
-            >
+              href="https://www.coinbase.com/">
               <div className="border-[1px] rounded-xl border-[#FCFCFC33] flex justify-center items-center h-[76px] container-purple-line">
                 <span className="z-[2]">
                   <img
@@ -412,8 +405,7 @@ function Section13() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.safepal.com/en/"
-            >
+              href="https://www.safepal.com/en/">
               <div className="border-[1px] rounded-xl border-[#FCFCFC33] flex justify-center items-center h-[76px] container-purple-line">
                 <span className="z-[2]">
                   <img
@@ -435,8 +427,7 @@ function Section13() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://walletconnect.com/"
-            >
+              href="https://walletconnect.com/">
               <div className="border-[1px] rounded-xl border-[#FCFCFC33] flex justify-center items-center h-[76px] container-purple-line">
                 <span className="z-[2]">
                   <img

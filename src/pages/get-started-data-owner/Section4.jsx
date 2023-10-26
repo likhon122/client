@@ -397,7 +397,7 @@ function Section4() {
                 </div>
               </div>
               <span className="block-text text-base font-light leading-[22px] text-[#FCFCFC] opacity-50 relative top-[-30px]">
-                Users have anonymity through VSC via a Data-NFT, separating
+                Users have anonymity through NYT via a Data-NFT, separating
                 their health data and private information.
               </span>
             </div>
@@ -780,7 +780,7 @@ function Section4() {
               <span className="block-text text-base font-light leading-[22px] text-[#FCFCFC] opacity-50 relative top-[-30px]">
                 Users are motivated to participate in data generation through a
                 reward system, earning rewards for their contributions to the
-                VSC platform.
+                NYT platform.
               </span>
             </div>
           </div>

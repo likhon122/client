@@ -34,8 +34,8 @@ function Section5() {
                   src="https://www.vyvo.com/_next/image?url=%2Fshapes%2Fdouble-circle-alt.png&amp;w=96&amp;q=75"
                 />
                 <span className="faded-lilac-alt text-base font-light leading-[22px]">
-                  Vyvo Coin is the native coin and the protocol token of the
-                  Vyvo Smart Chain. The Vyvo Coin symbol is $NYT.
+                  Nyoton Coin is the native coin and the protocol token of the
+                  Nyoton Smart Chain. The Nyoton Coin symbol is $NYT.
                 </span>
                 <div className="flex flex-col xl:flex-row gap-y-4 justify-between">
                   <a href={fdf}>

@@ -26,7 +26,7 @@ function Section2() {
                   SEAMLESS INTEGRATION
                 </span>
                 <span className="text-base font-light leading-[22px] text-[#AFAFAF]">
-                  Use VSC’s SDK to implement directly onto any device. As device
+                  Use NYT’s SDK to implement directly onto any device. As device
                   users receive rewards for participating, manufacturers take
                   part in revenue sharing with 30% per data reward.
                 </span>
@@ -44,7 +44,7 @@ function Section2() {
                     <li>
                       <span className="faded-green-secondary">Model 2</span>
                       <span className="text-[#AFAFAF] opacity-80">
-                        &nbsp;- VSC-PoSe Chip integration to device hardware.
+                        &nbsp;- NYT-PoSe Chip integration to device hardware.
                       </span>
                     </li>
                   </ul>

@@ -63,7 +63,7 @@ function Section1() {
                 <span className="faded-pink-to-orange ml-8">Validators</span>{" "}
                 and <span className="faded-pink-to-orange">Delegators</span> are
                 the foundation of the NYT Network. By processing transactions,
-                each validator helps make Vyvo Smart Chain the first
+                each validator helps make Nyoton Smart Chain the first
                 decentralised health data platform in the world.
               </span>
             </div>
