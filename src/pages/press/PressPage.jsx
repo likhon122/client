@@ -3,6 +3,7 @@ import React from "react";
 import Section1 from "./Section1";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
+import Marquee from "../../components/Marquee";
 
 export default function PressPage() {
   return (
@@ -11,6 +12,7 @@ export default function PressPage() {
         <Section1 />
         <Section2 />
         <Section3 />
+        <Marquee />
       </div>
     </>
   );
