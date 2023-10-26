@@ -46,7 +46,7 @@ function Section6() {
                   VSC is compatible with any of the following major device
                   manufacturers (VSC-PoSe Encryption Chip not included)
                 </span>
-                <a href="/files/FullDevicesList.pdf">
+                {/* <a href="/files/FullDevicesList.pdf">
                   <button className="border-faded-pink py-4 px-8 w-full lg:w-full 2xl:w-3/5 flex justify-center items-center hover:border-faded-pink-pressed">
                     <span className="text-white">Full Device List</span>
                     <img
@@ -65,10 +65,10 @@ function Section6() {
                       src="/shapes/arrow-right.svg"
                     />
                   </button>
-                </a>
+                </a> */}
               </div>
             </div>
-            <div className="col-span-12 grid grid-cols-12 items-center">
+            {/* <div className="col-span-12 grid grid-cols-12 items-center">
               <div className="hidden lg:block col-span-5">
                 <img
                   alt="card"
@@ -100,8 +100,7 @@ function Section6() {
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://helohealth.com/"
-                      >
+                        href="https://helohealth.com/">
                         <span className="text-[14px] font-light text-[#979797]">
                           Visit Store
                         </span>
@@ -126,8 +125,7 @@ function Section6() {
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.apple.com/"
-                      >
+                        href="https://www.apple.com/">
                         <span className="text-[14px] font-light text-[#979797]">
                           Visit Store
                         </span>
@@ -149,7 +147,7 @@ function Section6() {
                   src="https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fdata-owner-card-2.png&amp;w=750&amp;q=75"
                 />
               </div>
-            </div>
+            </div> */}
             <div className="hidden lg:block col-span-12">
               <div className="flex justify-end">
                 <img

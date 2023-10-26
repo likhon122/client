@@ -11,7 +11,7 @@ export default function PressPage() {
       <div className="2xl:max-w-[1920px] 2xl:mx-auto">
         <Section1 />
         <Section2 />
-        <Section3 />
+        {/* <Section3 /> */}
         <Marquee />
       </div>
     </>

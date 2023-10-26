@@ -6,7 +6,7 @@ function Section2() {
     <>
       <div className="mx-4 lg:mx-12 mt-10 md:mt-20">
         <div className="grid grid-cols-12 gap-y-4 md:gap-8">
-          <div className="block lg:hidden col-span-12">
+          {/* <div className="block lg:hidden col-span-12">
             <div className="border-[1px] rounded-[12px] border-[#FFFFFF33] h-[456px]">
               <div className="p-8 h-full flex flex-col gap-y-4 items-start justify-between">
                 <div className="flex justify-center w-full h-full items-center">
@@ -227,7 +227,7 @@ function Section2() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="block lg:hidden col-span-12">
             <div className="border-[1px] rounded-[12px] border-[#FFFFFF33] h-[456px]">
               <div className="p-8 h-full flex flex-col gap-y-4 items-start justify-between">

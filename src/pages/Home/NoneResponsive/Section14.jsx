@@ -10,7 +10,7 @@ const styleDiv = {
 function Section14() {
   return (
     <>
-      <div className="huge-dots-right">
+      <div className="huge-dots-right mt-14">
         <div className="mx-12">
           <div className="grid grid-cols-12 gap-y-20">
             <div className="col-span-12">
@@ -21,11 +21,10 @@ function Section14() {
             </div>
             <div className="col-span-11 grid grid-cols-12 col-start-2">
               <div className="col-span-6 grid grid-cols-12 gap-x-12 gap-y-8">
-                <div className="col-span-4" style={styleDiv}>
+                {/* <div className="col-span-4" style={styleDiv}>
                   <a
                     className="block w-fit"
-                    href="https://www.youtube.com/@VyvoSmartChain"
-                  >
+                    href="https://www.youtube.com/@VyvoSmartChain">
                     <button className=" text-base font-normal text-[#FCFCFC] leading-[21px] flex justify-start items-center hover:faded-lilac hover:arrow-purple-icon-hover">
                       <span>YouTube</span>
                       <svg
@@ -34,22 +33,19 @@ function Section14() {
                         viewBox="0 0 6 10"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="ml-4"
-                      >
+                        className="ml-4">
                         <path
                           d="M1 1L5 5L1 9"
                           stroke="#FCFCFC"
-                          strokeLinecap="round"
-                        ></path>
+                          strokeLinecap="round"></path>
                       </svg>
                     </button>
                   </a>
-                </div>
+                </div> */}
                 <div className="col-span-4" style={styleDiv}>
                   <a
                     className="block w-fit"
-                    href="https://twitter.com/VyvoSmartChain"
-                  >
+                    href="https://twitter.com/VyvoSmartChain">
                     <button className="text-base font-normal text-[#FCFCFC] leading-[21px] flex justify-start items-center hover:faded-lilac hover:arrow-purple-icon-hover">
                       <span>Twitter</span>
                       <svg
@@ -58,22 +54,19 @@ function Section14() {
                         viewBox="0 0 6 10"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="ml-4"
-                      >
+                        className="ml-4">
                         <path
                           d="M1 1L5 5L1 9"
                           stroke="#FCFCFC"
-                          strokeLinecap="round"
-                        ></path>
+                          strokeLinecap="round"></path>
                       </svg>
                     </button>
                   </a>
                 </div>
-                <div className="col-span-4" style={styleDiv}>
+                {/* <div className="col-span-4" style={styleDiv}>
                   <a
                     className="block w-fit"
-                    href="https://medium.com/@vyvosmartchain"
-                  >
+                    href="https://medium.com/@vyvosmartchain">
                     <button className=" text-base font-normal text-[#FCFCFC] leading-[21px] flex justify-start items-center hover:faded-lilac hover:arrow-purple-icon-hover">
                       <span>Medium</span>
                       <svg
@@ -82,17 +75,15 @@ function Section14() {
                         viewBox="0 0 6 10"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="ml-4"
-                      >
+                        className="ml-4">
                         <path
                           d="M1 1L5 5L1 9"
                           stroke="#FCFCFC"
-                          strokeLinecap="round"
-                        ></path>
+                          strokeLinecap="round"></path>
                       </svg>
                     </button>
                   </a>
-                </div>
+                </div> */}
                 <div className="col-span-4" style={styleDiv}>
                   <a className="block w-fit" href="/contact-us">
                     <button className=" text-base font-normal text-[#FCFCFC] leading-[21px] flex justify-start items-center hover:faded-lilac hover:arrow-purple-icon-hover">
@@ -103,22 +94,19 @@ function Section14() {
                         viewBox="0 0 6 10"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="ml-4"
-                      >
+                        className="ml-4">
                         <path
                           d="M1 1L5 5L1 9"
                           stroke="#FCFCFC"
-                          strokeLinecap="round"
-                        ></path>
+                          strokeLinecap="round"></path>
                       </svg>
                     </button>
                   </a>
                 </div>
-                <div className="col-span-4" style={styleDiv}>
+                {/* <div className="col-span-4" style={styleDiv}>
                   <a
                     className="block w-fit"
-                    href="https://discord.gg/VyvoSmartChain"
-                  >
+                    href="https://discord.gg/VyvoSmartChain">
                     <button className="text-base font-normal text-[#FCFCFC] leading-[21px] flex justify-start items-center hover:faded-lilac hover:arrow-purple-icon-hover">
                       <span>Discord</span>
                       <svg
@@ -127,22 +115,19 @@ function Section14() {
                         viewBox="0 0 6 10"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="ml-4"
-                      >
+                        className="ml-4">
                         <path
                           d="M1 1L5 5L1 9"
                           stroke="#FCFCFC"
-                          strokeLinecap="round"
-                        ></path>
+                          strokeLinecap="round"></path>
                       </svg>
                     </button>
                   </a>
-                </div>
+                </div> */}
                 <div className="col-span-4" style={styleDiv}>
                   <a
                     className="block w-fit"
-                    href="https://t.me/VyvoSmartChainEN"
-                  >
+                    href="https://t.me/nyotonwealth">
                     <button className="text-base font-normal text-[#FCFCFC] leading-[21px] flex justify-start items-center hover:faded-lilac hover:arrow-purple-icon-hover">
                       <span>Telegram</span>
                       <svg
@@ -151,13 +136,11 @@ function Section14() {
                         viewBox="0 0 6 10"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="ml-4"
-                      >
+                        className="ml-4">
                         <path
                           d="M1 1L5 5L1 9"
                           stroke="#FCFCFC"
-                          strokeLinecap="round"
-                        ></path>
+                          strokeLinecap="round"></path>
                       </svg>
                     </button>
                   </a>

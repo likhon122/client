@@ -49,7 +49,7 @@ function Section7() {
                     A decentralized application that incentivizes positive
                     health and lifestyle behavior.
                   </span>
-                  <a href="https://www.inpersona.com/">
+                  {/* <a href="https://www.inpersona.com/">
                     <button className="border-faded-green py-4 px-8 w-full lg:w-full 2xl:w-3/5 flex justify-center items-center hover:border-faded-green-hover">
                       <span className="text-white">Learn More</span>
                       <img
@@ -68,7 +68,7 @@ function Section7() {
                         src="https://www.vyvo.com/shapes/arrow-right.svg"
                       />
                     </button>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -152,7 +152,7 @@ function Section7() {
                 </div>
               </div>
             </div>
-            <div className="col-span-12 lg:hidden flex justify-center">
+            {/* <div className="col-span-12 lg:hidden flex justify-center">
               <img
                 alt="phone"
                 loading="lazy"
@@ -164,7 +164,7 @@ function Section7() {
                 srcSet="https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fonly-phone-mobile.png&amp;w=384&amp;q=75 1x, https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fonly-phone-mobile.png&amp;w=750&amp;q=75 2x"
                 src="https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fonly-phone-mobile.png&amp;w=750&amp;q=75"
               />
-            </div>
+            </div> */}
             <div className="col-span-12 lg:hidden relative top-[-16px]">
               <div className="border-faded-light-blue-store">
                 <div className="flex flex-col p-5">

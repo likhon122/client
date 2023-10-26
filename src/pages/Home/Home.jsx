@@ -32,10 +32,10 @@ function Home() {
         <Section7 />
         <Section8 />
         <Section9 />
-        <Section10 />
-        <Section11 />
+        {/* <Section10 /> */}
+        {/* <Section11 /> */}
         <Section12 />
-        <Section13 />
+        {/* <Section13 /> */}
         <Section14 />
         <Marquee />
       </div>

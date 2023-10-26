@@ -102,7 +102,7 @@ function Footer() {
                         Whitepaper
                       </button>
                     </a> */}
-                    <a href="https://vscscan.org/">
+                    <a href="https://polygonscan.com/token/0xd06aef4fd6287fb02b6f9eade8534cef9b3f7d12?fbclid=IwAR1PFjmhsFgpjOmgCB3NeG_2XGN2a5YWY07HufcHA_OVr2yYaPQNyB11kHI">
                       <button className="text-[20px] lg:text-[24px] text-[#FCFCFC] leading-[32px] font-light hover:faded-lilac">
                         Explorer
                       </button>
@@ -113,14 +113,14 @@ function Footer() {
                       </button>
                     </a> */}
                   </div>
-                  <div className="col-span-6 flex flex-col items-center md:items-start gap-y-4" >
-                    <span className="text-[12px] text-[#979797]" >CONNECT</span>
+                  <div className="col-span-6 flex flex-col items-center md:items-start gap-y-4">
+                    <span className="text-[12px] text-[#979797]">CONNECT</span>
                     <NavHashLink to="press#">
                       <button className="text-[20px] lg:text-[24px] text-[#FCFCFC] leading-[32px] font-light hover:faded-lilac">
                         Press
                       </button>
                     </NavHashLink>
-                    
+
                     <a href="https://t.me/nyotonwealth">
                       <button className="text-[20px] lg:text-[24px] text-[#FCFCFC] leading-[32px] font-light hover:faded-lilac">
                         Telegram
