@@ -16,7 +16,7 @@ const Section4 = () => {
       <div className="mx-12 -mt-4">
         <div className="grid grid-cols-12">
           {/* left paragraph  */}
-          <div
+          {/* <div
             data-aos="fade-up"
             data-aos-duration="600"
             data-aos-delay="300"
@@ -32,9 +32,9 @@ const Section4 = () => {
                 decentralization.
               </span>
             </div>
-          </div>
+          </div> */}
           {/* section 4 button  */}
-          <div
+          {/* <div
             className="col-span-3 xl:col-span-2"
             style={{ opacity: 1, transform: "none" }}>
             <div
@@ -67,7 +67,7 @@ const Section4 = () => {
                 </button>
               </a>
             </div>
-          </div>
+          </div> */}
           {/* vartical text align */}
           <div
             className="col-span-1 col-start-1"
