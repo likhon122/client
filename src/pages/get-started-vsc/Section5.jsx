@@ -105,12 +105,12 @@ function Section5() {
                           style={{
                             position: "relative",
                             cursor: "default",
-                            width: "656px",
+                            width: "100%",
                             height: "499px",
                           }}>
                           <svg
                             className="recharts-surface"
-                            width="656"
+                            width="100%"
                             height="499"
                             viewBox="0 0 656 499">
                             <title></title>
