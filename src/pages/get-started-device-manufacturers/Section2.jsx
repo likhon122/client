@@ -57,11 +57,11 @@ function Section2() {
                   HARD INTEGRATION
                 </span>
                 <span className="faded-green-secondary text-base font-light leading-[22px] text-[#AFAFAF]">
-                  Model 2 - VSC-PoSe chip Enabled
+                  Model 2 - NYT-PoSe chip Enabled
                 </span>
                 <span className="text-white text-base font-light leading-[22px]">
                   Wearable devices with Model 2 Integration enables data
-                  security through the VSC-PoSe Chip via state-of-the-art 384bit
+                  security through the NYT-PoSe Chip via state-of-the-art 384bit
                   Elliptic Curve Cryptography (ECC) encryption.
                 </span>
               </div>
