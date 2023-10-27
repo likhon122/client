@@ -136,15 +136,6 @@ const Header2 = () => {
                           onClick={() => setToggle(!toggle)}>
                           Data-NFTs
                         </NavHashLink>
-                        <a
-                          className="block py-2 text-white font-normal opacity-90 col-span-6"
-                          aria-current="page"
-                          target="_blank"
-                          rel="noreferrer"
-                          href="https://vyvo.org/"
-                          onClick={() => setToggle(!toggle)}>
-                          NYT Foundation
-                        </a>
                         <NavHashLink
                           className="block py-2 text-white font-normal opacity-90 col-span-6"
                           aria-current="page"
