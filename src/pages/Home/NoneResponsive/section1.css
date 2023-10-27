@@ -24,6 +24,37 @@
   transform: translateY(100%);
   transition: opacity 0.5s, transform 0.5s;
 }
+
+.word-item.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.word-item.prev {
+  transform: translateY(-100%);
+}
+.faded-green {
+  background: linear-gradient(247.05deg, #d3ff57 34.71%, #3fdd4e 67.07%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.faded-orange {
+  background: linear-gradient(235.71deg, #fa5e4d 11.12%, #fcc252 97.14%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.faded-blue {
+  background: linear-gradient(
+    246.07deg,
+    #4d5efa 23.77%,
+    #5584fd 46.53%,
+    #52d3fc 92.46%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 .faded-purple {
   background: linear-gradient(90deg, #6355ff 37.7%, #ff47ed 106.15%);
   background-clip: text;

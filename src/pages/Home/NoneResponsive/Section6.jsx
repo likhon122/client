@@ -10,7 +10,7 @@ function Section6() {
         <div className="lg:mx-12">
           <div className="grid grid-cols-12 pt-12 lg:gap-x-20 gap-y-8">
             {/* top  */}
-            <div className="col-span-12">
+            <div data-aos="fade-up" className="col-span-12">
               <span className="text-[#979797] leading-[21px] text-base font-light tracking-wider">
                 NYOTON ECOSYSTEM
               </span>
@@ -95,7 +95,7 @@ function Section6() {
               <div className="grid grid-cols-12 gap-x-10">
                 {/* right side 1 */}
                 <div className="col-span-6">
-                  <div className="relative top-[-10%] heart-hover-text z-[90]">
+                  <div className="relative top-[-20%] heart-hover-text z-[90]">
                     <div style={{ height: "100px" }}>{/* svg insert */}</div>
                   </div>
                   <div className="flex flex-col items-start gap-y-4 mb-4 relative top-[-30%]">

@@ -5,7 +5,6 @@ import heartSvg from "../../../assets/images/heart.svg";
 
 import "./section4.css";
 import SvgHover from "../../../components/SvgHover";
-import { init } from "aos";
 const Section4 = () => {
   const [initial, setInitial] = useState(true);
   const [onePera, setOnePera] = useState(false);
