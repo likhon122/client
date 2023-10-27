@@ -46,14 +46,6 @@ function Footer() {
                         About NYT
                       </button>
                     </HashLink>
-                    <a
-                      target="_blank"
-                      rel="noreferrer"
-                      href="https://vyvo.org/foundation">
-                      <button className="text-[20px] lg:text-[24px] text-[#FCFCFC] leading-[32px] font-light hover:faded-lilac">
-                        Foundation
-                      </button>
-                    </a>
                     <HashLink to="/get-started-vsc#tokenomics">
                       <button className="text-[20px] lg:text-[24px] text-[#FCFCFC] leading-[32px] font-light hover:faded-lilac">
                         Tokenomics

@@ -107,15 +107,6 @@ const Header1 = () => {
                           onClick={() => setToggle(!toggle)}>
                           DDH Platform
                         </a>
-                        <a
-                          className="block py-2 text-white font-normal opacity-90"
-                          aria-current="page"
-                          target="_blank"
-                          rel="noreferrer"
-                          href="https://vyvo.org/"
-                          onClick={() => setToggle(!toggle)}>
-                          NYT Foundation
-                        </a>
                       </li>
                       <li className="flex flex-col">
                         <span className="text white text-xs leading-[21px] tracking-[2px] py-4 font-medium">
