@@ -130,13 +130,13 @@ const Header1 = () => {
                           onClick={() => setToggle(!toggle)}>
                           Socials
                         </a>
-                        <NavHashLink
+                        {/* <NavHashLink
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
                           to="/press"
                           onClick={() => setToggle(!toggle)}>
                           Press
-                        </NavHashLink>
+                        </NavHashLink> */}
                         <NavLink
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"

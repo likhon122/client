@@ -34,7 +34,7 @@ function Routess() {
               path="get-started-device-manufacturers"
               element={<DeviceManufacPage />}
             />
-            <Route path="/press" element={<PressPage />} />
+            {/* <Route path="/press" element={<PressPage />} /> */}
             <Route path="/contact-us" element={<ContactUsPage />} />
             <Route
               path="/business-inquiries"

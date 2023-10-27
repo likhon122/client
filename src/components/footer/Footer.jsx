@@ -115,11 +115,6 @@ function Footer() {
                   </div>
                   <div className="col-span-6 flex flex-col items-center md:items-start gap-y-4">
                     <span className="text-[12px] text-[#979797]">CONNECT</span>
-                    <NavHashLink to="press#">
-                      <button className="text-[20px] lg:text-[24px] text-[#FCFCFC] leading-[32px] font-light hover:faded-lilac">
-                        Press
-                      </button>
-                    </NavHashLink>
 
                     <a href="whatsapp://send?phone=+17372811770">
                       <button className="text-[20px] lg:text-[24px] text-[#FCFCFC] leading-[32px] font-light hover:faded-lilac">
