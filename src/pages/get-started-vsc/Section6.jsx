@@ -252,7 +252,7 @@ function Section6() {
                         </li>
                         <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
                           <p style={{ direction: "ltr" }}>
-                            $VSC Private Sale - Exclusive to Community ✓
+                            $NYT Private Sale - Exclusive to Community ✓
                           </p>
                         </li>
                         <li className="text-[14px] text-[#7C7C7C] font-light opacity-80">
