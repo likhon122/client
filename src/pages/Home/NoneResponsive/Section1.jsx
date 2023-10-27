@@ -1,8 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
-import React from "react";
-
+import React, { useState } from "react";
 
 // css link
 import "./section1.css";
@@ -10,8 +9,10 @@ import "./section1.css";
 import worldStart1Video from "../../.././assets/videos/world-start1.mp4";
 import worldLoop1Video from "../../.././assets/videos/world-loop1.mp4";
 import { NavHashLink } from "react-router-hash-link";
+
 function Section1() {
-  
+  const [initialNumber, setInitial] = useState();
+
   return (
     <>
       <div className="">
@@ -44,16 +45,24 @@ function Section1() {
                 <div className="animation bg-black">
                   <div className="animation-window">
                     <ul className="">
-                      <li className="absolute word-item  prev faded-green ">
+                      <li className="absolute word-item active faded-green ">
                         Value
                       </li>
-                      <li className="absolute word-item active faded-light-blue  ">
+                      {/* <li className="absolute word-item active faded-light-blue  ">
                         Ownership
                       </li>
-                      <li className="absolute word-item  ">Verification</li>
-                      <li className="absolute word-item  ">Potential</li>
-                      <li className="absolute word-item  ">Security</li>
-                      <li className="absolute word-item  ">Validation</li>
+                      <li className="absolute word-item  faded-green">
+                        Verification
+                      </li>
+                      <li className="absolute word-item  faded-orange">
+                        Potential
+                      </li>
+                      <li className="absolute word-item  faded-blue">
+                        Security
+                      </li>
+                      <li className="absolute word-item  faded-orange">
+                        Validation
+                      </li> */}
                     </ul>
                   </div>
                 </div>
