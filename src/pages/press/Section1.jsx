@@ -24,10 +24,10 @@ function Section1() {
             </div>
             <div className="col-span-12 md:col-span-3 flex flex-col md:gap-y-6">
               <span className="text-base font-light opacity-50 text-[#FCFCFC]">
-                VSC Press KIT
+                NYT Press KIT
               </span>
               <span className="text-base font-light faded-lilac">
-                Vyvo Smart Chain establishes specific rules and guidelines for
+                Nyoton Smart Chain establishes specific rules and guidelines for
                 our brand. The Media Kit contains our brand book and assets.
               </span>
               <a
@@ -62,7 +62,7 @@ function Section1() {
                 If you`re a member of the media and would like to submit an
                 inquiry, please direct your questions to press@nyoton.com
               </span>
-              <a className="mt-8 w-full" href="mailto:press@vyvo.com">
+              <a className="mt-8 w-full" href="mailto:contactnyoton@gmail.com">
                 <button className="border-faded-pink py-4 px-4 w-full lg:w-3/5 flex justify-center items-center hover:border-faded-pink-pressed">
                   <span className="text-white">Contact</span>
                   <img
