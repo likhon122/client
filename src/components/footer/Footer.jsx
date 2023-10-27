@@ -121,6 +121,11 @@ function Footer() {
                       </button>
                     </NavHashLink>
 
+                    <a href="whatsapp://send?phone=+17372811770">
+                      <button className="text-[20px] lg:text-[24px] text-[#FCFCFC] leading-[32px] font-light hover:faded-lilac">
+                        WhatsApp
+                      </button>
+                    </a>
                     <a href="https://t.me/nyotonwealth">
                       <button className="text-[20px] lg:text-[24px] text-[#FCFCFC] leading-[32px] font-light hover:faded-lilac">
                         Telegram
