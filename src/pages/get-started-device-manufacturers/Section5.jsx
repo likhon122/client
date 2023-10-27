@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import { NavHashLink } from "react-router-hash-link";
 
 function Section5() {
   return (
@@ -39,7 +40,7 @@ function Section5() {
                   manufacturers by bridging their physical devices to the
                   decentralised economy.
                 </span>
-                <a href="/business-inquiries">
+                <NavHashLink to="/business-inquiries#">
                   <button className="border-faded-pink py-4 px-8 w-full 2xl:w-3/5 flex justify-center items-center hover:border-faded-pink-pressed">
                     <span className="text-white">Request a Demo</span>
                     <img
@@ -58,7 +59,7 @@ function Section5() {
                       }}
                     />
                   </button>
-                </a>
+                </NavHashLink>
               </div>
             </div>
           </div>
