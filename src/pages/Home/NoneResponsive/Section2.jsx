@@ -16,7 +16,10 @@ function Section2() {
               style={{ opacity: 1, transform: "none" }}>
               <div className="grid grid-cols-12  pt-[178px]">
                 <div className="col-span-12 lg:col-span-5">
-                  <div className="flex text-[60px] 2xl:text-[90px] text-white font-light">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-duration="400"
+                    className="flex text-[60px] 2xl:text-[90px] text-white font-light">
                     <span className="">
                       <span className="text-[#7C7C7C] 2xl:text-[90px] lg:mr-10 2xl:mr-20">
                         {"//"}
@@ -46,7 +49,10 @@ function Section2() {
                         <div className="absolute w-[20px] h-[20px] transform-gpu bg-transparent border-[1.9px] rounded-full border-[#7C7C7C]"></div>
                       </div>
                     </div>
-                    <p className="opacity-80  leading-[22px]">
+                    <p
+                      data-aos="fade-up"
+                      data-aos-duration="450"
+                      className="opacity-80  leading-[22px]">
                       <span className="text-white text-right line-clamp-1">
                         A Data NFT is bound to an IoT device
                       </span>
@@ -59,7 +65,10 @@ function Section2() {
                   </div>
                 </div>
                 {/* button  */}
-                <div className="col-span-8 col-start-1">
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  className="col-span-8 col-start-1">
                   <NavHashLink className="" to="/get-started-data-owner#">
                     <button className="border-faded-green px-10 py-4 flex justify-center items-center hover:border-faded-green-hover">
                       <span className="text-white">Learn More</span>
@@ -88,13 +97,17 @@ function Section2() {
             <div
               className="col-span-6"
               style={{ opacity: 1, transform: "none" }}>
-              <div className="col-span-12 lg:block">
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="3000"
+                data-aos-delay="300"
+                className="col-span-12 lg:block">
                 <video
                   className="videoTag w-full lg:w-[737px] xl:w-[720px]"
-                  autoPlay={true}
-                  playsInline={true}
+                  autoPlay
                   src="https://www.vyvo.com/videos/atom-loop.mp4"
-                  loop={true}>
+                  loop
+                  muted>
                   <source
                     src="https://www.vyvo.com/videos/atom-first2.mp4"
                     type="video/mp4"
@@ -106,7 +119,7 @@ function Section2() {
             <div
               className="col-span-1"
               style={{ opacity: 1, transform: "none" }}>
-              <div className="">
+              <div data-aos="fade-up" className="">
                 <div className="flex text-white justify-between vertical-text-left gap-x-20">
                   <span className="text-xs text-[#979797] leading-[18px]">
                     DATA OWNERS

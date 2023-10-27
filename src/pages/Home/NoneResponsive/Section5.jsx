@@ -9,12 +9,20 @@ function Section5() {
       <div id="quick-start" className="mx-12 my-10">
         <div className="grid grid-cols-12">
           <div className="col-span-12 vertical-lines-bg text-center flex  justify-center items-baseline gap-x-6 ">
-            <div style={{ opacity: 1, transform: "none" }}>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              // data-aos-anchor-placement="top-bottom"
+              style={{ opacity: 1 }}>
               <span className="text-white text-[90px] leading-[92px]">
                 Quick
               </span>
             </div>
             <img
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              // data-aos-delay="400"
+              // data-aos-anchor-placement="top-bottom"
               alt="arrow down"
               loading="lazy"
               width="67"
@@ -26,7 +34,12 @@ function Section5() {
               src="https://www.vyvo.com/_next/image?url=%2Fshapes%2Fcircle-arrow-down.png&amp;w=256&amp;q=75"
               style={{ color: "transparent" }}
             />
-            <div style={{ opacity: 1, transform: "none" }}>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              // data-aos-delay="500"
+              // data-aos-anchor-placement="top-bottom"
+              style={{ opacity: 1 }}>
               <span className="text-white text-[90px] leading-[92px] font-light">
                 Start
               </span>
@@ -41,6 +54,8 @@ function Section5() {
           <div className="swiper swiper-initialized swiper-horizontal mySwiper overflow-auto swiper-backface-hidden">
             <div className="swiper-wrapper">
               <div
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
                 className="swiper-slide peer md:ml-12 swiper-slide-active"
                 style={{ width: "225px", marginRight: "50px" }}>
                 <div style={{ opacity: 1, transform: "none" }}>
@@ -134,6 +149,9 @@ function Section5() {
                 </div>
               </div>
               <div
+                data-aos="fade-up"
+                data-aos-delay="300"
+                data-aos-anchor-placement="bottom-bottom"
                 className="swiper-slide peer peer-hover:z-30 swiper-slide-next"
                 style={{ width: "225px", marginRight: "50px" }}>
                 <div style={{ opacity: 1, transform: "none" }}>
@@ -227,6 +245,9 @@ function Section5() {
                 </div>
               </div>
               <div
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-delay="600"
                 className="swiper-slide peer peer-hover:z-30"
                 style={{ width: "225px", marginRight: "50px" }}>
                 <div style={{ opacity: 1, transform: "none" }}>
@@ -320,6 +341,9 @@ function Section5() {
                 </div>
               </div>
               <div
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-delay="800"
                 className="swiper-slide peer peer-hover:z-30"
                 style={{ width: "225px", marginRight: "50px" }}>
                 <div style={{ opacity: 1, transform: "none" }}>

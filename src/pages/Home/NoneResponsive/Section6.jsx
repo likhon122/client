@@ -22,7 +22,10 @@ function Section6() {
             </div>
 
             <div className="col-span-12 lg:col-span-6 text-[50px] 2xl:text-[90px] xl:leading-[92px]">
-              <div style={{ opacity: 1, transform: "none" }}>
+              <div
+                data-aos="fade-up"
+                data-aos-duration="500"
+                style={{ opacity: 1 }}>
                 <span className="faded-lilac">
                   Technology Manufacturers <span className="lg:ml-20">/</span>
                 </span>
@@ -30,7 +33,10 @@ function Section6() {
             </div>
             {/* left image and become a parter */}
             <div className="col-span-4 col-start-1">
-              <div style={{ opacity: 1, transform: "none" }}>
+              <div
+                data-aos="fade-up"
+                data-aos-duration="600"
+                style={{ opacity: 1 }}>
                 <div className="band-bg rounded-xl flex flex-col justify-between items-start p-8">
                   <div className="grid grid-cols-12">
                     <div className="col-span-6 flex flex-col">
@@ -90,7 +96,8 @@ function Section6() {
                 {/* right side 1 */}
                 <div className="col-span-6">
                   <div className="relative top-[-10%] heart-hover-text z-[90]">
-                    <div style={{ height: "200px" }}>{/* svg insert */}</div>
+                    <div style={{ height: "1
+                    00px" }}>{/* svg insert */}</div>
                   </div>
                   <div className="flex flex-col items-start gap-y-4 mb-4 relative top-[-30%]">
                     <p
@@ -111,7 +118,7 @@ function Section6() {
                 {/* right side 2 */}
                 <div className="col-span-6">
                   <div className="relative top-[-10%] heart-hover-text z-[90]">
-                    <div style={{ height: "200px" }}>{/* svg insert */}</div>
+                    <div style={{ height: "100px" }}></div>
                   </div>
                   <div className="flex flex-col items-start gap-y-4 mb-4 relative top-[-30%]">
                     <p
@@ -131,7 +138,7 @@ function Section6() {
                 {/* right side 3 */}
                 <div className="col-span-6 border-b-2 border-[#0000004D]">
                   <div className="relative top-[-10%] heart-hover-text z-[90]">
-                    <div style={{ height: "200px" }}>{/* svg insert */}</div>
+                    <div style={{ height: "100px" }}>{/* svg insert */}</div>
                   </div>
 
                   <div className="flex flex-col items-start gap-y-4 mb-4 relative top-[-30%]">
@@ -153,7 +160,7 @@ function Section6() {
                 {/* right side 4  */}
                 <div className="col-span-6 border-b-2 border-[#0000004D]">
                   <div className="relative top-[-10%] heart-hover-text z-[90]">
-                    <div style={{ height: "200px" }}>{/* svg insert */}</div>
+                    <div style={{ height: "100px" }}>{/* svg insert */}</div>
                   </div>
                   <div className="flex flex-col items-start gap-y-4 mb-4 relative top-[-30%]">
                     <p

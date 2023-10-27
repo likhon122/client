@@ -3,6 +3,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 
+
 // css link
 import "./section1.css";
 // video
@@ -10,6 +11,7 @@ import worldStart1Video from "../../.././assets/videos/world-start1.mp4";
 import worldLoop1Video from "../../.././assets/videos/world-loop1.mp4";
 import { NavHashLink } from "react-router-hash-link";
 function Section1() {
+  
   return (
     <>
       <div className="">
@@ -25,8 +27,8 @@ function Section1() {
             // controls
             className="videoTag w-full"
             autoPlay
-            playsInline
             src={worldLoop1Video}
+            muted
             loop>
             <source src={worldStart1Video} type="video/mp4" />
           </video>

@@ -39,7 +39,7 @@ function FormArea() {
               type="email"
               name="email"
             />
-            <div data-headlessui-state="">
+            {/* <div data-headlessui-state="">
               <div className="relative mt-1">
                 <button
                   className="relative w-full cursor-default text-[20px] leading-[44px] font-light bg-black text-[#FFFFFFCC] py-2 px-4 border-b-[1px] border-b-[#FFFFFFCC] placeholder-inherit text-left"
@@ -102,7 +102,7 @@ function FormArea() {
                   </span>
                 </button>
               </div>
-            </div>
+            </div> */}
             <textarea
               name="message"
               placeholder="Message"

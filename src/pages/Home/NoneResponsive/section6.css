@@ -20,3 +20,12 @@
 .faded-purple-bg:hover {
   background: #fff;
 }
+.hover\:faded-pink:hover {
+  background: linear-gradient(247.05deg, #ff517b 14.93%, #e742e0 85.18%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hover\:opacity-100:hover {
+  opacity: 1;
+}

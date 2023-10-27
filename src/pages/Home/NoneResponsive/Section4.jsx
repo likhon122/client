@@ -17,7 +17,11 @@ const Section4 = () => {
       <div className="mx-12 -mt-4">
         <div className="grid grid-cols-12">
           {/* left paragraph  */}
-          <div className="col-span-9 xl:col-span-10 mb-20">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="600"
+            data-aos-delay="300"
+            className="col-span-9 xl:col-span-10 mb-20">
             <div
               className="relative z-10"
               style={{ opacity: 1, transform: "none" }}>
@@ -34,7 +38,11 @@ const Section4 = () => {
           <div
             className="col-span-3 xl:col-span-2"
             style={{ opacity: 1, transform: "none" }}>
-            <div className="flex items-center justify-center">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="300"
+              className="flex items-center justify-center">
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -66,7 +74,11 @@ const Section4 = () => {
             className="col-span-1 col-start-1"
             style={{ opacity: 1, transform: "none" }}>
             <div className="vertical-text-right mt-[50%]">
-              <span className="text-xs leading-[18px] text-white">
+              <span
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="300"
+                className="text-xs leading-[18px] text-white">
                 <span className="mr-6">[</span> NYT&nbsp; NETWORK
                 <span className="text-[#979797] leading-[18px] ml-2">
                   /&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/
@@ -78,7 +90,11 @@ const Section4 = () => {
 
           {/* left image and paragraph  */}
           <div className="col-span-2" style={{ opacity: 1, transform: "none" }}>
-            <div className="">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+              className="">
               <div
                 className="mb-12"
                 style={{
@@ -167,15 +183,23 @@ const Section4 = () => {
             </div>
           </div>
 
-          <div className="col-span-9 col-start-6">
-            <div style={{ opacity: 1, transform: "none" }}>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+            className="col-span-9 col-start-6">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+              style={{ opacity: 1, transform: "none" }}>
               <div
                 className="font-light home-hover-list"
                 onMouseOver={() => {
                   setOnePera(true);
                   setTwoPera(false);
                   setThreePera(false);
-                  setInitial(false)
+                  setInitial(false);
                 }}>
                 <div className="flex items-center">
                   <p
@@ -206,7 +230,7 @@ const Section4 = () => {
                   setOnePera(false);
                   setTwoPera(true);
                   setThreePera(false);
-                  setInitial(false)
+                  setInitial(false);
                 }}>
                 <div className="flex items-center">
                   <p
@@ -236,7 +260,7 @@ const Section4 = () => {
                   setOnePera(false);
                   setTwoPera(false);
                   setThreePera(true);
-                  setInitial(false)
+                  setInitial(false);
                 }}>
                 <div className="flex items-center">
                   <p

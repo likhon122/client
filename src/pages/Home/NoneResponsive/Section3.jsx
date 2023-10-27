@@ -9,7 +9,9 @@ function Section3() {
           <div className="h-[667px]  w-full flex flex-col justify-end text-xs text-white leading-[25.5px]">
             <div className="-z-10">
               <img
-                alt="VyvoWatchBG"
+                data-aos="zoom-out"
+                data-aos-duration="3000"
+                alt="NyotonWatchBG"
                 loading="lazy"
                 decoding="async"
                 data-nimg="fill"
@@ -26,7 +28,10 @@ function Section3() {
                 }}
               />
             </div>
-            <div className="mx-12 flex flex-col justify-end space-y-7 mb-2">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="500"
+              className="mx-12 flex flex-col justify-end space-y-7 mb-2">
               <div style={{ opacity: 1, transform: "none" }}>
                 <div className="text-xs text-white leading-[25.5px]">
                   VALUES
