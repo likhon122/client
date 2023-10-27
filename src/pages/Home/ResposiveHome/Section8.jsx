@@ -262,8 +262,8 @@ function Section8() {
                   <span
                     className={
                       toggle1
-                        ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
-                        : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        ? "faded-lilac text-[14px] leading-[44px] font-light py-4 css-1eziwv"
+                        : "text-[#FCFCFC] opacity-40 text-[14px] leading-[44px] font-light py-4 css-1eziwv"
                     }>
                     What is Nyoton Smart Chain Network?
                   </span>
@@ -334,8 +334,8 @@ function Section8() {
                   <span
                     className={
                       toggle2
-                        ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
-                        : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        ? "faded-lilac text-[14px] leading-[44px] font-light py-4 css-1eziwv"
+                        : "text-[#FCFCFC] opacity-40 text-[14px] leading-[44px] font-light py-4 css-1eziwv"
                     }>
                     What is Proof-of-Sensing?
                   </span>
@@ -405,8 +405,8 @@ function Section8() {
                   <span
                     className={
                       toggle3
-                        ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
-                        : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        ? "faded-lilac text-[14px] leading-[44px] font-light py-4 css-1eziwv"
+                        : "text-[#FCFCFC] opacity-40 text-[14px] leading-[44px] font-light py-4 css-1eziwv"
                     }>
                     What is Nyoton Coin $(NYT)?
                   </span>
@@ -476,8 +476,8 @@ function Section8() {
                   <span
                     className={
                       toggle4
-                        ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
-                        : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        ? "faded-lilac text-[14px] leading-[44px] font-light py-4 css-1eziwv"
+                        : "text-[#FCFCFC] opacity-40 text-[14px] leading-[44px] font-light py-4 css-1eziwv"
                     }>
                     What is the Burn and Mint Mechanism?
                   </span>
@@ -549,8 +549,8 @@ function Section8() {
                   <span
                     className={
                       toggle5
-                        ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
-                        : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        ? "faded-lilac text-[14px] leading-[44px] font-light py-4 css-1eziwv"
+                        : "text-[#FCFCFC] opacity-40 text-[14px] leading-[44px] font-light py-4 css-1eziwv"
                     }>
                     What is the Decentralized Digital Health (DDH) Platform?
                   </span>
@@ -620,8 +620,8 @@ function Section8() {
                   <span
                     className={
                       toggle6
-                        ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
-                        : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        ? "faded-lilac text-[14px] leading-[44px] font-light py-4 css-1eziwv"
+                        : "text-[#FCFCFC] opacity-40 text-[14px] leading-[44px] font-light py-4 css-1eziwv"
                     }>
                     Is my data safe?
                   </span>
@@ -657,9 +657,8 @@ function Section8() {
                   role="region"
                   id="accordion-panel-:r6m:"
                   aria-labelledby="accordion-button-:r6m:"
-                  className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light leading-[22px] text-[14px] flex css-1hb5ode"
-                  style={{ fontSize: "14px" }}>
-                  <span className="font-light opacity-40 text-[#FCFCFC] hidden">
+                  className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light leading-[22px] text-[14px] flex css-1hb5ode">
+                  <span className=" font-light text-[14px] opacity-40 text-[#FCFCFC] hidden">
                     07.
                   </span>
                   Yes, Nyoton Smart Chain prioritises data security and privacy.
