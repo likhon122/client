@@ -10,7 +10,7 @@ const Section3 = () => {
   return (
     <>
       {/* watch image  */}
-      <div className="bg-[url('https://www.vyvo.com/backgrounds/vyvo-watch_grey_01.png')] h-[347px] sm:h-[550px] w-full bg-bottom bg-cover bg-no-repeat flex flex-col justify-end text-xs text-white leading-[25.5px]">
+      {/* <div className="bg-[url('https://www.vyvo.com/backgrounds/vyvo-watch_grey_01.png')] h-[347px] sm:h-[550px] w-full bg-bottom bg-cover bg-no-repeat flex flex-col justify-end text-xs text-white leading-[25.5px]">
         <div style={{ opacity: 1, transform: "none" }}>
           <div className="mx-4 flex flex-col justify-end space-y-3 mb-1">
             <div className="text-xs text-white leading-[25.5px]">VALUES</div>
@@ -19,12 +19,12 @@ const Section3 = () => {
             </span>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="mx-4">
         <div className="">
           <div className="grid grid-cols-12">
-            <div
+            {/* <div
               className="col-span-12"
               style={{ opacity: 1, transform: "none" }}>
               <div className="col-span-12">
@@ -66,11 +66,15 @@ const Section3 = () => {
                   </button>
                 </a>
               </div>
-            </div>
+            </div> */}
             <div
               className="col-span-12"
               style={{ opacity: 1, transform: "none" }}>
-              <div className="flex flex-col items-center justify-center">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+                className="flex flex-col items-center justify-center">
                 <div
                   className="mb-12"
                   style={{ opacity: 1, transform: "none" }}>
@@ -154,7 +158,11 @@ const Section3 = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-12 ">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+              className="col-span-12 ">
               <div className="font-light mt-4">
                 <div style={{ opacity: 1, transform: "none" }}>
                   <div className="border-b-2 border-white/25 hover:text-white text-[#E6E6E6]">

@@ -11,7 +11,7 @@ import worldLoop1Video from "../../.././assets/videos/world-loop1.mp4";
 import { NavHashLink } from "react-router-hash-link";
 
 function Section1() {
-  const [initialNumber, setInitial] = useState();
+  // const [initialNumber, setInitial] = useState();
 
   return (
     <>
@@ -27,8 +27,8 @@ function Section1() {
           <video
             // controls
             className="videoTag w-full"
-            autoPlay
             src={worldLoop1Video}
+            autoPlay
             muted
             loop>
             <source src={worldStart1Video} type="video/mp4" />
@@ -83,7 +83,6 @@ function Section1() {
                     <div
                       // data-aos="fade-right"
                       data-aos="zoom-in-left"
-                      data-aos-once={false}
                       className="absolute w-[20px] h-[20px] z-10 transform-gpu bg-transparent border-[1.9px] rounded-full border-[#FCFCFC]"></div>
                   </div>
 

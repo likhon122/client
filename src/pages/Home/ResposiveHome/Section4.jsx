@@ -9,7 +9,10 @@ function Section4() {
     <>
       {/* mobaile quick start   */}
       <div id="quick-start-mobile" className="grid grid-cols-12 my-12">
-        <div className="col-span-12 vertical-lines-bg text-center flex justify-center items-center gap-x-6">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="col-span-12 vertical-lines-bg text-center flex justify-center items-center gap-x-6">
           <span className="text-white text-[36px] leading-[36px]">Quick</span>
           <img
             alt="arrow down"
@@ -32,7 +35,10 @@ function Section4() {
       {/* card section  */}
       <div className="grid grid-cols-12 px-4 gap-y-6">
         <div className="col-span-12 flex justify-center">
-          <div className="">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            className="">
             <div className="h-[481px] w-[335px] bg-[#121212] px-10 py-10 group relative peer lg:hover:z-30">
               <img
                 alt="Line"
@@ -121,7 +127,10 @@ function Section4() {
           </div>
         </div>
         <div className="col-span-12 flex justify-center">
-          <div className="">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            className="">
             <div className="h-[481px] w-[335px] bg-[#121212] px-10 py-10 group relative peer lg:hover:z-30">
               <img
                 alt="Line"
@@ -210,7 +219,10 @@ function Section4() {
           </div>
         </div>
         <div className="col-span-12 flex justify-center">
-          <div className="">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            className="">
             <div className="h-[481px] w-[335px] bg-[#121212] px-10 py-10 group relative peer lg:hover:z-30">
               <img
                 alt="Line"
@@ -299,7 +311,10 @@ function Section4() {
           </div>
         </div>
         <div className="col-span-12 flex justify-center">
-          <div className="">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            className="">
             <div className="h-[481px] w-[335px] bg-[#121212] px-10 py-10 group relative peer lg:hover:z-30">
               <img
                 alt="Line"
@@ -388,7 +403,10 @@ function Section4() {
           </div>
         </div>
         <div className="col-span-12 flex justify-center">
-          <div className="">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            className="">
             <div className="h-[481px] w-[335px] bg-[#121212] px-10 py-10 group relative peer lg:hover:z-30">
               <img
                 alt="Line"

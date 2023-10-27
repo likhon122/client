@@ -24,7 +24,10 @@ function Section5() {
           <div
             className="col-span-12"
             style={{ opacity: 1, transform: "none" }}>
-            <div className="col-span-12">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="600"
+              className="col-span-12">
               <div className="band-watch-bg p-8 flex flex-col justify-between rounded-xl">
                 <div className="flex justify-between w-full">
                   <div className="flex flex-col">

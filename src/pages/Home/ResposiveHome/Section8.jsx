@@ -617,11 +617,12 @@ function Section8() {
                   <span className="text-[14px] font-light opacity-40 text-[#FCFCFC] mr-10">
                     06.
                   </span>
-                  <span className={
-                          toggle6
-                            ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
-                            : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
-                        }>
+                  <span
+                    className={
+                      toggle6
+                        ? "faded-lilac text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                        : "text-[#FCFCFC] opacity-40 text-[36px] leading-[44px] font-light py-4 css-1eziwv"
+                    }>
                     Is my data safe?
                   </span>
                   <svg
@@ -656,7 +657,8 @@ function Section8() {
                   role="region"
                   id="accordion-panel-:r6m:"
                   aria-labelledby="accordion-button-:r6m:"
-                  className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light leading-[22px] text-[14px] flex css-1hb5ode">
+                  className="chakra-accordion__panel opacity-50 text-[#F6F6F6] font-light leading-[22px] text-[14px] flex css-1hb5ode"
+                  style={{ fontSize: "14px" }}>
                   <span className="font-light opacity-40 text-[#FCFCFC] hidden">
                     07.
                   </span>

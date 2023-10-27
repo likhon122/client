@@ -10,7 +10,10 @@ function Section2() {
           <div style={{ opacity: 1, transform: "none" }}>
             <div className="grid grid-cols-12">
               <div className="col-span-12 grid grid-cols-12">
-                <div className="col-span-12">
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="400"
+                  className="col-span-12">
                   <div className="flex text-[36px] text-white font-light">
                     <span className="">
                       <span className="text-[#7C7C7C] text-[2.5rem] lg:mr-20">
@@ -41,7 +44,10 @@ function Section2() {
                       src="https://www.vyvo.com/_next/image?url=%2Fshapes%2Fdouble-circle-alt.png&amp;w=64&amp;q=75"
                       style={{ color: "transparent" }}
                     />
-                    <p className="opacity-80  leading-[22px]">
+                    <p
+                      data-aos="fade-up"
+                      data-aos-duration="450"
+                      className="opacity-80  leading-[22px]">
                       <span className="text-white text-right line-clamp-1">
                         A Data NFT is bound to an IoT device
                       </span>
@@ -53,7 +59,10 @@ function Section2() {
                     </p>
                   </div>
                 </div>
-                <div className="col-span-12">
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  className="col-span-12">
                   <NavHashLink to="/get-started-data-owner">
                     <button className="border-faded-green px-10 py-4 w-full flex justify-center items-center hover:border-faded-green-hover">
                       <span className="text-white">Learn More</span>
@@ -76,13 +85,17 @@ function Section2() {
                   </NavHashLink>
                 </div>
               </div>
-              <div className="col-span-12 lg:block">
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="3000"
+                data-aos-delay="300"
+                className="col-span-12 lg:block">
                 <video
                   className="videoTag w-full lg:w-[737px] xl:w-[720px]"
-                  autoPlay={true}
-                  playsInline={true}
-                  src="https://www.vyvo.com/videos/atom-loop.mp4"
-                  loop={true}>
+                  autoPlay
+                  muted
+                  loop
+                  src="https://www.vyvo.com/videos/atom-loop.mp4">
                   <source
                     src="https://www.vyvo.com/videos/atom-first2.mp4"
                     type="video/mp4"

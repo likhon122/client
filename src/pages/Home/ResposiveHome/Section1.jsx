@@ -18,10 +18,10 @@ function Section1() {
               <div className="animation bg-black">
                 <div className="animation-window">
                   <ul className="">
-                    <li className="absolute word-item  prev faded-green ">
+                    <li className="absolute word-item  active faded-green ">
                       Value
                     </li>
-                    <li className="absolute word-item active faded-light-blue  ">
+                    <li className="absolute word-item  faded-light-blue  ">
                       Ownership
                     </li>
                     <li className="absolute word-item  ">Verification</li>
@@ -54,8 +54,8 @@ function Section1() {
                 Revolutionizing health data management
               </span>
               <span className="text-white">
-                through blockchain technology. Nyoton Smart Chain offers a secure
-                and transparent platform that directly connects users and
+                through blockchain technology. Nyoton Smart Chain offers a
+                secure and transparent platform that directly connects users and
                 researchers.
               </span>
             </span>
@@ -80,13 +80,19 @@ function Section1() {
             </button>
           </a>
         </div>
-        <div className="absolute">
+        <div
+          className="absolute"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          // data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+          data-aos-delay="500">
           <video
             className="videoTag w-full"
             src={worldLoop1Video}
-            autoPlay={true}
-            playsInline={true}
-            loop={true}>
+            autoPlay
+            muted
+            loop>
             <source src={worldStart1Video} type="video/mp4" />
           </video>
         </div>
@@ -106,7 +112,10 @@ function Section1() {
             <div
               className="col-span-12"
               style={{ opacity: 1, transform: "none" }}>
-              <div className="col-span-12 mb-12">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                className="col-span-12 mb-12">
                 <p className="text-[24px] leading-[30px] mb-2 font-light">
                   Nyoton Smart Chain is the first&nbsp;
                   <span className="faded-lilac font-light">
@@ -183,14 +192,20 @@ function Section1() {
               className="col-span-12"
               style={{ opacity: 1, transform: "none" }}>
               <div className="col-span-12 mb-20">
-                <p className="mb-8 text-[#AFAFAF] font-light indent-8">
-                  Nyoton Smart Chain (NYT)&apos;s platform anonymises users&apos;
-                  data in a decentralized digital health (DDH) platform,
-                  fuelling medical research and scientific discoveries to create
-                  better solutions for tomorrow.
+                <p
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  className="mb-8 text-[#AFAFAF] font-light indent-8">
+                  Nyoton Smart Chain (NYT)&apos;s platform anonymises
+                  users&apos; data in a decentralized digital health (DDH)
+                  platform, fuelling medical research and scientific discoveries
+                  to create better solutions for tomorrow.
                 </p>
                 <NavHashLink to="/get-started-vsc#">
-                  <button className="border-faded-purple px-10 py-4 w-full flex justify-center items-center hover:border-faded-purple-pressed">
+                  <button
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                    className="border-faded-purple px-10 py-4 w-full flex justify-center items-center hover:border-faded-purple-pressed">
                     <span className="text-white">Learn More</span>
                     <img
                       alt="Arrow right"
@@ -214,7 +229,7 @@ function Section1() {
             <div
               className="col-span-12"
               style={{ opacity: 1, transform: "none" }}>
-              <div className="flex justify-center">
+              <div data-aos="fade-up" className="flex justify-center">
                 <div className="bg-[#121212] rounded-[4px] p-5 w-[320px]">
                   <div className="flex justify-between items-center">
                     <div className="relative h-10 w-full">
@@ -290,7 +305,10 @@ function Section1() {
             <div
               className="col-span-12"
               style={{ opacity: 1, transform: "none" }}>
-              <div className="flex justify-center mt-4">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="300"
+                className="flex justify-center mt-4">
                 <div className="bg-[#121212] rounded-[4px] p-5 w-[320px]">
                   <div className="px-5 pt-5 relative h-[270px] flex flex-col">
                     <div className="flex justify-between items-center">
