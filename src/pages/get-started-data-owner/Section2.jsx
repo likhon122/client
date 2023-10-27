@@ -8,7 +8,7 @@ function Section2() {
     <>
       <div className="data-owner-bg-2">
         <div className="mx-4 lg:mx-12 lg:pt-[80px]">
-          <div className="grid grid-cols-12 gap-y-4 pt-40">
+          <div className="grid grid-cols-12 gap-y-4 lg:pt-40 pt-52">
             <div className="hidden lg:block lg:col-span-3">
               <span className="text-[12px] leading-[18px] font-light text-[#979797]">
                 WHAT IS?
