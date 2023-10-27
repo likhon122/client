@@ -35,10 +35,7 @@ function Section4() {
       {/* card section  */}
       <div className="grid grid-cols-12 px-4 gap-y-6">
         <div className="col-span-12 flex justify-center">
-          <div
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            className="">
+          <div data-aos="fade-up" className="">
             <div className="h-[481px] w-[335px] bg-[#121212] px-10 py-10 group relative peer lg:hover:z-30">
               <img
                 alt="Line"
@@ -127,10 +124,7 @@ function Section4() {
           </div>
         </div>
         <div className="col-span-12 flex justify-center">
-          <div
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            className="">
+          <div data-aos="fade-up" className="">
             <div className="h-[481px] w-[335px] bg-[#121212] px-10 py-10 group relative peer lg:hover:z-30">
               <img
                 alt="Line"
@@ -219,10 +213,7 @@ function Section4() {
           </div>
         </div>
         <div className="col-span-12 flex justify-center">
-          <div
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            className="">
+          <div data-aos="fade-up" className="">
             <div className="h-[481px] w-[335px] bg-[#121212] px-10 py-10 group relative peer lg:hover:z-30">
               <img
                 alt="Line"
@@ -311,10 +302,7 @@ function Section4() {
           </div>
         </div>
         <div className="col-span-12 flex justify-center">
-          <div
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            className="">
+          <div data-aos="fade-up" className="">
             <div className="h-[481px] w-[335px] bg-[#121212] px-10 py-10 group relative peer lg:hover:z-30">
               <img
                 alt="Line"
@@ -403,10 +391,7 @@ function Section4() {
           </div>
         </div>
         <div className="col-span-12 flex justify-center">
-          <div
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-            className="">
+          <div data-aos="fade-up" className="">
             <div className="h-[481px] w-[335px] bg-[#121212] px-10 py-10 group relative peer lg:hover:z-30">
               <img
                 alt="Line"

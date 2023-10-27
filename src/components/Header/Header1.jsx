@@ -93,13 +93,13 @@ const Header1 = () => {
                           onClick={() => setToggle(!toggle)}>
                           PoSe
                         </a>
-                        <NavLink
+                        <NavHashLink
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
                           to="/get-started-vsc#tokenomics"
                           onClick={() => setToggle(!toggle)}>
                           Tokenomics
-                        </NavLink>
+                        </NavHashLink>
                         <a
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
