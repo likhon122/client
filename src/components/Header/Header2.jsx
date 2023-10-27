@@ -235,13 +235,6 @@ const Header2 = () => {
                         <NavHashLink
                           className="block py-2 text-white font-normal opacity-90 col-span-6"
                           aria-current="page"
-                          to="/press#"
-                          onClick={() => setToggle(!toggle)}>
-                          Press
-                        </NavHashLink>
-                        <NavHashLink
-                          className="block py-2 text-white font-normal opacity-90 col-span-6"
-                          aria-current="page"
                           to="/business-inquiries#"
                           onClick={() => setToggle(!toggle)}>
                           Business Inquiries
