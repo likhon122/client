@@ -96,8 +96,7 @@ function Section6() {
                 {/* right side 1 */}
                 <div className="col-span-6">
                   <div className="relative top-[-10%] heart-hover-text z-[90]">
-                    <div style={{ height: "1
-                    00px" }}>{/* svg insert */}</div>
+                    <div style={{ height: "100px" }}>{/* svg insert */}</div>
                   </div>
                   <div className="flex flex-col items-start gap-y-4 mb-4 relative top-[-30%]">
                     <p
