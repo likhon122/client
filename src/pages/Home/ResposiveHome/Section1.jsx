@@ -4,6 +4,7 @@ import React from "react";
 // video
 import worldStart1Video from "../../.././assets/videos/niceWorld.mp4";
 import { NavHashLink } from "react-router-hash-link";
+
 function Section1() {
   return (
     <>
