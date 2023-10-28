@@ -15,60 +15,6 @@ const Section4 = () => {
     <>
       <div className="mx-12 -mt-4">
         <div className="grid grid-cols-12">
-          {/* left paragraph  */}
-          {/* <div
-            data-aos="fade-up"
-            data-aos-duration="600"
-            data-aos-delay="300"
-            className="col-span-9 xl:col-span-10 mb-20">
-            <div
-              className="relative z-10"
-              style={{ opacity: 1, transform: "none" }}>
-              <span className="text-white text-[90px] leading-[92px] font-light">
-                data integrity
-                <span className="faded-purple-vertical">
-                  &nbsp;through
-                </span>{" "}
-                decentralization.
-              </span>
-            </div>
-          </div> */}
-          {/* section 4 button  */}
-          {/* <div
-            className="col-span-3 xl:col-span-2"
-            style={{ opacity: 1, transform: "none" }}>
-            <div
-              data-aos="fade-up"
-              data-aos-duration="600"
-              data-aos-delay="300"
-              className="flex items-center justify-center">
-              <a
-                target="_blank"
-                rel="noreferrer"
-                className="mt-[20%]"
-                href="https://m.inpersona.com/auth/login">
-                <button className="border-faded-pink px-10 py-4 flex justify-center items-center  hover:border-faded-pink-pressed">
-                  <span className="text-white">Start Now</span>
-                  <img
-                    alt="Arrow right"
-                    loading="lazy"
-                    width="4"
-                    height="8"
-                    decoding="async"
-                    data-nimg="1"
-                    className="ml-4"
-                    src="https://www.vyvo.com/shapes/arrow-right.svg"
-                    style={{
-                      color: "transparent",
-                      objectfit: "contain",
-                      objectPosition: "left center",
-                    }}
-                  />
-                </button>
-              </a>
-            </div>
-          </div> */}
-          {/* vartical text align */}
           <div
             className="col-span-1 col-start-1"
             style={{ opacity: 1, transform: "none" }}>

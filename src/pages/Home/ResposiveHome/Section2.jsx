@@ -2,6 +2,7 @@
 import React from "react";
 import { NavHashLink } from "react-router-hash-link";
 
+import videoImage from "../../../assets/videos/buy.mp4";
 function Section2() {
   return (
     <>
@@ -13,7 +14,7 @@ function Section2() {
                 <div
                   data-aos="fade-up"
                   data-aos-duration="400"
-                  className="col-span-12">
+                  className="col-span-12 pb-12">
                   <div className="flex text-[36px] text-white font-light">
                     <span className="">
                       <span className="text-[#7C7C7C] text-[2.5rem] lg:mr-20">
@@ -30,7 +31,7 @@ function Section2() {
                     &nbsp;Data
                   </div>
                 </div>
-                <div className="col-span-12 my-12">
+                {/* <div className="col-span-12 my-12">
                   <div className="flex flex-col gap-y-4 align-bottom ">
                     <img
                       alt="circle image"
@@ -58,8 +59,9 @@ function Section2() {
                       </span>
                     </p>
                   </div>
-                </div>
-                <div
+                </div> */}
+                {/* button  */}
+                {/* <div
                   data-aos="fade-up"
                   data-aos-duration="600"
                   className="col-span-12">
@@ -83,7 +85,7 @@ function Section2() {
                       />
                     </button>
                   </NavHashLink>
-                </div>
+                </div> */}
               </div>
               <div
                 data-aos="zoom-in"
@@ -95,11 +97,9 @@ function Section2() {
                   autoPlay
                   muted
                   loop
-                  src="https://www.vyvo.com/videos/atom-loop.mp4">
-                  <source
-                    src="https://www.vyvo.com/videos/atom-first2.mp4"
-                    type="video/mp4"
-                  />
+                  // src="https://www.vyvo.com/videos/atom-loop.mp4"
+                >
+                  <source src={videoImage} type="video/mp4" />
                 </video>
               </div>
             </div>

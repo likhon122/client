@@ -4,10 +4,12 @@ import React from "react";
 import "./section2.css";
 import { Link } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
+
+import videoImage from "../../../assets/videos/buy.mp4"
 function Section2() {
   return (
     <>
-      <div className="square-dots-bg mt-20 mb-56">
+      <div className="square-dots-bg  mt-20 mb-56">
         <div className="lg:mx-12">
           <div className="grid grid-cols-12">
             {/* main col 5  */}
@@ -15,7 +17,7 @@ function Section2() {
               className="col-span-5"
               style={{ opacity: 1, transform: "none" }}>
               <div className="grid grid-cols-12  pt-[178px]">
-                <div className="col-span-12 lg:col-span-5">
+                <div className="col-span-12 pb-10 lg:col-span-5">
                   <div
                     data-aos="fade-up"
                     data-aos-duration="400"
@@ -35,7 +37,7 @@ function Section2() {
                   </div>
                 </div>
                 {/* paragraph  */}
-                <div className="col-span-8 lg:col-start-1 mb-12">
+                {/* <div className="col-span-8 lg:col-start-1 mb-12">
                   <div className="flex flex-col gap-y-4 align-bottom ">
                     <div className="relative py-2">
                       <div
@@ -63,9 +65,9 @@ function Section2() {
                       </span>
                     </p>
                   </div>
-                </div>
+                </div> */}
                 {/* button  */}
-                <div
+                {/* <div
                   data-aos="fade-up"
                   data-aos-duration="600"
                   className="col-span-8 col-start-1">
@@ -89,7 +91,7 @@ function Section2() {
                       />
                     </button>
                   </NavHashLink>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -105,11 +107,11 @@ function Section2() {
                 <video
                   className="videoTag w-full lg:w-[737px] xl:w-[720px]"
                   autoPlay
-                  src="https://www.vyvo.com/videos/atom-loop.mp4"
+                  // src="https://www.vyvo.com/videos/atom-loop.mp4"
                   loop
                   muted>
                   <source
-                    src="https://www.vyvo.com/videos/atom-first2.mp4"
+                    src={videoImage}
                     type="video/mp4"
                   />
                 </video>
