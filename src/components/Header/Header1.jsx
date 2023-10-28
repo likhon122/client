@@ -117,7 +117,7 @@ const Header1 = () => {
                           aria-current="page"
                           target="_blank"
                           rel="noreferrer"
-                          href="https://linktr.ee/vyvosmartchain"
+                          href="https://linktr.ee/nyoton"
                           onClick={() => setToggle(!toggle)}>
                           Socials
                         </a>

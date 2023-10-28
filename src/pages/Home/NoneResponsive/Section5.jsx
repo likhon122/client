@@ -3,6 +3,12 @@ import React from "react";
 
 import "./section5.css";
 import { NavHashLink } from "react-router-hash-link";
+
+// font awesome icon
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { FaCartShopping } from "react-icons/fa6";
+
 function Section5() {
   return (
     <>
@@ -79,20 +85,10 @@ function Section5() {
                         }}
                       />
                       <div className="relative h-[47px] w-full">
-                        <img
-                          alt="Card image"
-                          loading="lazy"
-                          decoding="async"
-                          // data-nimg="fill"
-                          src="https://www.vyvo.com/shapes/iot-device-card.svg"
+                        <FaCartShopping
                           style={{
-                            position: "absolute",
-                            height: "100%",
-                            width: "100%",
-                            inset: "0px",
-                            objectFit: "contain",
-                            objectPosition: "left center",
-                            color: "transparent",
+                            fontSize: "59px",
+                            color: "#8D42E7",
                           }}
                         />
                       </div>
@@ -101,7 +97,7 @@ function Section5() {
                           manufacturers
                         </span>
                         <span className="h-[44px] mt-3 text-4xl font-light leading-[38px] tracking-[-2%] faded-green">
-                          IoT Devices
+                          E-commerce
                         </span>
                         <ul className="mt-2.5 list-disc list-inside">
                           <li className=" text-[#7C7C7C] opacity-80 text-[16px] font-light leading-[22px]">
