@@ -9,64 +9,9 @@ const Section3 = () => {
   const [threePera, setThreePera] = useState(false);
   return (
     <>
-      {/* watch image  */}
-      {/* <div className="bg-[url('https://www.vyvo.com/backgrounds/vyvo-watch_grey_01.png')] h-[347px] sm:h-[550px] w-full bg-bottom bg-cover bg-no-repeat flex flex-col justify-end text-xs text-white leading-[25.5px]">
-        <div style={{ opacity: 1, transform: "none" }}>
-          <div className="mx-4 flex flex-col justify-end space-y-3 mb-1">
-            <div className="text-xs text-white leading-[25.5px]">VALUES</div>
-            <span className="text-white text-[34px] leading-[36px] font-light">
-              Verifying health
-            </span>
-          </div>
-        </div>
-      </div> */}
-
       <div className="mx-4">
         <div className="">
           <div className="grid grid-cols-12">
-            {/* <div
-              className="col-span-12"
-              style={{ opacity: 1, transform: "none" }}>
-              <div className="col-span-12">
-                <span className="text-white text-[34px] leading-[36px] font-light">
-                  data integrity{" "}
-                  <span className="faded-purple-vertical">
-                    through <br />
-                  </span>{" "}
-                  decentralization.
-                </span>
-              </div>
-            </div>
-            <div
-              className="col-span-12"
-              style={{ opacity: 1, transform: "none" }}>
-              <div className="flex items-end justify-center">
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  className=""
-                  href="https://m.inpersona.com/auth/login">
-                  <button className="mb-12 border-faded-pink px-10 py-4 w-full mt-10 flex justify-center items-center hover:border-faded-pink-pressed">
-                    <span className="text-white">Start Now</span>
-                    <img
-                      alt="Arrow right"
-                      loading="lazy"
-                      width="4"
-                      height="8"
-                      decoding="async"
-                      data-nimg="1"
-                      className="ml-4"
-                      src="https://www.vyvo.com/shapes/arrow-right.svg"
-                      style={{
-                        color: "transparent",
-                        objectFit: "contain",
-                        objectPosition: "left center",
-                      }}
-                    />
-                  </button>
-                </a>
-              </div>
-            </div> */}
             <div
               className="col-span-12"
               style={{ opacity: 1, transform: "none" }}>

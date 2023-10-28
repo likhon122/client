@@ -2,8 +2,7 @@
 import React from "react";
 
 // video
-import worldStart1Video from "../../.././assets/videos/world-start1.mp4";
-import worldLoop1Video from "../../.././assets/videos/world-loop1.mp4";
+import worldStart1Video from "../../.././assets/videos/niceWorld.mp4";
 import { NavHashLink } from "react-router-hash-link";
 function Section1() {
   return (
@@ -87,12 +86,7 @@ function Section1() {
           // data-aos-easing="ease-out-cubic"
           data-aos-duration="3000"
           data-aos-delay="500">
-          <video
-            className="videoTag w-full"
-            src={worldLoop1Video}
-            autoPlay
-            muted
-            loop>
+          <video className="videoTag w-full" autoPlay muted loop>
             <source src={worldStart1Video} type="video/mp4" />
           </video>
         </div>
@@ -295,9 +289,7 @@ function Section1() {
                       Total Heartbeats Recorded
                     </span>
                     <div className="border  w-full"></div>
-                    <span className="text-[30px] 2xl:text-[64px] 2xl:leading-[64px] font-light faded-pink">
-                      1,618,692,646,712
-                    </span>
+                    <span className="text-[30px] 2xl:text-[64px] 2xl:leading-[64px] font-light faded-pink"></span>
                   </div>
                 </div>
               </div>
@@ -372,9 +364,7 @@ function Section1() {
                   </div>
                   <div className="flex flex-col space-y-3 mt-3 px-5 pb-5">
                     <div className="border  w-full"></div>
-                    <span className="text-[30px] 2xl:text-[64px] 2xl:leading-[64px] font-light faded-light-blue">
-                      74,771,943
-                    </span>
+                    <span className="text-[30px] 2xl:text-[64px] 2xl:leading-[64px] font-light faded-light-blue"></span>
                   </div>
                 </div>
               </div>

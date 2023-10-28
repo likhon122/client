@@ -6,8 +6,7 @@ import React, { useState } from "react";
 // css link
 import "./section1.css";
 // video
-import worldStart1Video from "../../.././assets/videos/world-start1.mp4";
-import worldLoop1Video from "../../.././assets/videos/world-loop1.mp4";
+import worldStart1Video from "../../.././assets/videos/niceWorld.mp4";
 import { NavHashLink } from "react-router-hash-link";
 
 function Section1() {
@@ -27,7 +26,6 @@ function Section1() {
           <video
             // controls
             className="videoTag w-full"
-            src={worldLoop1Video}
             autoPlay
             muted
             loop>
@@ -357,9 +355,7 @@ function Section1() {
                       Total Heartbeats Recorded
                     </span>
                     <div className="border  w-full"></div>
-                    <span className="text-[30px] xl:text-[40px] leading-normal font-light faded-pink">
-                      1,607,856,169,954
-                    </span>
+                    <span className="text-[30px] xl:text-[40px] leading-normal font-light faded-pink"></span>
                   </div>
                 </div>
               </div>
@@ -442,9 +438,7 @@ function Section1() {
                   </div>
                   <div className="flex flex-col space-y-3 mt-3 px-5 pb-5">
                     <div className="border  w-full"></div>
-                    <span className="text-[30px] xl:text-[40px] leading-normal font-light faded-light-blue">
-                      73,796,813
-                    </span>
+                    <span className="text-[30px] xl:text-[40px] leading-normal font-light faded-light-blue"></span>
                   </div>
                 </div>
               </div>
