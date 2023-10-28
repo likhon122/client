@@ -3,6 +3,7 @@ import React from "react";
 import { NavHashLink } from "react-router-hash-link";
 
 import videoImage from "../../../assets/videos/buy.mp4";
+
 function Section2() {
   return (
     <>
